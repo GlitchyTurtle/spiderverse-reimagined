@@ -1,0 +1,182 @@
+{
+  "namespace": "default_form",
+  "main_panel": {
+    "type": "panel",
+    "size": [ "100%c", "100%cm" ],
+    "controls": [
+      {
+        "panel": {
+          "type": "panel",
+          "size": [ 225, "100%c" ],
+          "controls": [
+            {
+              "panel": {
+                "type": "stack_panel",
+                "orientation": "vertical",
+                "controls": [
+                  {
+                    "panel": {
+                      "type": "panel",
+                      "size": [ "100%", 14 ],
+                      "controls": [
+                        {
+                          "@global_buttons.close_button": {
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "@global.title_background": {
+                      "$size": [ "100%", 24 ],
+                      "controls": [
+                        {
+                          "@global.title": { }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "@global.body_panel": {
+                    }
+                  },
+                  {
+                    "@global.background": {
+                      "$background_size": [ "100%", 150 ],
+                      "controls": [
+                        {
+                          "custom_form_panel@common.scrolling_panel": {
+                            "$show_background": false,
+                            "$scrolling_content": "default_form.stack_buttons",
+                            "offset": [ 1, 0 ],
+                            "layer": 10,
+                            "$scroll_bar_left_padding_size": [
+                              0,
+                              0
+                            ],
+                            "$scroll_bar_right_padding_size": [
+                              4,
+                              0
+                            ],
+                            "$scroll_size": [
+                              "6px",
+                              "100% - 4px"
+                            ],
+                            "$scrolling_pane_size": [
+                              "100%",
+                              "100%"
+                            ],
+                            "size": [
+                              "100% - 2px",
+                              "100% - 10px"
+                            ],
+                            "$scrolling_pane_offset": [
+                              0,
+                              2
+                            ],
+                            "$scroll_box_mouse_image_control": "default_form.scrollbar_box_image",
+                            "$scroll_box_touch_image_control": "default_form.scrollbar_box_image",
+                            "$scroll_background_image_control": "default_form.scroll_box_indent",
+                            "$scroll_track_image_control": "default_form.scroll_box_indent"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "stack_buttons@global_buttons.button_stack": {
+    "$use_child_anchors": true,
+    "$control_name": "default_form.button_factory"
+  },
+
+  "button@global_buttons.buttons": {
+    "$icon_visible": false,
+    "anchor_from": "right_middle",
+    "anchor_to": "right_middle",
+    "bindings": [
+      {
+        "binding_name": "#form_button_texture",
+        "binding_name_override": "#texture",
+        "binding_type": "collection",
+        "binding_collection_name": "form_buttons"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((#texture = ''))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "button_factory": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    //------------- Variables -------------\\
+    "$size|default": [ 210, 32 ],
+    //------------- Variables -------------\\
+    "size": "$size",
+    "controls": [
+      {
+        "@default_form.button": { }
+      },
+      {
+        "@global.padding": {
+          "$size": [ -2, 0 ]
+        }
+      },
+      {
+        "panel": {
+          "type": "panel",
+          "size": [ "100%c", "100%c" ],
+          "controls": [
+            {
+              "@global_buttons.button_icon": {
+                "$icon_offset": [ 0, -1 ],
+                "$icon_anchor": "center",
+                "$icon_size": [ 32, 32 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "with_icon@default_form.button": {
+          "$size": [ "100% - 32px", "100% - 2px" ],
+          "bindings": [
+            {
+              "binding_name": "#form_button_texture",
+              "binding_name_override": "#texture",
+              "binding_type": "collection",
+              "binding_collection_name": "form_buttons"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(not (#texture = ''))",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scroll_box_indent": {
+    "type": "image",
+    "texture": "textures/forms/ore/ScrollRail",
+    "layer": 1,
+    "size": [ 3, "100% - 1px" ]
+  },
+
+  "scrollbar_box_image": {
+    "type": "image",
+    "texture": "textures/forms/ore/ScrollHandle",
+    "size": [ 5, "100%" ],
+    "layer": 4
+  }
+}

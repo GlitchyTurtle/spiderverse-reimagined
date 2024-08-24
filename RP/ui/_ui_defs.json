@@ -1,0 +1,14 @@
+{
+  "ui_defs": [
+    "ui/cooldowns/cooldown_bar.json",
+    "ui/cooldowns/cooldown_bar_uv.json",
+    "ui/tutorial.json",
+    "ui/server_form/global/global.json",
+    "ui/server_form/global/anims.json",
+    "ui/server_form/global/global_buttons.json",
+    "ui/server_form/forms/customize.json",
+    "ui/server_form/forms/default_form.json",
+    "ui/server_form/forms/custom_form.json",
+    "ui/server_form/global/global_sliders.json"
+  ]
+}

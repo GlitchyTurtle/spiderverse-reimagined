@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Örümcek ağı
+
+## Move Names
+spiderman.move.none=Boş
+spiderman.move.swing=Salıncak
+spiderman.move.grapple=Güreşmek
+spiderman.move.web_shot=Web Çekimi
+spiderman.move.enable_suit=Takım Elbiseyi Etkinleştir
+spiderman.move.disable_suit=Kostümü Devre Dışı Bırak
+spiderman.move.customize_suit=Özel Dikim Takım Elbise
+
+## Tutorial
+tutorial.main.continue=Devam et
+tutorial.main.1=Örümcek Evrenine hoş geldiniz!
+tutorial.main.2=Sıcak çubuk üzerindeki her bir farklı yuva bir hareketi temsil eder.
+tutorial.main.3=Hareketi etkinleştirmek (yapmak) için, seçilen slottayken havadayken zıplayın.
+tutorial.main.4=Sıcak çubuğunuzun yanında, o yuvanın ne işe yaradığını size anlatan bir isim etiketi olacaktır.
+tutorial.main.5=Her bir yuva için, aynı zamanda eğilerek yüklü aktivasyonunu kullanabilirsiniz.
+tutorial.main.6=Eğer envanterinizin 9. slotunda eğilme tuşuna basılı tutarsanız, kıyafetinizi aktif hale getirebilirsiniz!
+tutorial.main.7=Kostümünüz aktifken, diğer yuvalara geçiş yaparak ne işe yaradıklarını görebilirsiniz.
+tutorial.main.8=Örneğin, 8. yuva bir takım elbise özelleştirme menüsüdür!
+tutorial.main.9=Bir duvarın yanında zıplayarak duvar zıplaması yapabilirsiniz.
+tutorial.main.10=Her duvar için bunlardan 3 tane alırsınız, ancak ileri geri zıplayarak bunu sıfırlayabilirsiniz.
+tutorial.main.11=Bu eklentideki dövüş çok dinamik.
+tutorial.main.12=25'in üzerinde benzersiz özel kombinasyon ve birçok ek olası kombinasyon var.
+tutorial.main.13=Bunlar hakkında daha fazla bilgi edinmek için MCPEDL/discord'a göz atabilir ya da sadece deneyerek öğrenebilirsiniz.
+tutorial.main.14=Sallandığında, sallandığın duvarın ters yönüne doğru nişan al.
+tutorial.main.15=Bu, duvara çarpmanı engelleyecek ve sallanmayı çok daha kolay hale getirecek.
+tutorial.main.16=Kesinlikle bir öğrenme süreci var, ama bir kez anladığınızda çok eğlenceli oluyor!
+tutorial.main.17=İyi şanslar!
+
+## Status Messages
+spiderman.warning.no_armor=Zırhı etkinleştirdiğinizde zırh giyemezsiniz!
+spiderman.warning.no_armor_repeated=Sistemi aldatmaya çalışmayın! Takım devre dışı bırakılıyor...
+spiderman.warning.aim_at_block=128 blok içerisinde bir blok veya varlık hedef almanız gerekiyor!
+spiderman.warning.aim_at_block_boost=256 blok içinde bir blok veya varlığı hedef almalısınız!
+spiderman.bounds.enter=Sınırlara geri döndünüz!
+spiderman.bounds.exit=Sınırların dışındasınız! Mojang tarafından getirilen sınırlamalar nedeniyle, burada bazı özellikler devre dışı bırakılmıştır.
+spiderman.block.perfect=Mükemmel blok!
+spiderman.block.good=Güzel blok!
+
+## Suit Customization
+spiderman.suit.prefix=Takım elbise
+spiderman.suit.back=Geri
+spiderman.suit.back.desc=Ana menüye dön.
+spiderman.color.custom=Özel Renk
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Yeşil
+spiderman.color.custom.blue=Mavi
+spiderman.color.custom.alpha=Şeffaflık
+
+spiderman.suit.web_color.title=Web Rengi
+spiderman.suit.web_color.desc=Ağlarınızın rengini değiştirin.
+
+spiderman.suit.reset=Reset
+spiderman.suit.customize=Özelleştir
+spiderman.suit.upgrade=Yükseltme
+spiderman.suit.web_color=Web Rengi
+
+spiderman.color.black=Siyah
+spiderman.color.brown=Kahverengi
+spiderman.color.red=Red
+spiderman.color.orange=Turuncu
+spiderman.color.yellow=Sarı
+spiderman.color.lime=Lime
+spiderman.color.green=Yeşil
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=Açık Mavi
+spiderman.color.blue=Mavi
+spiderman.color.purple=Mor
+spiderman.color.magenta=Magenta
+spiderman.color.pink=Pembe
+spiderman.color.gray=Gri
+spiderman.color.white=Beyaz
+
+spiderman.color.black.desc=Gecenin rengi.
+spiderman.color.brown.desc=Dünyanın rengi.
+spiderman.color.red.desc=Ateşin rengi.
+spiderman.color.orange.desc=Güneşin rengi.
+spiderman.color.yellow.desc=Altının rengi.
+spiderman.color.lime.desc=Hayatın rengi.
+spiderman.color.green.desc=Doğanın rengi.
+spiderman.color.cyan.desc=Denizin rengi.
+spiderman.color.light_blue.desc=Gökyüzünün rengi.
+spiderman.color.blue.desc=Okyanusun rengi.
+spiderman.color.purple.desc=Kraliyetin rengi.
+spiderman.color.magenta.desc=Büyünün rengi.
+spiderman.color.pink.desc=Aşkın rengi.
+spiderman.color.gray.desc=Taşın rengi.
+spiderman.color.white.desc=Saflığın rengi.
+
+spiderman.shooter.title=Ağ Atıcı
+spiderman.shooter.desc=Ağ fırlatıcı ayarlarınızı yapın.
+spiderman.shooter.organic=Organik Ağ Atıcı
+spiderman.shooter.organic.desc=Zamanla ağ sıvısını yeniden üretir.
+spiderman.shooter.mechanical=Mekanik Ağ Atıcı
+spiderman.shooter.mechanical.desc=Ağ yapışkanı dolumunu tek seferde yapar.
+
+spiderman.modifier.title=Web Değiştirici
+spiderman.modifier.desc=Ağlarınıza bir efekt ekleyin.
+spiderman.modifier.electric=Elektrik
+spiderman.modifier.electric.desc=Düşmanları sersemletir.
+spiderman.modifier.poison=Zehir
+spiderman.modifier.poison.desc=Düşmanları zehirler.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Düşmanları yavaşlatır.
+spiderman.modifier.fire=Yangın
+spiderman.modifier.fire.desc=Düşmanları ateşe verir.
+spiderman.modifier.sniper=Keskin Nişancı
+spiderman.modifier.sniper.desc=Neredeyse sonsuz menzil.
+
+spiderman.base_color.title=Temel Renk
+spiderman.base_color.desc=Takım elbisenizin ana rengini değiştirin.
+spiderman.secondary_color.title=İkincil Renk
+spiderman.secondary_color.desc=Takım elbisenizin ikinci renk tonunu değiştirin.
+spiderman.pattern_color.title=Desen Rengi
+spiderman.pattern_color.desc=Takım elbisenizin desen rengini değiştirin.
+spiderman.pattern_type.title=Desen Türü
+spiderman.pattern_type.desc=Takım elbisenizin desen türünü değiştirin.
+spiderman.eye_type.title=Göz Türü
+spiderman.eye_type.desc=Takım elbisenizin göz tipini değiştirin.
+
+spiderman.pattern.none=Desen Yok
+spiderman.pattern.none.desc=Desenleri kaldır.
+spiderman.pattern.iron_spider=Teknolojik
+spiderman.pattern.iron_spider.desc=Teknolojiden anlayan kahraman için.
+spiderman.pattern.classic=Klasik
+spiderman.pattern.classic.desc=Büyük güçle...
+spiderman.pattern.tapered=Konik
+spiderman.pattern.tapered.desc=Daha modern bir görünüm için.
+spiderman.pattern.minimal=Minimal
+spiderman.pattern.minimal.desc=Basit ve temiz.
+
+spiderman.eye.none=Maskeni Çıkar
+spiderman.eye.none.desc=Yüzünü göster.
+spiderman.eye.classic=Klasik
+spiderman.eye.classic.desc=Klasik beyaz gözler.
+spiderman.eye.teardrop=Gözyaşı
+spiderman.eye.teardrop.desc=Gözyaşı damlası gözler.
+spiderman.eye.sharp=Keskin
+spiderman.eye.sharp.desc=Keskin gözler.
+spiderman.eye.true_spider=Gerçek Örümcek
+spiderman.eye.true_spider.desc=Gerçek örümcek gözleri.
+
+spiderman.suit.upgrade.title=Ağ Atıcı Yükseltmesi
+spiderman.suit.upgrade.desc=Aşağıdaki yükseltmelerden birini seçin.
+spiderman.suit.speed.title=Hız
+spiderman.suit.speed.desc=1.5 kat web hızı.
+spiderman.suit.strength.title=Güç
+spiderman.suit.strength.desc=%1.5 web hasarı.
+spiderman.suit.range.title=Aralık
+spiderman.suit.range.desc=2x web aralığı.
+spiderman.suit.capacity.title=Kapasite
+spiderman.suit.capacity.desc=1.5 kat web akışkan kapasitesi.
+spiderman.suit.refill.title=Doldurmak
+spiderman.suit.refill.desc=1.75 kat yeniden doldurma oranı.

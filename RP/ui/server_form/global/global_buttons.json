@@ -1,0 +1,390 @@
+{
+    "namespace": "global_buttons",
+
+    "close_button": {
+        "type": "panel",
+        "layer": 100,
+        "size": [ "100%c", "1%c" ],
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "$offset|default": [ 1, -2 ],
+        "$close_texture|default": "textures/buttons/close_X_button",
+        "$close_texture_hover|default": "textures/buttons/close_X_button_hover",
+        "controls": [
+            {
+                "close_button@common.close_button": {
+                    "offset": "$offset",
+                    "size": [ 15, 15 ],
+                    "layer": 3,
+                    "visible": "(not $is_console)",
+                    "bindings": [
+                        {
+                            "binding_name": "(not #is_using_gamepad)",
+                            "binding_name_override": "#visible"
+                        }
+                    ],
+                    "controls": [
+                        {
+                            "default": {
+                                "type": "image",
+                                "layer": 2,
+                                "controls": [
+                                    {
+                                        "close@common.close_button_panel": {
+                                            "size": [ 15, 15 ],
+                                            "$close_button_texture": "$close_texture"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "hover": {
+                                "type": "image",
+                                "controls": [
+                                    {
+                                        "close@common.close_button_panel": {
+                                            "size": [ 15, 15 ],
+                                            "$close_button_texture": "$close_texture_hover"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "pressed": {
+                                "type": "image",
+                                "controls": [
+                                    {
+                                        "close@common.close_button_panel": {
+                                            "size": [ 15, 15 ],
+                                            "$close_button_texture": "$close_texture_hover"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "button_grid": {
+        "type": "grid",
+        //------------- Variables -------------\\
+        "$grid_size|default": [ "100%", "100%c" ],
+        "$offset|default": [ 0, 0 ],
+        "$grid_item_template|default": "",
+        "$grid_rescaling_type|default": "horizontal",
+        //------------- Variables -------------\\
+        "size": "$grid_size",
+        "offset": "$offset",
+        "grid_item_template": "$grid_item_template",
+        "grid_rescaling_type": "$grid_rescaling_type",
+        "collection_name": "form_buttons",
+        "bindings": [
+            {
+                "binding_name": "#form_button_length",
+                "binding_name_override": "#maximum_grid_items"
+            }
+        ]
+    },
+
+    "button_stack": {
+        "type": "stack_panel",
+        //------------- Variables -------------\\
+        "$stack_size|default": [ "100%", "100%c" ],
+        "$orientation|default": "vertical",
+        "$control_name|default": "",
+        "$use_child_anchors|default": false,
+        "$offset|default": [ 0, 0 ],
+        //------------- Variables -------------\\
+        "use_child_anchors": "$use_child_anchors",
+        "offset": "$offset",
+        "size": "$stack_size",
+        "orientation": "$orientation",
+        "factory": {
+            "name": "buttons",
+            "control_name": "$control_name"
+        },
+        "collection_name": "form_buttons",
+        "bindings": [
+            {
+                "binding_name": "#form_button_length",
+                "binding_name_override": "#collection_length"
+            }
+        ]
+    },
+
+    "buttons": {
+        "type": "panel",
+        //------------- Variables -------------\\
+        "$hover_color|default": [ 0.8, 0.8, 0.8 ],
+        "$color|default": "white",
+        "$size|default": [ "100% - 2px", "100% - 2px" ],
+        "$button_texture|default": "textures/buttons/button",
+        "$font_scale_factor|default": 1,
+        "$text_visible|default": true,
+        "$offset|default": [ 0, -1 ],
+        "$shadow|default": false,
+        "$pressed_button|default": "button.form_button_click",
+        "$icon_offset|default": [ 0, 0 ],
+        "$icon_anchor|default": "center",
+        "$icon_size|default": [ "100%", "100%" ],
+        "$text_offset|default": [ 0.5, -1 ],
+        "$controls|default": [ ],
+        "$icon_visible|default": true,
+        //------------- Variables -------------\\
+        "size": "$size",
+        "offset": "$offset",
+        "controls": [
+            {
+                "form_button@common.button": {
+                    "$pressed_button_name": "$pressed_button",
+                    "controls": [
+                        {
+                            "default@global_buttons.button_inside": {
+                                "$state": "default"
+                            }
+                        },
+                        {
+                            "hover@global_buttons.button_inside": {
+                                "$state": "hover"
+                            }
+                        },
+                        {
+                            "pressed@global_buttons.button_inside": {
+                                "$state": "pressed"
+                            }
+                        }
+                    ],
+                    "bindings": [
+                        {
+                            "binding_name": "#form_button_text",
+                            "binding_name_override": "#text",
+                            "binding_type": "collection",
+                            "binding_collection_name": "form_buttons"
+                        },
+                        {
+                            "binding_type": "collection_details",
+                            "binding_collection_name": "form_buttons"
+                        },
+                        {
+                            "binding_type": "view",
+                            "source_property_name": "((#text - '§s§e§l§e§c§t§e§d') = #text)",
+                            "target_property_name": "#enabled"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "buttons_hover_text": {
+        "type": "panel",
+        //------------- Variables -------------\\
+        "$hover_color|default": [ 0.8, 0.8, 0.8 ],
+        "$color|default": "white",
+        "$size|default": [ "100% - 2px", "100% - 2px" ],
+        "$button_texture|default": "textures/buttons/button",
+        "$font_scale_factor|default": 1,
+        "$text_visible|default": true,
+        "$offset|default": [ 0, 0 ],
+        "$shadow|default": false,
+        "$pressed_button|default": "button.form_button_click",
+        "$icon_offset|default": [ 0, -1 ],
+        "$icon_anchor|default": "center",
+        "$icon_size|default": [ "100%", "100%" ],
+        "$text_offset|default": [ 0.5, -1 ],
+        "$controls|default": [ ],
+        "$icon_visible|default": true,
+        "$show_hover_text|default": true,
+        //------------- Variables -------------\\
+        "size": "$size",
+        "offset": "$offset",
+        "controls": [
+            {
+                "form_button@common.button": {
+                    "$pressed_button_name": "$pressed_button",
+                    "controls": [
+                        {
+                            "default@global_buttons.button_inside": {
+                                "$state": "default"
+                            }
+                        },
+                        {
+                            "hover@global_buttons.button_inside_hover": {
+                                "$state": "hover"
+                            }
+                        },
+                        {
+                            "pressed@global_buttons.button_inside_hover": {
+                                "$state": "pressed"
+                            }
+                        }
+                    ],
+                    "bindings": [
+                        {
+                            "binding_name": "#form_button_text",
+                            "binding_name_override": "#text",
+                            "binding_type": "collection",
+                            "binding_collection_name": "form_buttons"
+                        },
+                        {
+                            "binding_type": "collection_details",
+                            "binding_collection_name": "form_buttons"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "button_inside": {
+        "type": "panel",
+        "variables": [
+            {
+                "requires": "($state = 'hover')",
+                "$color": "$hover_color"
+            }
+        ],
+        "controls": [
+            {
+                "gray_button": {
+                    "size": [ "100%", "100%" ],
+                    "type": "image",
+                    "texture": "$button_texture",
+                    "color": "$color",
+                    "controls": [
+                        {
+                            "button_text@global_buttons.button_text": {
+                                "ignored": "(not $text_visible)"
+                            }
+                        },
+                        {
+                            "button_icon@global_buttons.button_icon": {
+                                "ignored": "(not $icon_visible)"
+                            }
+                        },
+                        {
+                            "panel": {
+                                "layer": 10,
+                                "type": "panel",
+                                "controls": "$controls"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "button_inside_hover": {
+        "type": "panel",
+        "variables": [
+            {
+                "requires": "($state = 'hover')",
+                "$color": "$hover_color"
+            }
+        ],
+        "controls": [
+            {
+                "gray_button": {
+                    "size": [ "100%", "100%" ],
+                    "type": "image",
+                    "texture": "$button_texture",
+                    "color": "$color",
+                    "controls": [
+                        {
+                            "button_text@global_buttons.button_text": {
+                                "ignored": "(not $text_visible)"
+                            }
+                        },
+                        {
+                            "button_icon@global_buttons.button_icon": {
+                                "ignored": "(not $icon_visible)"
+                            }
+                        },
+                        {
+                            "button_hover_text@global_buttons.button_hover_text": {
+                                "ignored": "(not $show_hover_text)"
+                            }
+                        },
+                        {
+                            "panel": {
+                                "layer": 10,
+                                "type": "panel",
+                                "controls": "$controls"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "button_text": {
+        "type": "label",
+        "text": "#text",
+        "layer": 3,
+        "color": "black",
+        "offset": "$text_offset",
+        "text_alignment": "center",
+        "shadow": "$shadow",
+        "font_scale_factor": "$font_scale_factor",
+        "bindings": [
+            {
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons",
+                "binding_name": "#form_button_text",
+                "binding_name_override": "#text"
+            }
+        ]
+    },
+
+    "button_hover_text@common.hover_text": {
+        "layer": 100,
+        "bindings": [
+            {
+                "binding_name": "#form_button_text",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+            },
+            {
+                "binding_type": "view",
+                "source_property_name": "#form_button_text",
+                "target_property_name": "#hover_text"
+            }
+        ]
+    },
+
+    "button_icon": {
+        "type": "image",
+        "layer": 7,
+        "size": "$icon_size",
+        "offset": "$icon_offset",
+        "anchor_from": "$icon_anchor",
+        "anchor_to": "$icon_anchor",
+        "keep_ratio": true,
+        "bindings": [
+            {
+                "binding_name": "#form_button_texture",
+                "binding_name_override": "#texture",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+            },
+            {
+                "binding_name": "#form_button_texture_file_system",
+                "binding_name_override": "#texture_file_system",
+                "binding_type": "collection",
+                "binding_collection_name": "form_buttons"
+            },
+            {
+                "binding_type": "view",
+                "source_property_name": "(not ((#texture = '') or (#texture = 'loading')))",
+                "target_property_name": "#visible"
+            }
+        ]
+    }
+}

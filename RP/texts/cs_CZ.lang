@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Pavučina
+
+## Move Names
+spiderman.move.none=Empty
+spiderman.move.swing=Swing
+spiderman.move.grapple=Zápasit
+spiderman.move.web_shot=Webová fotografie
+spiderman.move.enable_suit=Povolit oblek
+spiderman.move.disable_suit=Zakázat oblek
+spiderman.move.customize_suit=Přizpůsobit oblek
+
+## Tutorial
+tutorial.main.continue=pokračovat
+tutorial.main.1=Vítejte ve spiderverzu!
+tutorial.main.2=Každý z vašich různých slotů na hlavním panelu představuje pohyb.
+tutorial.main.3=Pro aktivaci (provedení) pohybu skočte ve vzduchu s vybraným slotem.
+tutorial.main.4=Na straně vašeho hotbaru bude záložka s názvem, která vám řekne, co daný slot dělá.
+tutorial.main.5=Pro každý slot můžete také pokleknout, abyste použili jeho nabitou aktivaci.
+tutorial.main.6=Podržením tlačítka sneak ve vašem 9. slotu můžete aktivovat svůj oblek!
+tutorial.main.7=Když je váš oblek aktivní, můžete přepínat na jiné pozice a podívat se, co dělají.
+tutorial.main.8=Například 8. pozice je menu pro přizpůsobení obleku!
+tutorial.main.9=Tím, že skočíte vedle zdi, můžete udělat skok po zdi.
+tutorial.main.10=Dostanete 3 z těchto pro každou stěnu, ale můžete to resetovat skákáním tam a zpět.
+tutorial.main.11=Boj v tomto rozšíření je velmi dynamický.
+tutorial.main.12=Existuje více než 25 unikátních speciálních kombinací a k tomu spousta dalších možných kombinací.
+tutorial.main.13=Více se o tom můžete dozvědět na MCPEDL/discordu nebo jen experimentováním.
+tutorial.main.14=Když se houpáte, zaměřte se opačným směrem, než je zeď, podél které se houpáte.
+tutorial.main.15=Tímto se vyhnete naražení do zdi a usnadníte si houpání.
+tutorial.main.16=Rozhodně je tam určitá křivka učení, ale jakmile to zvládnete, je to obrovská zábava!
+tutorial.main.17=Hodně štěstí tam venku!
+
+## Status Messages
+spiderman.warning.no_armor=Nelze nosit brnění, když je oblek aktivován!
+spiderman.warning.no_armor_repeated=Nepokoušejte se přelstít systém! Deaktivace obleku...
+spiderman.warning.aim_at_block=Musíte zaměřit blok nebo entitu do 128 bloků!
+spiderman.warning.aim_at_block_boost=Musíte zamířit na blok nebo entitu ve vzdálenosti do 256 bloků!
+spiderman.bounds.enter=Jsi zpátky ve hře!" nebo "Jsi zpátky v povoleném prostoru!"
+spiderman.bounds.exit=Jste mimo povolenou oblast! Kvůli omezením stanoveným společností Mojang jsou některé funkce zde deaktivovány.
+spiderman.block.perfect=Perfektní blok!
+spiderman.block.good=Dobrá blokace!
+
+## Suit Customization
+spiderman.suit.prefix=Oblek:
+spiderman.suit.back=Back
+spiderman.suit.back.desc=Vrátit se do hlavního menu.
+spiderman.color.custom=Vlastní barva
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Zelená
+spiderman.color.custom.blue=Modrá
+spiderman.color.custom.alpha=Transparentnost
+
+spiderman.suit.web_color.title=Webová barva
+spiderman.suit.web_color.desc=Změňte barvu vašich pavučin.
+
+spiderman.suit.reset=Obnovit
+spiderman.suit.customize=Přizpůsobit
+spiderman.suit.upgrade=Aktualizace
+spiderman.suit.web_color=Webová barva
+
+spiderman.color.black=Černý
+spiderman.color.brown=Hnědá
+spiderman.color.red=Red
+spiderman.color.orange=Oranžová
+spiderman.color.yellow=Žlutá
+spiderman.color.lime=Lime
+spiderman.color.green=Zelená
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=Světle modrá
+spiderman.color.blue=Modrá
+spiderman.color.purple=Fialová
+spiderman.color.magenta=Purpurová
+spiderman.color.pink=Pink
+spiderman.color.gray=Gray
+spiderman.color.white=Bílá
+
+spiderman.color.black.desc=Barva noci.
+spiderman.color.brown.desc=Barva země.
+spiderman.color.red.desc=Barva ohně.
+spiderman.color.orange.desc=Barva slunce.
+spiderman.color.yellow.desc=Barva zlata.
+spiderman.color.lime.desc=Barva života.
+spiderman.color.green.desc=Barva přírody.
+spiderman.color.cyan.desc=Barva moře.
+spiderman.color.light_blue.desc=Barva oblohy.
+spiderman.color.blue.desc=Barva oceánu.
+spiderman.color.purple.desc=Barva královské hodnosti.
+spiderman.color.magenta.desc=Barva kouzel.
+spiderman.color.pink.desc=Barva lásky.
+spiderman.color.gray.desc=Barva kamene.
+spiderman.color.white.desc=Barva čistoty.
+
+spiderman.shooter.title=Web Shooter
+spiderman.shooter.desc=Nakonfigurujte své webshootery.
+spiderman.shooter.organic=Organický vystřelovač pavučin
+spiderman.shooter.organic.desc=Regeneruje pavučinovou tekutinu v průběhu času.
+spiderman.shooter.mechanical=Mechanický vystřelovač pavučin
+spiderman.shooter.mechanical.desc=Doplní pavučinovou tekutinu všechno najednou.
+
+spiderman.modifier.title=Webový modifikátor
+spiderman.modifier.desc=Přidejte efekt na své webové stránky.
+spiderman.modifier.electric=Elektrický
+spiderman.modifier.electric.desc=Omráčí nepřátele.
+spiderman.modifier.poison=Jed
+spiderman.modifier.poison.desc=Otráví nepřátele.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Zpomaluje nepřátele.
+spiderman.modifier.fire=Fire
+spiderman.modifier.fire.desc=Zapálí nepřátele.
+spiderman.modifier.sniper=Sniper
+spiderman.modifier.sniper.desc=Téměř nekonečný dosah.
+
+spiderman.base_color.title=Základní barva
+spiderman.base_color.desc=Změňte základní barvu svého obleku.
+spiderman.secondary_color.title=Sekundární barva
+spiderman.secondary_color.desc=Změňte sekundární barvu svého obleku.
+spiderman.pattern_color.title=Vzorek Barvy
+spiderman.pattern_color.desc=Změňte barvu vzoru svého obleku.
+spiderman.pattern_type.title=Typ vzoru
+spiderman.pattern_type.desc=Změňte vzor obleku.
+spiderman.eye_type.title=Typ očí
+spiderman.eye_type.desc=Změňte typ očí vašeho obleku.
+
+spiderman.pattern.none=Žádný vzor
+spiderman.pattern.none.desc=Odstraňte vzory.
+spiderman.pattern.iron_spider=Technologický
+spiderman.pattern.iron_spider.desc=Pro technologicky zdatného hrdinu.
+spiderman.pattern.classic=Klasický
+spiderman.pattern.classic.desc=S velkou mocí...
+spiderman.pattern.tapered=Zužující se
+spiderman.pattern.tapered.desc=Pro modernější vzhled.
+spiderman.pattern.minimal=Minimální
+spiderman.pattern.minimal.desc=Jednoduché a čisté.
+
+spiderman.eye.none=Mask Off
+spiderman.eye.none.desc=Ukaž svou tvář.
+spiderman.eye.classic=Klasický
+spiderman.eye.classic.desc=Klasické bílé oči.
+spiderman.eye.teardrop=Slza
+spiderman.eye.teardrop.desc=Oči ve tvaru slzy.
+spiderman.eye.sharp=Ostrý
+spiderman.eye.sharp.desc=Ostré oči.
+spiderman.eye.true_spider=Pravý pavouk
+spiderman.eye.true_spider.desc=Pravé pavoučí oči.
+
+spiderman.suit.upgrade.title=Vylepšení vystřelovače pavučin
+spiderman.suit.upgrade.desc=Vyberte jednu z následujících vylepšení.
+spiderman.suit.speed.title=Rychlost
+spiderman.suit.speed.desc=1,5x rychlost webu.
+spiderman.suit.strength.title=Síla
+spiderman.suit.strength.desc=1,5x poškození webem.
+spiderman.suit.range.title=Rozsah
+spiderman.suit.range.desc=2x webový rozsah.
+spiderman.suit.capacity.title=Kapacita
+spiderman.suit.capacity.desc=1,5násobná kapacita webové tekutiny.
+spiderman.suit.refill.title=Doplnit
+spiderman.suit.refill.desc=1,75x doplňovací rychlost.

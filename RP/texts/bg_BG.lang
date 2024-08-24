@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Паяжина
+
+## Move Names
+spiderman.move.none=Празен
+spiderman.move.swing=Суинг
+spiderman.move.grapple=Боравене
+spiderman.move.web_shot=Уеб кадър
+spiderman.move.enable_suit=Активиране на костюм
+spiderman.move.disable_suit=Деактивиране на костюм
+spiderman.move.customize_suit=Персонализиране на костюм
+
+## Tutorial
+tutorial.main.continue=Continue
+tutorial.main.1=Добре дошли в Паяко-вселената!
+tutorial.main.2=Всеки от различните слотове на вашата гореща лента представлява ход.
+tutorial.main.3=За да активирате движението, скочете във въздуха с избрания от вас слот.
+tutorial.main.4=Отстрани на вашия инвентар ще има табелка с име, която ще ви казва какво прави този слот.
+tutorial.main.5=За всяка позиция, можете също да се прикриете, за да използвате нейното заредено активиране.
+tutorial.main.6=Като задържите „sneak“ в деветия си слот, можете да активирате костюма си!
+tutorial.main.7=Когато костюмът ви е активен, можете да превключвате към други слотове, за да видите какво правят.
+tutorial.main.8=Например, осмият слот е меню за персонализиране на костюм!
+tutorial.main.9=Ако скочиш до стена, можеш да изпълниш скок от стена.
+tutorial.main.10=Получавате 3 от тях за всяка стена, но можете да го нулирате, като скачате напред-назад.
+tutorial.main.11=Бойната система в този адон е много динамична.
+tutorial.main.12=Има над 25 уникални специални комбинации, с множество допълнителни възможни комбинации.
+tutorial.main.13=Можете да научите повече за тези неща на MCPEDL/discord или просто чрез експериментиране.
+tutorial.main.14=Когато се люлееш, насочи се в противоположна посока на стената, по която се люлееш.
+tutorial.main.15=Това ще ви предпази от удряне в стената и ще направи люлеенето много по-лесно.
+tutorial.main.16=Определено има крива на учене, но веднъж след като го схванеш, е толкова забавно!
+tutorial.main.17=Късмет там навън!
+
+## Status Messages
+spiderman.warning.no_armor=Не можеш да носиш броня, когато костюмът е активиран!
+spiderman.warning.no_armor_repeated=Не се опитвайте да измамите системата! Деактивиране на костюма...
+spiderman.warning.aim_at_block=Трябва да се целите в блок или обект в рамките на 128 блока!
+spiderman.warning.aim_at_block_boost=Трябва да се прицелите във блок или обект в рамките на 256 блока!
+spiderman.bounds.enter=Върнахте се в обхвата!
+spiderman.bounds.exit=Вие сте извън границите! Поради ограничения, наложени от Mojang, някои функции са деактивирани нагоре/надолу тук.
+spiderman.block.perfect=Перфектен блок!
+spiderman.block.good=Добър блок!
+
+## Suit Customization
+spiderman.suit.prefix=Костюм
+spiderman.suit.back=Обратно
+spiderman.suit.back.desc=Връщане към главното меню.
+spiderman.color.custom=Персонализиран цвят
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Зелен
+spiderman.color.custom.blue=Blue
+spiderman.color.custom.alpha=Прозрачност
+
+spiderman.suit.web_color.title=Уеб цвят
+spiderman.suit.web_color.desc=Променете цвета на мрежите си.
+
+spiderman.suit.reset=Нулиране
+spiderman.suit.customize=Персонализирайте
+spiderman.suit.upgrade=Надграждане
+spiderman.suit.web_color=Уеб цвят
+
+spiderman.color.black=Черен
+spiderman.color.brown=Кафяв
+spiderman.color.red=Red
+spiderman.color.orange=оранжево
+spiderman.color.yellow=Жълт
+spiderman.color.lime=Lime
+spiderman.color.green=Зелен
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=Светло синьо
+spiderman.color.blue=Blue
+spiderman.color.purple=Лилаво
+spiderman.color.magenta=Магента
+spiderman.color.pink=Pink
+spiderman.color.gray=Сиво
+spiderman.color.white=Бяло
+
+spiderman.color.black.desc=Цветът на нощта.
+spiderman.color.brown.desc=Цветът на земята.
+spiderman.color.red.desc=Цветът на огъня.
+spiderman.color.orange.desc=Цветът на слънцето.
+spiderman.color.yellow.desc=Цветът на златото.
+spiderman.color.lime.desc=Цветът на живота.
+spiderman.color.green.desc=Цветът на природата.
+spiderman.color.cyan.desc=Цветът на морето.
+spiderman.color.light_blue.desc=Цветът на небето.
+spiderman.color.blue.desc=Цветът на океана.
+spiderman.color.purple.desc=Цвятът на кралското величие.
+spiderman.color.magenta.desc=Цветът на магията.
+spiderman.color.pink.desc=Цветът на любовта.
+spiderman.color.gray.desc=Цветът на камъка.
+spiderman.color.white.desc=Цветът на чистотата.
+
+spiderman.shooter.title=Уеб стрелец
+spiderman.shooter.desc=Конфигурирайте вашето устройство за стрелба с мрежи.
+spiderman.shooter.organic=Органичен уеб шутър
+spiderman.shooter.organic.desc=Регенира уеб флуида с течение на времето.
+spiderman.shooter.mechanical=Механичен уеб стреляч
+spiderman.shooter.mechanical.desc=Зарежда течност за паяжина наведнъж.
+
+spiderman.modifier.title=Уеб модификатор
+spiderman.modifier.desc=Добавете ефект към вашите уебсайтове.
+spiderman.modifier.electric=Електрически
+spiderman.modifier.electric.desc=Зашеметява враговете.
+spiderman.modifier.poison=Отрова
+spiderman.modifier.poison.desc=Отравя враговете.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Забавя враговете.
+spiderman.modifier.fire=Fire
+spiderman.modifier.fire.desc=Запалва враговете.
+spiderman.modifier.sniper=Снайпер
+spiderman.modifier.sniper.desc=Близо до безкраен обхват.
+
+spiderman.base_color.title=Основен цвят
+spiderman.base_color.desc=Променете основния цвят на вашия костюм.
+spiderman.secondary_color.title=Вторичен цвят
+spiderman.secondary_color.desc=Променете вторичния цвят на вашия костюм.
+spiderman.pattern_color.title=Цвят на шарката
+spiderman.pattern_color.desc=Променете цвета на шарката на вашия костюм.
+spiderman.pattern_type.title=Тип модел
+spiderman.pattern_type.desc=Променете типа на шарката на вашия костюм.
+spiderman.eye_type.title=Тип око
+spiderman.eye_type.desc=Променете типа на очите на вашия костюм.
+
+spiderman.pattern.none=Няма шаблон
+spiderman.pattern.none.desc=Премахнете шарките.
+spiderman.pattern.iron_spider=Технологичен
+spiderman.pattern.iron_spider.desc=За героя, който е вещ в технологиите.
+spiderman.pattern.classic=Класика
+spiderman.pattern.classic.desc=С голяма сила...
+spiderman.pattern.tapered=Конически стеснен
+spiderman.pattern.tapered.desc=За по-модерен външен вид.
+spiderman.pattern.minimal=Минималистичен
+spiderman.pattern.minimal.desc=Просто и чисто.
+
+spiderman.eye.none=Свалям Маската
+spiderman.eye.none.desc=Покажи лицето си.
+spiderman.eye.classic=Класически
+spiderman.eye.classic.desc=Класическите бели очи.
+spiderman.eye.teardrop=Сълза
+spiderman.eye.teardrop.desc=Очите тип сълза.
+spiderman.eye.sharp=Остри
+spiderman.eye.sharp.desc=Острите очи.
+spiderman.eye.true_spider=Истински паяк
+spiderman.eye.true_spider.desc=Истинските очи на паяк.
+
+spiderman.suit.upgrade.title=Подобряване на мрежометателя
+spiderman.suit.upgrade.desc=Изберете едно от следните подобрения.
+spiderman.suit.speed.title=Скорост
+spiderman.suit.speed.desc=1.5x уеб скорост.
+spiderman.suit.strength.title=Сила
+spiderman.suit.strength.desc=1.5x щети на мрежата.
+spiderman.suit.range.title=Обхват
+spiderman.suit.range.desc=2x мрежов обхват.
+spiderman.suit.capacity.title=Капацитет
+spiderman.suit.capacity.desc=1,5x капацитет за течности в мрежата.
+spiderman.suit.refill.title=Refill
+spiderman.suit.refill.desc=1,75 пъти процент на презареждане.

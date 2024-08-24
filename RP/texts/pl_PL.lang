@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Pajęczyna
+
+## Move Names
+spiderman.move.none=Pusty
+spiderman.move.swing=Swing
+spiderman.move.grapple=Walka wręcz
+spiderman.move.web_shot=Zrzut Ekranu
+spiderman.move.enable_suit=Aktywuj garnitur
+spiderman.move.disable_suit=Wyłącz garnitur
+spiderman.move.customize_suit=Dostosuj garnitur
+
+## Tutorial
+tutorial.main.continue=Kontynuuj
+tutorial.main.1=Witamy w pajęczej rzeczywistości!
+tutorial.main.2=Każde z Twoich różnych miejsc na pasku skrótów reprezentuje ruch.
+tutorial.main.3=Aby wykonać ruch, skocz, będąc w powietrzu, z wybranym slotem.
+tutorial.main.4=Na bocznej części paska narzędziowego pojawi się zakładka z nazwą, która informuje, do czego służy to miejsce.
+tutorial.main.5=Dla każdego slotu możesz również przykucnąć, aby skorzystać z jego naładowanej aktywacji.
+tutorial.main.6=Trzymając klawisz skradania się w swoim 9. slocie, możesz aktywować swój kostium!
+tutorial.main.7=Gdy twój kombinezon jest aktywny, możesz przełączać się na inne sloty, aby zobaczyć, co robią.
+tutorial.main.8=Na przykład, ósme miejsce to menu dostosowywania garnituru!
+tutorial.main.9=Skacząc przy ścianie, możesz wykonać skok od ściany.
+tutorial.main.10=Dostajesz 3 z tych na każdą ścianę, ale możesz to zresetować, skacząc tam i z powrotem.
+tutorial.main.11=Walka w tym dodatku jest bardzo dynamiczna.
+tutorial.main.12=Istnieje ponad 25 unikalnych specjalnych kombinacji oraz wiele dodatkowych możliwych kombinacji.
+tutorial.main.13=Możesz dowiedzieć się więcej na ten temat na MCPEDL/discord lub po prostu eksperymentując.
+tutorial.main.14=Kiedy się bujasz, celuj w przeciwnym kierunku do ściany, wzdłuż której się bujasz.
+tutorial.main.15=To pomoże ci uniknąć uderzenia w ścianę i sprawi, że machanie będzie znacznie łatwiejsze.
+tutorial.main.16=Zdecydowanie jest krzywa uczenia się, ale gdy już ją opanujesz, to jest to taka frajda!
+tutorial.main.17=Powodzenia tam!
+
+## Status Messages
+spiderman.warning.no_armor=Nie możesz nosić zbroi przy włączonym garniturze!
+spiderman.warning.no_armor_repeated=Nie próbuj oszukiwać systemu! Wyłączanie kostiumu...
+spiderman.warning.aim_at_block=Musisz celować w blok lub jednostkę w obrębie 128 bloków!
+spiderman.warning.aim_at_block_boost=Musisz celować w blok lub jednostkę w promieniu 256 bloków!
+spiderman.bounds.enter=Wróciłeś na właściwy tor!
+spiderman.bounds.exit=Jesteś poza granicami! Z powodu ograniczeń nałożonych przez Mojang, niektóre funkcje są wyłączone w tej okolicy.
+spiderman.block.perfect=Perfekcyjny blok!
+spiderman.block.good=Dobra blokada!
+
+## Suit Customization
+spiderman.suit.prefix=Garnitur:
+spiderman.suit.back=Back
+spiderman.suit.back.desc=Powrót do głównego menu.
+spiderman.color.custom=Kolor niestandardowy
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Zielony
+spiderman.color.custom.blue=Blue
+spiderman.color.custom.alpha=Przejrzystość
+
+spiderman.suit.web_color.title=Kolor sieciowy
+spiderman.suit.web_color.desc=Zmień kolor swoich sieci.
+
+spiderman.suit.reset=Resetuj
+spiderman.suit.customize=Dostosować
+spiderman.suit.upgrade=Aktualizacja
+spiderman.suit.web_color=Kolor Internetowy
+
+spiderman.color.black=Czarny
+spiderman.color.brown=Brązowy
+spiderman.color.red=Red
+spiderman.color.orange=Pomarańcza
+spiderman.color.yellow=Żółty
+spiderman.color.lime=Lime
+spiderman.color.green=Zielony
+spiderman.color.cyan=Cyjan
+spiderman.color.light_blue=Jasny niebieski
+spiderman.color.blue=Blue
+spiderman.color.purple=Fioletowy
+spiderman.color.magenta=Magenta
+spiderman.color.pink=Pink
+spiderman.color.gray=Szary
+spiderman.color.white=Biały
+
+spiderman.color.black.desc=Kolor nocy.
+spiderman.color.brown.desc=Kolor ziemi.
+spiderman.color.red.desc=Kolor ognia.
+spiderman.color.orange.desc=Kolor słońca.
+spiderman.color.yellow.desc=Kolor złota.
+spiderman.color.lime.desc=Kolor życia.
+spiderman.color.green.desc=Kolor natury.
+spiderman.color.cyan.desc=Kolor morza.
+spiderman.color.light_blue.desc=Kolor nieba.
+spiderman.color.blue.desc=Kolor oceanu.
+spiderman.color.purple.desc=Kolor królewski.
+spiderman.color.magenta.desc=Kolor magii.
+spiderman.color.pink.desc=Kolor miłości.
+spiderman.color.gray.desc=Kolor kamienia.
+spiderman.color.white.desc=Kolor czystości.
+
+spiderman.shooter.title=Wyrzutnia sieci
+spiderman.shooter.desc=Skonfiguruj swoją wyrzutnię sieci.
+spiderman.shooter.organic=Organiczna wyrzutnia sieci
+spiderman.shooter.organic.desc=Regeneruje płyn pajęczy z czasem.
+spiderman.shooter.mechanical=Mechaniczny strzelec sieci
+spiderman.shooter.mechanical.desc=Napełnia płyn pajęczynowy za jednym razem.
+
+spiderman.modifier.title=Modyfikator sieciowy
+spiderman.modifier.desc=Dodaj efekt do swoich stron internetowych.
+spiderman.modifier.electric=Elektryczny
+spiderman.modifier.electric.desc=Oszczarza wrogów.
+spiderman.modifier.poison=Trucizna
+spiderman.modifier.poison.desc=Truje wrogów.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Spowalnia wrogów.
+spiderman.modifier.fire=Fire
+spiderman.modifier.fire.desc=Podpala wrogów.
+spiderman.modifier.sniper=Snajper
+spiderman.modifier.sniper.desc=Prawie nieskończony zasięg.
+
+spiderman.base_color.title=Kolor bazowy
+spiderman.base_color.desc=Zmień podstawowy kolor swojego garnituru.
+spiderman.secondary_color.title=Kolor pochodny
+spiderman.secondary_color.desc=Zmień drugi kolor swojego garnituru.
+spiderman.pattern_color.title=Kolor wzoru
+spiderman.pattern_color.desc=Zmień kolor wzoru swojego garnituru.
+spiderman.pattern_type.title=Typ wzorca
+spiderman.pattern_type.desc=Zmień typ wzoru swojego garnituru.
+spiderman.eye_type.title=Typ oczu
+spiderman.eye_type.desc=Zmień typ oczu w swoim kombinezonie.
+
+spiderman.pattern.none=Brak wzoru
+spiderman.pattern.none.desc=Usuń wzory.
+spiderman.pattern.iron_spider=Technologiczny
+spiderman.pattern.iron_spider.desc=Dla technicznego bohatera.
+spiderman.pattern.classic=Klasyczny
+spiderman.pattern.classic.desc=Z wielką mocą...
+spiderman.pattern.tapered=Zwężany
+spiderman.pattern.tapered.desc=Dla bardziej nowoczesnego wyglądu.
+spiderman.pattern.minimal=Minimalny
+spiderman.pattern.minimal.desc=Prosty i schludny.
+
+spiderman.eye.none=Maska zdjęta
+spiderman.eye.none.desc=Pokaż swoją twarz.
+spiderman.eye.classic=Klasyczny
+spiderman.eye.classic.desc=Klasyczne białe oczy.
+spiderman.eye.teardrop=Łza
+spiderman.eye.teardrop.desc=Oczy w kształcie łzy.
+spiderman.eye.sharp=Ostro
+spiderman.eye.sharp.desc=Ostre oczy.
+spiderman.eye.true_spider=Prawdziwy pająk
+spiderman.eye.true_spider.desc=Prawdziwe oczy pająka.
+
+spiderman.suit.upgrade.title=Ulepszenie miotacza sieci
+spiderman.suit.upgrade.desc=Wybierz jedną z poniższych ulepszeń.
+spiderman.suit.speed.title=Prędkość
+spiderman.suit.speed.desc=1,5x szybciej w sieci.
+spiderman.suit.strength.title=Siła
+spiderman.suit.strength.desc=1,5x obrażenia sieciowe.
+spiderman.suit.range.title=Zakres
+spiderman.suit.range.desc=Podwójny zasięg webowy.
+spiderman.suit.capacity.title=Pojemność
+spiderman.suit.capacity.desc=1,5-krotna pojemność płynów w sieci.
+spiderman.suit.refill.title=Dopełniać
+spiderman.suit.refill.desc=1,75-krotny współczynnik uzupełnień.

@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Teia de aranha
+
+## Move Names
+spiderman.move.none=Vazio
+spiderman.move.swing=Balanço
+spiderman.move.grapple=Lutar
+spiderman.move.web_shot=Disparo da Web
+spiderman.move.enable_suit=Ativar fato
+spiderman.move.disable_suit=Desativar fato
+spiderman.move.customize_suit=Personalizar fato
+
+## Tutorial
+tutorial.main.continue=Continue
+tutorial.main.1=Bem-vindo ao aranhaverso!
+tutorial.main.2=Cada um dos seus diferentes espaços na barra de acesso rápido representa um movimento.
+tutorial.main.3=Para ativar (fazer) o movimento, salte enquanto estiver no ar com o slot selecionado.
+tutorial.main.4=Haverá uma aba de nome ao lado da sua barra de acesso rápido que indica o que esse espaço faz.
+tutorial.main.5=Para cada slot, também pode agachar-se para usar a sua ativação carregada.
+tutorial.main.6=Ao manter a ação de furtividade no seu 9º slot, você pode ativar o seu traje!
+tutorial.main.7=Quando o teu fato está ativo, podes mudar para outros espaços para ver o que eles fazem.
+tutorial.main.8=Por exemplo, o 8º slot é um menu de personalização de fato!
+tutorial.main.9=Ao saltar perto de uma parede, podes fazer um salto na parede.
+tutorial.main.10=Recebes 3 destas por cada parede, mas podes reiniciar isto ao saltar de um lado para o outro.
+tutorial.main.11=O combate nesta extensão é muito dinâmico.
+tutorial.main.12=Existem mais de 25 combinações especiais únicas, com muitos outros combos adicionais possíveis.
+tutorial.main.13=Pode saber mais sobre estes no MCPEDL/discord ou apenas experimentando.
+tutorial.main.14=Quando estiver a baloiçar, aponte na direção oposta à parede ao longo da qual está a baloiçar.
+tutorial.main.15=Isto irá afastá-lo de bater na parede e tornará o balanço muito mais fácil.
+tutorial.main.16=Definitivamente, há uma curva de aprendizado, mas uma vez que a ultrapassas, é tão divertido!
+tutorial.main.17=Boa sorte lá fora!
+
+## Status Messages
+spiderman.warning.no_armor=Não podes usar armadura com o fato ativado!
+spiderman.warning.no_armor_repeated=Não tente enganar o sistema! Desativando o traje...
+spiderman.warning.aim_at_block=Deves apontar para um bloco ou entidade dentro de 128 blocos!
+spiderman.warning.aim_at_block_boost=Deves apontar para um bloco ou entidade dentro de 256 blocos!
+spiderman.bounds.enter=Estás de volta ao jogo!
+spiderman.bounds.exit=Estás fora dos limites! Devido a limitações impostas pela Mojang, algumas funcionalidades estão desativadas por aqui.
+spiderman.block.perfect=Bloqueio perfeito!
+spiderman.block.good=Bom bloqueio!
+
+## Suit Customization
+spiderman.suit.prefix=Suit: 
+spiderman.suit.back=Voltar
+spiderman.suit.back.desc=Voltar ao menu principal.
+spiderman.color.custom=Cor Personalizada
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Verde
+spiderman.color.custom.blue=Azul
+spiderman.color.custom.alpha=Transparência
+
+spiderman.suit.web_color.title=Cor Web
+spiderman.suit.web_color.desc=Altere a cor das suas teias.
+
+spiderman.suit.reset=Reiniciar
+spiderman.suit.customize=Personalizar
+spiderman.suit.upgrade=Atualização
+spiderman.suit.web_color=Cor da Web
+
+spiderman.color.black=Preto
+spiderman.color.brown=Castanho
+spiderman.color.red=Red
+spiderman.color.orange=Laranja
+spiderman.color.yellow=Amarelo
+spiderman.color.lime=Lima
+spiderman.color.green=Verde
+spiderman.color.cyan=Ciano
+spiderman.color.light_blue=Azul Claro
+spiderman.color.blue=Azul
+spiderman.color.purple=Púrpura
+spiderman.color.magenta=Magenta
+spiderman.color.pink=Pink
+spiderman.color.gray=Cinza
+spiderman.color.white=Branco
+
+spiderman.color.black.desc=A cor da noite.
+spiderman.color.brown.desc=A cor da terra.
+spiderman.color.red.desc=A cor do fogo.
+spiderman.color.orange.desc=A cor do sol.
+spiderman.color.yellow.desc=A cor do ouro.
+spiderman.color.lime.desc=A cor da vida.
+spiderman.color.green.desc=A cor da natureza.
+spiderman.color.cyan.desc=A cor do mar.
+spiderman.color.light_blue.desc=A cor do céu.
+spiderman.color.blue.desc=A cor do oceano.
+spiderman.color.purple.desc=A cor da realeza.
+spiderman.color.magenta.desc=A cor da magia.
+spiderman.color.pink.desc=A cor do amor.
+spiderman.color.gray.desc=A cor da pedra.
+spiderman.color.white.desc=A cor da pureza.
+
+spiderman.shooter.title=Lança-Teias
+spiderman.shooter.desc=Configure o seu lançador de teias.
+spiderman.shooter.organic=Lançador de Teias Orgânico
+spiderman.shooter.organic.desc=Regenera o fluído da teia ao longo do tempo.
+spiderman.shooter.mechanical=Lançador de Teias Mecânico
+spiderman.shooter.mechanical.desc=Reabastece o fluido de teia de uma vez.
+
+spiderman.modifier.title=Modificador da Web
+spiderman.modifier.desc=Acrescente um efeito às suas teias.
+spiderman.modifier.electric=Elétrico
+spiderman.modifier.electric.desc=Atordoa inimigos.
+spiderman.modifier.poison=Veneno
+spiderman.modifier.poison.desc=Envenena inimigos.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Abranda inimigos.
+spiderman.modifier.fire=Fogo
+spiderman.modifier.fire.desc=Incendeia inimigos.
+spiderman.modifier.sniper=Atirador furtivo
+spiderman.modifier.sniper.desc=Alcance quase infinito.
+
+spiderman.base_color.title=Cor Base
+spiderman.base_color.desc=Mude a cor base do seu fato.
+spiderman.secondary_color.title=Cor Secundária
+spiderman.secondary_color.desc=Mude a cor secundária do seu fato.
+spiderman.pattern_color.title=Cor do Padrão
+spiderman.pattern_color.desc=Mude a cor do padrão do seu fato.
+spiderman.pattern_type.title=Tipo de Padrão
+spiderman.pattern_type.desc=Mude o tipo de padrão do seu fato.
+spiderman.eye_type.title=Tipo de Olho
+spiderman.eye_type.desc=Mude o tipo de olhos do seu fato.
+
+spiderman.pattern.none=Sem Padrão
+spiderman.pattern.none.desc=Remova os padrões.
+spiderman.pattern.iron_spider=Tecnológico
+spiderman.pattern.iron_spider.desc=Para o herói entendido em tecnologia.
+spiderman.pattern.classic=Clássico
+spiderman.pattern.classic.desc=Com grande poder...
+spiderman.pattern.tapered=Afunilado
+spiderman.pattern.tapered.desc=Para um visual mais moderno.
+spiderman.pattern.minimal=Mínimo
+spiderman.pattern.minimal.desc=Simples e limpo.
+
+spiderman.eye.none=Máscara Fora
+spiderman.eye.none.desc=Mostra a tua cara.
+spiderman.eye.classic=Clássico
+spiderman.eye.classic.desc=Os clássicos olhos brancos.
+spiderman.eye.teardrop=Gota de lágrima
+spiderman.eye.teardrop.desc=Os olhos em forma de lágrima.
+spiderman.eye.sharp=Afiado
+spiderman.eye.sharp.desc=Os olhos afiados.
+spiderman.eye.true_spider=Aranha Verdadeira
+spiderman.eye.true_spider.desc=Os olhos verdadeiros de aranha.
+
+spiderman.suit.upgrade.title=Atualização do Lança-Teias
+spiderman.suit.upgrade.desc=Escolha uma das seguintes melhorias.
+spiderman.suit.speed.title=Velocidade
+spiderman.suit.speed.desc=Velocidade da web 1,5x.
+spiderman.suit.strength.title=Força
+spiderman.suit.strength.desc=1.5x de dano na web.
+spiderman.suit.range.title=Alcance
+spiderman.suit.range.desc=2x alcance web.
+spiderman.suit.capacity.title=Capacidade
+spiderman.suit.capacity.desc=1,5x a capacidade de fluidez web.
+spiderman.suit.refill.title=Recarregar
+spiderman.suit.refill.desc=Taxa de recarga de 1,75x.

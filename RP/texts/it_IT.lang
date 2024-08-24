@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Ragnatela
+
+## Move Names
+spiderman.move.none=Vuoto
+spiderman.move.swing=Altalena
+spiderman.move.grapple=Afferrare
+spiderman.move.web_shot=Cattura Web
+spiderman.move.enable_suit=Abilita abito
+spiderman.move.disable_suit=Disabilita il vestito
+spiderman.move.customize_suit=Abito su misura
+
+## Tutorial
+tutorial.main.continue=Continue
+tutorial.main.1=Benvenuto nello spiderverse!
+tutorial.main.2=Ogni slot della tua barra rapida rappresenta una mossa.
+tutorial.main.3=Per attivare (effettuare) la mossa, salta mentre sei in aria con lo slot selezionato.
+tutorial.main.4=Ci sarà una linguetta con il nome a lato della tua barra calda che ti dirà a cosa serve quello slot.
+tutorial.main.5=Per ciascun slot, puoi anche abbassarti per utilizzare la sua attivazione carica.
+tutorial.main.6=Tenendo premuto il tasto di abbassamento nello slot 9, puoi attivare la tua tuta!
+tutorial.main.7=Quando il tuo vestito è attivo, puoi passare ad altri slot per vedere cosa fanno.
+tutorial.main.8=Ad esempio, l'ottavo slot è un menu di personalizzazione dell'abito!
+tutorial.main.9=Saltando vicino a una parete puoi effettuare un salto sul muro.
+tutorial.main.10=Ottieni 3 di questi per ogni muro, ma puoi azzerarli saltando avanti e indietro.
+tutorial.main.11=Il combattimento in questo addon è molto dinamico.
+tutorial.main.12=Ci sono oltre 25 combinazioni speciali uniche, con tante altre combinazioni possibili aggiuntive.
+tutorial.main.13=Puoi saperne di più su questi aspetti su MCPEDL/discord, oppure semplicemente sperimentando.
+tutorial.main.14=Quando stai oscillando, punta nella direzione opposta al muro lungo cui stai oscillando.
+tutorial.main.15=Questo ti impedirà di scontrarti con il muro e renderà lo swing molto più facile.
+tutorial.main.16=C'è sicuramente una curva di apprendimento, ma una volta che lo capisci, è davvero divertente!
+tutorial.main.17=Buona fortuna là fuori!
+
+## Status Messages
+spiderman.warning.no_armor=Non puoi indossare un'armatura con l'abito attivato!
+spiderman.warning.no_armor_repeated=Non cercare di ingannare il sistema! Disabilitando il completo...
+spiderman.warning.aim_at_block=Devi mirare a un blocco o a un'entità entro 128 blocchi!
+spiderman.warning.aim_at_block_boost=Devi mirare a un blocco o un'entità entro 256 blocchi!
+spiderman.bounds.enter=Sei tornato in campo!
+spiderman.bounds.exit=Sei fuori dai limiti! A causa delle limitazioni imposte da Mojang, alcune funzionalità sono disattivate qui sopra/sotto.
+spiderman.block.perfect=Blocco perfetto!
+spiderman.block.good=Buon blocco!
+
+## Suit Customization
+spiderman.suit.prefix=Completo
+spiderman.suit.back=Back
+spiderman.suit.back.desc=Torna al menu principale.
+spiderman.color.custom=Colore personalizzato
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Verde
+spiderman.color.custom.blue=Blu
+spiderman.color.custom.alpha=Trasparenza
+
+spiderman.suit.web_color.title=Colore del Web
+spiderman.suit.web_color.desc=Modifica il colore delle tue ragnatele.
+
+spiderman.suit.reset=Reimposta
+spiderman.suit.customize=Personalizzare
+spiderman.suit.upgrade=Aggiornamento
+spiderman.suit.web_color=Colore Web
+
+spiderman.color.black=Nero
+spiderman.color.brown=Marrone
+spiderman.color.red=Red
+spiderman.color.orange=Arancione
+spiderman.color.yellow=Giallo
+spiderman.color.lime=Lime
+spiderman.color.green=Verde
+spiderman.color.cyan=Ciano
+spiderman.color.light_blue=Blu Chiaro
+spiderman.color.blue=Blu
+spiderman.color.purple=Viola
+spiderman.color.magenta=Magenta
+spiderman.color.pink=Rosa
+spiderman.color.gray=Gray
+spiderman.color.white=Bianco
+
+spiderman.color.black.desc=Il colore della notte.
+spiderman.color.brown.desc=Il colore della terra.
+spiderman.color.red.desc=Il colore del fuoco.
+spiderman.color.orange.desc=Il colore del sole.
+spiderman.color.yellow.desc=Il colore dell'oro.
+spiderman.color.lime.desc=Il colore della vita.
+spiderman.color.green.desc=Il colore della natura.
+spiderman.color.cyan.desc=Il colore del mare.
+spiderman.color.light_blue.desc=Il colore del cielo.
+spiderman.color.blue.desc=Il colore dell'oceano.
+spiderman.color.purple.desc=Il colore della regalità.
+spiderman.color.magenta.desc=Il colore della magia.
+spiderman.color.pink.desc=Il colore dell'amore.
+spiderman.color.gray.desc=Il colore della pietra.
+spiderman.color.white.desc=Il colore della purezza.
+
+spiderman.shooter.title=Spara-ragnatele
+spiderman.shooter.desc=Configura il tuo lanciaragnatele.
+spiderman.shooter.organic=Lancio-Ragnatele Organico
+spiderman.shooter.organic.desc=Rigenera il fluido di ragnatela nel tempo.
+spiderman.shooter.mechanical=Spara-Ragnatele Meccanico
+spiderman.shooter.mechanical.desc=Ricarica il fluido per ragnatela tutto in una volta.
+
+spiderman.modifier.title=Modificatore Web
+spiderman.modifier.desc=Aggiungi un effetto alle tue ragnatele.
+spiderman.modifier.electric=Elettrico
+spiderman.modifier.electric.desc=Stordisce i nemici.
+spiderman.modifier.poison=Veleno
+spiderman.modifier.poison.desc=Avvelena i nemici.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Rallenta i nemici.
+spiderman.modifier.fire=Fuoco
+spiderman.modifier.fire.desc=Mette i nemici in fiamme.
+spiderman.modifier.sniper=Cecchino
+spiderman.modifier.sniper.desc=Gamma quasi infinita.
+
+spiderman.base_color.title=Colore di base
+spiderman.base_color.desc=Cambia il colore base del tuo abito.
+spiderman.secondary_color.title=Colore secondario
+spiderman.secondary_color.desc=Cambia il colore secondario del tuo completo.
+spiderman.pattern_color.title=Colore del motivo
+spiderman.pattern_color.desc=Cambia il colore del motivo del tuo abito.
+spiderman.pattern_type.title=Tipo di Motivo
+spiderman.pattern_type.desc=Cambia il tipo di motivo del tuo abito.
+spiderman.eye_type.title=Tipo di occhio
+spiderman.eye_type.desc=Cambia il tipo di occhi del tuo costume.
+
+spiderman.pattern.none=Nessun Modello
+spiderman.pattern.none.desc=Rimuovi i motivi.
+spiderman.pattern.iron_spider=Tecnologico
+spiderman.pattern.iron_spider.desc=Per l'eroe esperto di tecnologia.
+spiderman.pattern.classic=Classico
+spiderman.pattern.classic.desc=Con grandi poteri...
+spiderman.pattern.tapered=Affusolato
+spiderman.pattern.tapered.desc=Per un aspetto più moderno.
+spiderman.pattern.minimal=Minimale
+spiderman.pattern.minimal.desc=Semplice e pulito.
+
+spiderman.eye.none=Rimuovere la maschera
+spiderman.eye.none.desc=Mostra il tuo volto.
+spiderman.eye.classic=Classico
+spiderman.eye.classic.desc=Gli occhi bianchi classici.
+spiderman.eye.teardrop=Goccia di lacrima
+spiderman.eye.teardrop.desc=Gli occhi a forma di lacrima.
+spiderman.eye.sharp=Acuto
+spiderman.eye.sharp.desc=Gli occhi acuti.
+spiderman.eye.true_spider=Vera Ragno
+spiderman.eye.true_spider.desc=Gli occhi del vero ragno.
+
+spiderman.suit.upgrade.title=Aggiornamento del Lancia-Ragnatele
+spiderman.suit.upgrade.desc=Scegli uno dei seguenti miglioramenti.
+spiderman.suit.speed.title=Velocità
+spiderman.suit.speed.desc=Velocità web 1,5x.
+spiderman.suit.strength.title=Forza
+spiderman.suit.strength.desc=1,5x danno sul web.
+spiderman.suit.range.title=Gamma
+spiderman.suit.range.desc=Doppio intervallo web.
+spiderman.suit.capacity.title=Capacità
+spiderman.suit.capacity.desc=Capacità del web fluido aumentata di 1,5 volte.
+spiderman.suit.refill.title=Ricarica
+spiderman.suit.refill.desc=Ritmo di rifornimento 1,75x.

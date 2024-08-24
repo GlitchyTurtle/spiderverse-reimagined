@@ -1,0 +1,120 @@
+{
+    "namespace": "global_sliders",
+
+    "custom_slider@global_sliders.option_slider": {
+        "$option_label": "#custom_slider_text",
+        "$slider_name": "custom_slider",
+        "$slider_value_binding_name": "#custom_slider_value",
+        "$slider_tts_text_value": "#custom_slider_text_value",
+        "$slider_binding_type": "collection",
+        "$slider_collection_name": "custom_form",
+        "$slider_enabled_binding_name": "#custom_slider_enabled",
+        "$slider_enabled_binding_type": "collection",
+        "$label_bindings": [
+            {
+                "binding_name": "#custom_slider_text",
+                "binding_type": "collection",
+                "binding_collection_name": "custom_form"
+            }
+        ]
+    },
+
+    "option_slider@settings_common.option_generic": {
+        "$control_name": "global_sliders.option_slider_control"
+    },
+
+    "option_slider_control": {
+        "type": "panel",
+        "size": [ "100% - 2px", 16 ],
+        "controls": [
+            {
+                "slider@common.slider": {
+
+                    "$slider_box_layout": "global_sliders.slider_button_layout",
+                    "$slider_box_hover_layout": "global_sliders.slider_button_hover_layout",
+
+                    "default_control": "slider_bar_default",
+                    "hover_control": "slider_bar_hover",
+                    "background_control": "custom_slider_background",
+                    "background_hover_control": "custom_slider_background_hover",
+                    "progress_control": "custom_slider_progress",
+                    "progress_hover_control": "custom_slider_progress_hover",
+
+                    "size": [ "100% - 12px", 6 ],
+                    "$slider_box_size": [ 16, 16 ],
+                    "offset": [ 4, 0 ],
+                    "variables": [
+                        {
+                            "requires": "(not $option_enabled_binding_name or not $enabled)",
+                            "$slider_enabled_binding_name": "#not_data_bound",
+                            "$slider_enabled_binding_type": "none"
+                        }
+                    ],
+                    "controls": [
+                        {
+                            "slider_box@common.slider_box": {
+                                "$slider_box_layout": "$slider_box_layout",
+                                "$slider_box_size": "$slider_box_size",
+                                "$slider_track_button": "$slider_name"
+                            }
+                        },
+                        {
+                            "slider_bar_default@global_sliders.slider_bar_default": { }
+                        },
+                        {
+                            "slider_bar_hover@global_sliders.slider_bar_hover": {
+                                "visible": false
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "slider_bar_default@common.slider_bar_default": {
+        "color": [ 0.11764705882, 0.11764705882, 0.11764705882 ],
+        "$background_control": "global_sliders.custom_slider_background",
+        "$progress_control": "global_sliders.custom_slider_progress",
+        "$background_control_name": "custom_slider_background",
+        "$progress_control_name": "custom_slider_progress"
+    },
+
+    "slider_bar_hover@global_sliders.slider_bar_default": {
+        "color": [ 1, 1, 1 ],
+        "$background_control": "global_sliders.custom_slider_background_hover",
+        "$progress_control": "global_sliders.custom_slider_progress_hover",
+        "$background_control_name": "custom_slider_background_hover",
+        "$progress_control_name": "custom_slider_progress_hover"
+    },
+
+    "slider_button_layout": {
+        "type": "image",
+        "layer": 2,
+        "texture": "textures/buttons/button"
+    },
+
+    "slider_button_hover_layout@global_sliders.slider_button_layout": {
+        "texture": "textures/buttons/button_hover"
+    },
+
+    "custom_slider_background": {
+        "type": "image",
+        "texture": "textures/forms/modal/sliders/slider_background"
+    },
+
+    "custom_slider_background_hover": {
+        "type": "image",
+        "texture": "textures/forms/modal/sliders/slider_background"
+    },
+
+    "custom_slider_progress": {
+        "type": "image",
+        "texture": "textures/forms/modal/sliders/bar_full"
+    },
+
+    "custom_slider_progress_hover": {
+        "type": "image",
+        "texture": "textures/forms/modal/sliders/bar_full"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "namespace": "server_form",
+    "third_party_server_screen@common.base_screen": {
+       "$screen_content": "server_form.main_content",
+       "$screen_animations": [
+            "@server_form.exit_wait"
+        ],
+        "$background_animations": [
+            "@server_form.exit_wait"
+        ],
+        "force_render_below": true,
+        "low_frequency_rendering": true,
+        "load_screen_immediately": true,
+        "render_only_when_topmost": false,
+        "render_game_behind": true,
+       "button_mappings": [
+          {
+             "from_button_id": "button.menu_cancel",
+             "to_button_id": "button.menu_exit",
+             "mapping_type": "global"
+          }
+       ]
+    },
+    "main_content": {
+       "type": "panel",
+       "controls": [
+          {
+             "server_form_factory": {
+                "type": "factory",
+                "control_ids": {
+                   "long_form": "@server_form.switcher_long_form",
+                   "custom_form": "@custom_form.main_panel"
+                }
+             }
+          }
+       ]
+    },
+    "switcher_long_form": {
+       "type": "panel",
+       "controls": [
+          {
+             "default_form@default_form.main_panel": {
+                "bindings": [
+                   {
+                      "source_property_name": "( ((#title_text - '§c§u§s§t§o§m§i§z§e') = #title_text) and ((#title_text - '§r§r§r') = #title_text) )",
+                      "binding_type": "view",
+                      "target_property_name": "#visible"
+                   }
+                ]
+             }
+          },
+          {
+             "customize@customize.main_panel": {
+                "bindings": [
+                   {
+                      "source_property_name": "(not ((#title_text - '§c§u§s§t§o§m§i§z§e') = #title_text))",
+                      "binding_type": "view",
+                      "target_property_name": "#visible"
+                   }
+                ]
+             }
+          },
+          {
+            "cos@cos.panel": {
+                "layer": 2,
+                "bindings": [
+                    {
+                        "binding_name": "#title_text"
+                    },
+                    {
+                        "binding_type": "view",
+                        "source_property_name": "(not ((#title_text - '§r§r§r') = #title_text))",
+                        "target_property_name": "#visible"
+                    }
+                ]
+            }
+          },
+          {
+            "skill_tree_ui@skill_tree_ui.skill_tree_panel": {
+                "layer": 2,
+                "bindings": [
+                    {
+                        "binding_name": "#title_text"
+                    },
+                    {
+                        "binding_type": "view",
+                        "source_property_name": "(not ((#title_text - '§f§f§f') = #title_text))",
+                        "target_property_name": "#visible"
+                    }
+                ]
+            }
+        }
+       ]
+    },
+    "exit_wait": {
+		"anim_type": "offset",
+		"easing": "linear",
+		"duration": 0.08,
+		"from": [
+			0,
+			0
+		],
+		"to": [
+			0,
+			0
+		],
+		"play_event": "screen.exit_pop",
+		"end_event": "screen.exit_end"
+	}
+ }

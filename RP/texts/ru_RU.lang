@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Паутина
+
+## Move Names
+spiderman.move.none=Пустой
+spiderman.move.swing=Качели
+spiderman.move.grapple=Захват
+spiderman.move.web_shot=Веб-снимок
+spiderman.move.enable_suit=Включить костюм
+spiderman.move.disable_suit=Деактивировать костюм
+spiderman.move.customize_suit=Настроить костюм
+
+## Tutorial
+tutorial.main.continue=Продолжать
+tutorial.main.1=Добро пожаловать в паучью вселенную!
+tutorial.main.2=Каждый из ваших слотов быстрого доступа представляет собой движение.
+tutorial.main.3=Чтобы выполнить движение, прыгните в воздух с выбранным слотом.
+tutorial.main.4=На боковой панели вашей горячей панели будет вкладка с именем, которая сообщает, для чего предназначен этот слот.
+tutorial.main.5=Для каждого слота вы также можете присесть, чтобы использовать его зарядную активацию.
+tutorial.main.6=Удерживая приседание на 9-м слоте, вы можете активировать свой костюм!
+tutorial.main.7=Когда ваш костюм активен, вы можете переключаться на другие слоты, чтобы увидеть, что они делают.
+tutorial.main.8=Например, восьмой слот — это меню настройки костюма!
+tutorial.main.9=Прыгая рядом со стеной, вы можете выполнить прыжок от стены.
+tutorial.main.10=Вы получаете 3 из них для каждой стены, но можете сбросить это, прыгая туда-сюда.
+tutorial.main.11=Бои в этом дополнении очень динамичные.
+tutorial.main.12=Существует более 25 уникальных специальных комбинаций, с множеством дополнительных возможных вариантов.
+tutorial.main.13=Вы можете узнать больше об этом на MCPEDL/discord или просто экспериментируя.
+tutorial.main.14=Когда раскачиваешься, направляйся в противоположную сторону от стены, вдоль которой ты качаешься.
+tutorial.main.15=Это поможет вам избежать столкновения со стеной и значительно упростит выполнение махов.
+tutorial.main.16=Определенно, сначала нужно привыкнуть, но когда освоишься, это такое удовольствие!
+tutorial.main.17=Удачи там!
+
+## Status Messages
+spiderman.warning.no_armor=Вы не можете носить броню, когда костюм включен!
+spiderman.warning.no_armor_repeated=Не пытайтесь обмануть систему! Отключение костюма...
+spiderman.warning.aim_at_block=Вы должны нацелиться на блок или объект в пределах 128 блоков!
+spiderman.warning.aim_at_block_boost=Вы должны целиться в блок или сущность в пределах 256 блоков!
+spiderman.bounds.enter=Вы снова в пределах!"
+spiderman.bounds.exit=Вы вне допустимых границ! Из-за ограничений, установленных компанией Mojang, некоторые функции здесь отключены.
+spiderman.block.perfect=Отличный блок!
+spiderman.block.good=Хороший блок!
+
+## Suit Customization
+spiderman.suit.prefix=Костюм:
+spiderman.suit.back=Назад
+spiderman.suit.back.desc=Вернуться в главное меню.
+spiderman.color.custom=Пользовательский цвет
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Зелёный
+spiderman.color.custom.blue=Синий
+spiderman.color.custom.alpha=Прозрачность
+
+spiderman.suit.web_color.title=Веб-цвет
+spiderman.suit.web_color.desc=Измените цвет вашей паутины.
+
+spiderman.suit.reset=Сбросить
+spiderman.suit.customize=Настроить
+spiderman.suit.upgrade=Upgrade
+spiderman.suit.web_color=Веб-цвет
+
+spiderman.color.black=Чёрный
+spiderman.color.brown=Коричневый
+spiderman.color.red=Red
+spiderman.color.orange=Оранжевый
+spiderman.color.yellow=Жёлтый
+spiderman.color.lime=Lime
+spiderman.color.green=Зелёный
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=Голубой
+spiderman.color.blue=Синий
+spiderman.color.purple=Фиолетовый
+spiderman.color.magenta=Маджента
+spiderman.color.pink=Pink
+spiderman.color.gray=Gray
+spiderman.color.white=Белый
+
+spiderman.color.black.desc=Цвет ночи.
+spiderman.color.brown.desc=Цвет земли.
+spiderman.color.red.desc=Цвет огня.
+spiderman.color.orange.desc=Цвет солнца.
+spiderman.color.yellow.desc=Цвет золота.
+spiderman.color.lime.desc=Цвет жизни.
+spiderman.color.green.desc=Цвет природы.
+spiderman.color.cyan.desc=Цвет моря.
+spiderman.color.light_blue.desc=Цвет неба.
+spiderman.color.blue.desc=Цвет океана.
+spiderman.color.purple.desc=Цвет королевской власти.
+spiderman.color.magenta.desc=Цвет магии.
+spiderman.color.pink.desc=Цвет любви.
+spiderman.color.gray.desc=Цвет камня.
+spiderman.color.white.desc=Цвет чистоты.
+
+spiderman.shooter.title=Веб-шутер
+spiderman.shooter.desc=Настройте свой веб-шутер.
+spiderman.shooter.organic=Органический веб-шутер
+spiderman.shooter.organic.desc=Со временем регенерирует паутину.
+spiderman.shooter.mechanical=Механический веб-шутер
+spiderman.shooter.mechanical.desc=Заправляет всю жидкость для паутины сразу.
+
+spiderman.modifier.title=Веб-модификатор
+spiderman.modifier.desc=Добавьте эффект к вашим сетям.
+spiderman.modifier.electric=Электрический
+spiderman.modifier.electric.desc=Оглушает врагов.
+spiderman.modifier.poison=Яд
+spiderman.modifier.poison.desc=Отравляет врагов.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Замедляет врагов.
+spiderman.modifier.fire=Fire
+spiderman.modifier.fire.desc=Поджигает врагов.
+spiderman.modifier.sniper=Снайпер
+spiderman.modifier.sniper.desc=Почти бесконечный радиус действия.
+
+spiderman.base_color.title=Основной цвет
+spiderman.base_color.desc=Измените базовый цвет вашего костюма.
+spiderman.secondary_color.title=Вторичный цвет
+spiderman.secondary_color.desc=Измените вторичный цвет вашего костюма.
+spiderman.pattern_color.title=Цвет узора
+spiderman.pattern_color.desc=Измените цвет узора на вашем костюме.
+spiderman.pattern_type.title=Тип узора
+spiderman.pattern_type.desc=Измените тип узора на вашем костюме.
+spiderman.eye_type.title=Тип глаза
+spiderman.eye_type.desc=Измените тип глаз вашего костюма.
+
+spiderman.pattern.none=Без шаблона
+spiderman.pattern.none.desc=Удалите шаблоны.
+spiderman.pattern.iron_spider=Технологический
+spiderman.pattern.iron_spider.desc=Для искушенного в технологиях героя.
+spiderman.pattern.classic=Классический
+spiderman.pattern.classic.desc=С большой силой...
+spiderman.pattern.tapered=Конусообразный
+spiderman.pattern.tapered.desc=Для более современного вида.
+spiderman.pattern.minimal=Минимальный
+spiderman.pattern.minimal.desc=Просто и чисто.
+
+spiderman.eye.none=Снимай маску
+spiderman.eye.none.desc=Покажи своё лицо.
+spiderman.eye.classic=Классика
+spiderman.eye.classic.desc=Классические белые глаза.
+spiderman.eye.teardrop=Слеза
+spiderman.eye.teardrop.desc=Глаза в форме слезинки.
+spiderman.eye.sharp=Резкий
+spiderman.eye.sharp.desc=Острый взгляд.
+spiderman.eye.true_spider=Настоящий паук
+spiderman.eye.true_spider.desc=Настоящие глаза паука.
+
+spiderman.suit.upgrade.title=Улучшение веб-шутера
+spiderman.suit.upgrade.desc=Выберите одно из следующих обновлений.
+spiderman.suit.speed.title=Скорость
+spiderman.suit.speed.desc=1,5-кратное ускорение веб-сайта.
+spiderman.suit.strength.title=Сила
+spiderman.suit.strength.desc=1.5 раза урон в сети.
+spiderman.suit.range.title=Диапазон
+spiderman.suit.range.desc=2x веб-диапазон.
+spiderman.suit.capacity.title=Емкость
+spiderman.suit.capacity.desc=1.5-кратная емкость веб-жидкости.
+spiderman.suit.refill.title=Пополнение
+spiderman.suit.refill.desc=Коэффициент пополнения 1,75x.

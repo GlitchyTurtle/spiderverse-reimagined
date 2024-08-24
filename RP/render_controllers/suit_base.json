@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.base": {
+			"arrays": {
+				"textures": {
+                    "Array.base": [
+						"Texture.base_1",
+                        "Texture.base_1",
+                        "Texture.base_2",
+                        "Texture.base_3"
+                    ]
+				}
+			},
+			"geometry": "Geometry.suit",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+                "Array.base[query.property('suit:base_layer')]"
+			],
+            "part_visibility": [
+                {
+                    "*": "query.property('suit:base_layer') > 0"
+                }
+            ],
+			"overlay_color" : {
+				"r": "query.property('suit:base_layer_red')",
+				"g": "query.property('suit:base_layer_green')",
+				"b": "query.property('suit:base_layer_blue')",
+				"a": "query.property('suit:base_layer_alpha')"
+			}
+		}
+	}
+}

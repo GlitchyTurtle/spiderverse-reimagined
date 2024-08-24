@@ -1,0 +1,373 @@
+{
+  "namespace": "customize",
+  "main_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ "100%c", "100%cm" ],
+    "controls": [
+      {
+        "panel": {
+          "type": "panel",
+          "size": [ 250, "100%c" ],
+          "controls": [
+            {
+              "@global_buttons.button_stack": {
+                "$control_name": "customize.side_buttons",
+                "anchor_from": "top_left",
+                "anchor_to": "top_left",
+                "$stack_size": [ "100%", "100%cm" ],
+                "$offset": [ -15, 7.25 ]
+              }
+            },
+            {
+              "panel": {
+                "type": "stack_panel",
+                "orientation": "vertical",
+                "controls": [
+                  {
+                    "@global.title_background": {
+                      "$size": [ "100%", 24 ],
+                      "controls": [
+                        {
+                          "@global.title": { }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "@global.body_panel": {
+                    }
+                  },
+                  {
+                    "@global.background": {
+                      "$background_size": [ "100%", 168.25 ],
+                      "controls": [
+                        {
+                          "custom_form_panel@common.scrolling_panel": {
+                            "$show_background": false,
+                            "$scrolling_content": "customize.contents",
+                            "offset": [ 7.5, -20.5 ],
+                            "layer": 10,
+                            "$scroll_bar_left_padding_size": [
+                              0,
+                              0
+                            ],
+                            "$scroll_bar_right_padding_size": [
+                              9.25,
+                              0
+                            ],
+                            "$scroll_size": [
+                              "6px",
+                              "100% - 4px"
+                            ],
+                            "$scrolling_pane_size": [
+                              "100%",
+                              "100%"
+                            ],
+                            "size": [
+                              "100%",
+                              "75% - 10px"
+                            ],
+                            "$scrolling_pane_offset": [
+                              0,
+                              2
+                            ],
+                            "$scroll_box_mouse_image_control": "customize.scrollbar_box_image",
+                            "$scroll_box_touch_image_control": "customize.scrollbar_box_image",
+                            "$scroll_background_image_control": "customize.scroll_box_indent",
+                            "$scroll_track_image_control": "customize.scroll_box_indent"
+                          }
+                        },
+                        {
+                          "divider": {
+                            "type": "image",
+                            "texture": "textures/forms/ore/divider_horizontal",
+                            "size": [ "100% - 2px", 2 ],
+                            "anchor_from": "bottom_middle",
+                            "anchor_to": "bottom_middle",
+                            "offset": [ 0, -36 ]
+                          }
+                        },
+                        {
+                          "@customize.bottom_buttons_stack": { }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@global.padding": {
+          "$size": [ 2, 0 ]
+        }
+      },
+      {
+        "nest_panel": {
+          "type": "panel",
+          "size": [ "100%cm", "100%cm" ],
+          "controls": [
+            {
+              "@global_buttons.close_button": { }
+            },
+            {
+              "@global.background": {
+                "$texture": "textures/forms/ore/background_2",
+                "$background_size": [ 125, 206.25 ],
+                "$offset": [ 0, 14 ],
+                "controls": [
+                  {
+                    "@global.player_doll": {
+                      "size": [ 72, 72 ],
+                      "offset": [ 0, -28 ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+
+  "contents": {
+    "type": "stack_panel",
+    "size": [ "100%c", "100%cm" ],
+    "orientation": "horizontal",
+    "controls": [
+      {
+        "@customize.scrolling_buttons_left": { }
+      },
+      {
+        "@customize.scrolling_buttons_middle": { }
+      },
+      {
+        "@customize.scrolling_buttons_right": { }
+      },
+      {
+        "@customize.scrolling_buttons_right_2": { }
+      },
+      {
+        "@customize.scrolling_buttons_right_3": { }
+      }
+    ]
+  },
+
+  "scrolling_buttons_left@global_buttons.button_stack": {
+    "$control_name": "customize.scrollable_buttons_left",
+    "$stack_size": [ "100%cm", "100%c" ],
+    "$orientation": "vertical"
+  },
+  "scrolling_buttons_middle@customize.scrolling_buttons_left": {
+    "$control_name": "customize.scrollable_buttons_middle"
+  },
+  "scrolling_buttons_right@customize.scrolling_buttons_left": {
+    "$control_name": "customize.scrollable_buttons_right"
+  },
+  "scrolling_buttons_right_2@customize.scrolling_buttons_left": {
+    "$control_name": "customize.scrollable_buttons_right_2"
+  },
+  "scrolling_buttons_right_3@customize.scrolling_buttons_left": {
+    "$control_name": "customize.scrollable_buttons_right_3"
+  },
+
+  "bottom_buttons_stack@global_buttons.button_stack": {
+    "$control_name": "customize.bottom_buttons",
+    "$orientation": "horizontal",
+    "$stack_size": [ "100%", "100%cm" ],
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "$offset": [ 3.5, -2 ]
+  },
+
+  "scrollable_button@global_buttons.buttons_hover_text": {
+    "$text_visible": false,
+    "$icon_size": [ 32, 32 ],
+    "$icon_offset": [ 0, -1 ],
+    "bindings": [
+      {
+        "binding_name": "#form_button_text",
+        "binding_name_override": "#text",
+        "binding_type": "collection",
+        "binding_collection_name": "form_buttons"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((#text - '§s§e§l§e§c§t§e§d') = #text)",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "scrollable_buttons_left": {
+    "type": "panel",
+    //------------- Variables -------------\\
+    "$size|default": [ 47, 47 ],
+    "$flag|default": "§o§n§e",
+    //------------- Variables -------------\\
+    "size": "$size",
+    "controls": [
+      {
+        "@customize.scrollable_button": { }
+      },
+      {
+        "@customize.scrollable_button": {
+          "$button_texture": "textures/buttons/button_selected",
+          "$pressed_button": "",
+          "bindings": [
+            {
+              "binding_name": "#form_button_text",
+              "binding_name_override": "#text",
+              "binding_type": "collection",
+              "binding_collection_name": "form_buttons"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(not ((#text - '§s§e§l§e§c§t§e§d') = #text))",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "collection",
+        "binding_collection_name": "form_buttons",
+        "binding_name": "#form_button_text",
+        "binding_name_override": "#text"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not((#text - $flag) = #text))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "scrollable_buttons_middle@customize.scrollable_buttons_left": {
+    "$flag": "§t§w§o"
+  },
+
+  "scrollable_buttons_right@customize.scrollable_buttons_left": {
+    "$flag": "§t§h§r§e§e"
+  },
+  "scrollable_buttons_right_2@customize.scrollable_buttons_left": {
+    "$flag": "§f§o§u§r"
+  },
+  "scrollable_buttons_right_3@customize.scrollable_buttons_left": {
+    "$flag": "§f§i§v§e"
+  },
+
+  "side_button@global_buttons.buttons_hover_text": {
+    "$text_visible": false,
+    "$size": [ "100%", "100% + 1px" ],
+    "$text_offset": [ 0, 0.5 ],
+    "$icon_size": [ 16, 16 ],
+    "bindings": [
+      {
+        "binding_name": "#form_button_text",
+        "binding_name_override": "#text",
+        "binding_type": "collection",
+        "binding_collection_name": "form_buttons"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((#text - '§s§e§l§e§c§t§e§d') = #text)",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "side_buttons": {
+    "type": "panel",
+    //------------- Variables -------------\\
+    "$size|default": [ 28, 28 ],
+    //------------- Variables -------------\\
+    "size": "$size",
+    "controls": [
+      {
+        "@customize.side_button": { }
+      },
+      {
+        "@customize.side_button": {
+          "$pressed_button": "",
+          "$button_texture": "textures/buttons/button_selected",
+          "bindings": [
+            {
+              "binding_name": "#form_button_text",
+              "binding_name_override": "#text",
+              "binding_type": "collection",
+              "binding_collection_name": "form_buttons"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "(not ((#text - '§s§e§l§e§c§t§e§d') = #text))",
+              "target_property_name": "#visible"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "collection",
+        "binding_collection_name": "form_buttons",
+        "binding_name": "#form_button_text",
+        "binding_name_override": "#text"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not((#text - '§0') = #text))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+
+  "bottom_buttons": {
+    "type": "panel",
+    //------------- Variables -------------\\
+    "$size|default": [ "33% - 4px", 30 ],
+    //------------- Variables -------------\\
+    "size": "$size",
+    "controls": [
+      {
+        "@global_buttons.buttons": {
+          "$text_offset": [ 0, 0.5 ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_type": "collection",
+        "binding_collection_name": "form_buttons",
+        "binding_name": "#form_button_text",
+        "binding_name_override": "#text"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not((#text - '§2') = #text))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "scroll_box_indent": {
+    "type": "image",
+    "texture": "textures/forms/ore/ScrollRail",
+    "layer": 1,
+    "size": [ 3, "100% - 1px" ]
+  },
+
+  "scrollbar_box_image": {
+    "type": "image",
+    "texture": "textures/forms/ore/ScrollHandle",
+    "size": [ 5, "100%" ],
+    "layer": 4
+  }
+}

@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Hämähäkinverkko
+
+## Move Names
+spiderman.move.none=Tyhjä
+spiderman.move.swing=Keinu
+spiderman.move.grapple=Kahmaista
+spiderman.move.web_shot=Verkkokaappaus
+spiderman.move.enable_suit=Ota puku käyttöön
+spiderman.move.disable_suit=Poista puku käytöstä
+spiderman.move.customize_suit=Mukauta puku
+
+## Tutorial
+tutorial.main.continue=Jatka
+tutorial.main.1=Tervetuloa hämähäkkiversumiin!
+tutorial.main.2=Jokainen eri kuumapalkkipaikka edustaa liikettä.
+tutorial.main.3=Aktivoidaksesi (tehdäksesi) liikkeen, hyppää ilmassa valitulla paikalla.
+tutorial.main.4=Hotbarisi reunassa on nimilappu, joka kertoo, mikä kyseisen paikan tehtävä on.
+tutorial.main.5=Jokaiseen slottiin voit myös kyyristyä käyttääksesi sen ladattua aktivaatiota.
+tutorial.main.6=Pitämällä hiiviskelyä 9. paikassa, voit aktivoida pukusi!
+tutorial.main.7=Kun pukusi on aktiivinen, voit vaihtaa muihin paikkoihin nähdäksesi, mitä ne tekevät.
+tutorial.main.8=Esimerkiksi 8. paikka on puvun mukautusvalikko!
+tutorial.main.9=Hyppäämällä seinän vieressä voit tehdä seinähypyn.
+tutorial.main.10=Saat kolme näistä jokaista seinää kohden, mutta voit nollata tämän hyppäämällä edestakaisin.
+tutorial.main.11=Täydennyksen taistelu on erittäin dynaamista.
+tutorial.main.12=Yli 25 ainutlaatuista erikoisyhdistelmää ja lukemattomia muita mahdollisia yhdistelmiä.
+tutorial.main.13=Voit oppia lisää näistä MCPEDL/discord-alustalla tai yksinkertaisesti kokeilemalla itse.
+tutorial.main.14=Kun keinuttelet, tähtää vastakkaiseen suuntaan siitä seinästä, pitkin jota keinut.
+tutorial.main.15=Tämä ohjaa sinut pois seinään osumisesta ja tekee heilauttamisesta paljon helpompaa.
+tutorial.main.16=Siinä on ehdottomasti oppimiskäyrä, mutta kun sen oivaltaa, se on todella hauskaa!
+tutorial.main.17=Onnea matkaan!
+
+## Status Messages
+spiderman.warning.no_armor=Et voi käyttää panssaria puku päällä!
+spiderman.warning.no_armor_repeated=Älä yritä huijata järjestelmää! Puku deaktivoidaan...
+spiderman.warning.aim_at_block=Sinun täytyy tähdätä kohteeseen tai entiteettiin, joka on enintään 128 lohkon päässä!
+spiderman.warning.aim_at_block_boost=Sinun on tähdättävä kohteeseen, joka on enintään 256 lohkosta!
+spiderman.bounds.enter=Olet takaisin rajojen sisällä!
+spiderman.bounds.exit=Olet rajojen ulkopuolella! Johtuen mojangin asettamista rajoituksista, jotkin toiminnot on poistettu käytöstä täällä ylhäällä/alhaalla.
+spiderman.block.perfect=Täydellinen torjunta!
+spiderman.block.good=Hyvä torjunta!
+
+## Suit Customization
+spiderman.suit.prefix=Puku:
+spiderman.suit.back=Takaisin
+spiderman.suit.back.desc=Palaa päävalikkoon.
+spiderman.color.custom=Mukautettu väri
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Vihreä
+spiderman.color.custom.blue=Sininen
+spiderman.color.custom.alpha=Läpinäkyvyys
+
+spiderman.suit.web_color.title=Verkkoväri
+spiderman.suit.web_color.desc=Vaihda verkkosi väriä.
+
+spiderman.suit.reset=Nollaa
+spiderman.suit.customize=Mukauta
+spiderman.suit.upgrade=Päivitys
+spiderman.suit.web_color=Verkkoväri
+
+spiderman.color.black=Musta
+spiderman.color.brown=Ruskea
+spiderman.color.red=Red
+spiderman.color.orange=Oranssi
+spiderman.color.yellow=Keltainen
+spiderman.color.lime=Lime
+spiderman.color.green=Vihreä
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=Vaaleansininen
+spiderman.color.blue=Sininen
+spiderman.color.purple=Violetti
+spiderman.color.magenta=Magenta
+spiderman.color.pink=Pink
+spiderman.color.gray=Gray
+spiderman.color.white=Valkoinen
+
+spiderman.color.black.desc=Yön väri.
+spiderman.color.brown.desc=Maan väri.
+spiderman.color.red.desc=Tulen väri.
+spiderman.color.orange.desc=Auringon väri.
+spiderman.color.yellow.desc=Kullan väri.
+spiderman.color.lime.desc=Elämän väri.
+spiderman.color.green.desc=Luonnon väri.
+spiderman.color.cyan.desc=Meren väri.
+spiderman.color.light_blue.desc=Taivaan väri.
+spiderman.color.blue.desc=Meren väri.
+spiderman.color.purple.desc=Kuninkaallisuuden väri.
+spiderman.color.magenta.desc=Magian väri.
+spiderman.color.pink.desc=Rakkauden väri.
+spiderman.color.gray.desc=Kiven väri.
+spiderman.color.white.desc=Puhtauden väri.
+
+spiderman.shooter.title=Verkkolaukaisin
+spiderman.shooter.desc=Määritä verkkosiitin.
+spiderman.shooter.organic=Orgaaninen hämähäkkiverkon ampuja
+spiderman.shooter.organic.desc=Uudistaa seittinestettä ajan myötä.
+spiderman.shooter.mechanical=Mekaaninen verkkomiesammutin
+spiderman.shooter.mechanical.desc=Täyttää verkkonestettä kerralla.
+
+spiderman.modifier.title=Verkkosivun muokkaaja
+spiderman.modifier.desc=Lisää tehoste verkkoihisi.
+spiderman.modifier.electric=Sähkö
+spiderman.modifier.electric.desc=Lamaa vihollisia.
+spiderman.modifier.poison=Myrkky
+spiderman.modifier.poison.desc=Myrkyttää vihollisia.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Hidastaa vihollisia.
+spiderman.modifier.fire=Tuli
+spiderman.modifier.fire.desc=Sytyttää viholliset tuleen.
+spiderman.modifier.sniper=Sniper
+spiderman.modifier.sniper.desc=Lähes ääretön kantama.
+
+spiderman.base_color.title=Perusväri
+spiderman.base_color.desc=Vaihda pukusi perusväri.
+spiderman.secondary_color.title=Toissijainen väri
+spiderman.secondary_color.desc=Vaihda pukusi toissijaista väriä.
+spiderman.pattern_color.title=Kuvion Väri
+spiderman.pattern_color.desc=Vaihda pukusi kuosin väriä.
+spiderman.pattern_type.title=Kuviotyyppi
+spiderman.pattern_type.desc=Vaihda pukusi kuosin tyyppiä.
+spiderman.eye_type.title=Silmän tyyppi
+spiderman.eye_type.desc=Vaihda pukuusi silmien tyyppi.
+
+spiderman.pattern.none=Ei kuviota
+spiderman.pattern.none.desc=Poista kuviot.
+spiderman.pattern.iron_spider=Teknologinen
+spiderman.pattern.iron_spider.desc=Tekniikasta perillä olevalle sankarille.
+spiderman.pattern.classic=Klassikko
+spiderman.pattern.classic.desc=Suuren voiman myötä...
+spiderman.pattern.tapered=Kartioitu
+spiderman.pattern.tapered.desc=Modernimpaa ilmettä varten.
+spiderman.pattern.minimal=Minimalistinen
+spiderman.pattern.minimal.desc=Simple and clean.
+
+spiderman.eye.none=Maski pois
+spiderman.eye.none.desc=Näytä kasvosi.
+spiderman.eye.classic=Klassikko
+spiderman.eye.classic.desc=Klassiset valkoiset silmät.
+spiderman.eye.teardrop=Kyynel
+spiderman.eye.teardrop.desc=Kyyneleet silmissä.
+spiderman.eye.sharp=Terävä
+spiderman.eye.sharp.desc=Tarkat silmät.
+spiderman.eye.true_spider=Tosi hämähäkki
+spiderman.eye.true_spider.desc=Todelliset hämähäkin silmät.
+
+spiderman.suit.upgrade.title=Verkkosinkoutimen päivitys
+spiderman.suit.upgrade.desc=Valitse yksi seuraavista päivityksistä.
+spiderman.suit.speed.title=Nopeus
+spiderman.suit.speed.desc=1,5x verkkonopeus.
+spiderman.suit.strength.title=Voima
+spiderman.suit.strength.desc=1,5x verkon vahinko.
+spiderman.suit.range.title=Valikoima
+spiderman.suit.range.desc=2x verkkosäde.
+spiderman.suit.capacity.title=Kapasiteetti
+spiderman.suit.capacity.desc=1,5-kertainen verkkonesteen kapasiteetti.
+spiderman.suit.refill.title=Täyttö
+spiderman.suit.refill.desc=1,75x täyttönopeus.

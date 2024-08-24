@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Toile d'araignée
+
+## Move Names
+spiderman.move.none=Vide
+spiderman.move.swing=Balançoire
+spiderman.move.grapple=Saisir
+spiderman.move.web_shot=Capture d'écran
+spiderman.move.enable_suit=Activer le costume
+spiderman.move.disable_suit=Désactiver le costume
+spiderman.move.customize_suit=Costume sur mesure
+
+## Tutorial
+tutorial.main.continue=I will continue with the task.
+tutorial.main.1=Bienvenue dans le multivers des araignées !
+tutorial.main.2=Chacun des emplacements de votre barre d'outils représente un mouvement.
+tutorial.main.3=Pour activer (exécuter) le mouvement, sautez en l'air avec votre emplacement sélectionné.
+tutorial.main.4=Il y aura un onglet de nom sur le côté de votre barre d'accès rapide qui vous indiquera à quoi sert cet emplacement.
+tutorial.main.5=Pour chaque emplacement, vous pouvez également vous accroupir pour utiliser son activation chargée.
+tutorial.main.6=En maintenant la touche "sneak" dans votre 9ème emplacement, vous pouvez activer votre combinaison !
+tutorial.main.7=Lorsque votre costume est actif, vous pouvez passer à d'autres emplacements pour voir ce qu'ils font.
+tutorial.main.8=Par exemple, le 8e emplacement est un menu de personnalisation des costumes !
+tutorial.main.9=En sautant à côté d'un mur, vous pouvez effectuer un saut mural.
+tutorial.main.10=Vous obtenez 3 de ceux-ci pour chaque mur, mais vous pouvez réinitialiser cela en sautant d'avant en arrière.
+tutorial.main.11=Le combat dans cet addon est très dynamique.
+tutorial.main.12=Il y a plus de 25 combinaisons spéciales uniques, avec de nombreuses autres combinaisons possibles.
+tutorial.main.13=Vous pouvez en apprendre davantage à ce sujet sur MCPEDL/discord, ou simplement en expérimentant.
+tutorial.main.14=Lorsque vous vous balancez, visez dans la direction opposée au mur le long duquel vous vous balancez.
+tutorial.main.15=Cela vous évitera de frapper le mur, et rendra le balancement beaucoup plus facile.
+tutorial.main.16=Il y a certainement une courbe d'apprentissage, mais une fois que vous l'avez maîtrisée, c'est tellement amusant !
+tutorial.main.17=Bonne chance là-bas!
+
+## Status Messages
+spiderman.warning.no_armor=Vous ne pouvez pas porter d'armure avec le costume activé !
+spiderman.warning.no_armor_repeated=Ne tentez pas de tromper le système ! Désactivation du costume...
+spiderman.warning.aim_at_block=Vous devez viser un bloc ou une entité dans un rayon de 128 blocs !
+spiderman.warning.aim_at_block_boost=Vous devez viser un bloc ou une entité dans un rayon de 256 blocs !
+spiderman.bounds.enter=Vous êtes de retour dans les limites !
+spiderman.bounds.exit=Vous êtes hors limites ! En raison des restrictions imposées par Mojang, certaines fonctionnalités sont désactivées ici-bas/en-haut.
+spiderman.block.perfect=Bloc parfait !
+spiderman.block.good=Bon bloc !
+
+## Suit Customization
+spiderman.suit.prefix=Costume :
+spiderman.suit.back=Retour
+spiderman.suit.back.desc=Retour au menu principal.
+spiderman.color.custom=Couleur personnalisée
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Vert
+spiderman.color.custom.blue=Bleu
+spiderman.color.custom.alpha=Transparence
+
+spiderman.suit.web_color.title=Couleur Web
+spiderman.suit.web_color.desc=Changez la couleur de vos toiles.
+
+spiderman.suit.reset=Réinitialiser
+spiderman.suit.customize=Personnaliser
+spiderman.suit.upgrade=Améliorer
+spiderman.suit.web_color=Couleur Web
+
+spiderman.color.black=Noir
+spiderman.color.brown=Brun
+spiderman.color.red=Red
+spiderman.color.orange=Orange
+spiderman.color.yellow=Jaune
+spiderman.color.lime=Lime
+spiderman.color.green=Vert
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=Bleu clair
+spiderman.color.blue=Bleu
+spiderman.color.purple=Violet
+spiderman.color.magenta=Magenta
+spiderman.color.pink=Rose
+spiderman.color.gray=Gris
+spiderman.color.white=Blanc
+
+spiderman.color.black.desc=La couleur de la nuit.
+spiderman.color.brown.desc=La couleur de la terre.
+spiderman.color.red.desc=La couleur du feu.
+spiderman.color.orange.desc=La couleur du soleil.
+spiderman.color.yellow.desc=La couleur de l'or.
+spiderman.color.lime.desc=La couleur de la vie.
+spiderman.color.green.desc=La couleur de la nature.
+spiderman.color.cyan.desc=La couleur de la mer.
+spiderman.color.light_blue.desc=La couleur du ciel.
+spiderman.color.blue.desc=La couleur de l'océan.
+spiderman.color.purple.desc=La couleur de la royauté.
+spiderman.color.magenta.desc=La couleur de la magie.
+spiderman.color.pink.desc=La couleur de l'amour.
+spiderman.color.gray.desc=La couleur de la pierre.
+spiderman.color.white.desc=La couleur de la pureté.
+
+spiderman.shooter.title=Lanceur de toile
+spiderman.shooter.desc=Configurez votre lance-toile.
+spiderman.shooter.organic=Tireur de toile organique
+spiderman.shooter.organic.desc=Régénère le fluide web avec le temps.
+spiderman.shooter.mechanical=Lanceur de toiles mécanique
+spiderman.shooter.mechanical.desc=Recharge le fluide de toile d'un seul coup.
+
+spiderman.modifier.title=Modificateur Web
+spiderman.modifier.desc=Ajoutez un effet à vos toiles.
+spiderman.modifier.electric=Électrique
+spiderman.modifier.electric.desc=Étourdissant les ennemis.
+spiderman.modifier.poison=Poison
+spiderman.modifier.poison.desc=Empoisonne les ennemis.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Ralentit les ennemis.
+spiderman.modifier.fire=Feu
+spiderman.modifier.fire.desc=Enflamme les ennemis.
+spiderman.modifier.sniper=Sniper
+spiderman.modifier.sniper.desc=Portée quasi infinie.
+
+spiderman.base_color.title=Couleur de base
+spiderman.base_color.desc=Changez la couleur de base de votre costume.
+spiderman.secondary_color.title=Couleur secondaire
+spiderman.secondary_color.desc=Changez la couleur secondaire de votre costume.
+spiderman.pattern_color.title=Couleur de motif
+spiderman.pattern_color.desc=Changez la couleur du motif de votre costume.
+spiderman.pattern_type.title=Type de modèle
+spiderman.pattern_type.desc=Changez le type de motif de votre costume.
+spiderman.eye_type.title=Type d'œil
+spiderman.eye_type.desc=Changez le type d'œil de votre costume.
+
+spiderman.pattern.none=Pas de modèle
+spiderman.pattern.none.desc=Retirez les motifs.
+spiderman.pattern.iron_spider=Technologique
+spiderman.pattern.iron_spider.desc=Pour le héros féru de technologie.
+spiderman.pattern.classic=Classique
+spiderman.pattern.classic.desc=Avec de grands pouvoirs...
+spiderman.pattern.tapered=Évasé
+spiderman.pattern.tapered.desc=Pour un look plus moderne.
+spiderman.pattern.minimal=Minime
+spiderman.pattern.minimal.desc=Simple et épuré.
+
+spiderman.eye.none=Dévoile tout
+spiderman.eye.none.desc=Montre ton visage.
+spiderman.eye.classic=Classique
+spiderman.eye.classic.desc=Les yeux blancs classiques.
+spiderman.eye.teardrop=larmes
+spiderman.eye.teardrop.desc=Les yeux en forme de goutte.
+spiderman.eye.sharp=Affûté
+spiderman.eye.sharp.desc=Les yeux perçants.
+spiderman.eye.true_spider=Véritable araignée
+spiderman.eye.true_spider.desc=Les yeux de la véritable araignée.
+
+spiderman.suit.upgrade.title=Amélioration du lance-toiles
+spiderman.suit.upgrade.desc=Choisissez l'une des options de mise à niveau suivantes.
+spiderman.suit.speed.title=Vitesse
+spiderman.suit.speed.desc=Une vitesse web multipliée par 1,5.
+spiderman.suit.strength.title=Force
+spiderman.suit.strength.desc=1,5x de dégâts sur le Web.
+spiderman.suit.range.title=Portée
+spiderman.suit.range.desc=Plage web 2x.
+spiderman.suit.capacity.title=Capacité
+spiderman.suit.capacity.desc=1,5 fois la capacité de fluide Web.
+spiderman.suit.refill.title=Recharge
+spiderman.suit.refill.desc=Taux de recharge de 1,75x.

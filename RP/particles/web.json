@@ -1,0 +1,61 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "a:web",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/particle/particles"
+			}
+		},
+		"components": {
+			"minecraft:emitter_initialization": {
+				"creation_expression": "variable.size = 0.1;variable.plane;"
+			},
+			"minecraft:emitter_local_space": {
+				"position": true,
+				"rotation": true
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 1
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 0.05
+			},
+			"minecraft:emitter_shape_point": {},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 0.05
+			},
+			"minecraft:particle_initial_spin": {
+				"rotation": "Math.random(-300, 300)",
+				"rotation_rate": "Math.random(-100, 100)"
+			},
+			"minecraft:particle_initial_speed": 10,
+			"minecraft:particle_appearance_billboard": {
+				"size": ["variable.size-v.particle_age*0.2", "variable.size-v.particle_age*0.2"],
+				"facing_camera_mode": "lookat_xyz",
+				"uv": {
+					"texture_width": 128,
+					"texture_height": 128,
+					"uv": [
+						32,
+						1
+					],
+					"uv_size": [
+						8,
+						8
+					]
+				}
+			},
+            "minecraft:particle_appearance_tinting": {
+				"color": [
+                    "Math.min(1, Math.max(0, variable.plane.x + 0.39*(variable.particle_random_1 - 0.5)))",
+                    "Math.min(1, Math.max(0, variable.plane.y + 0.39*(variable.particle_random_1 - 0.5)))",
+                    "Math.min(1, Math.max(0, variable.plane.z + 0.39*(variable.particle_random_1 - 0.5)))", 
+                    1
+                ]
+			},
+			"minecraft:particle_appearance_lighting": {}
+		}
+	}
+}

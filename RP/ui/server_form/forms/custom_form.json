@@ -1,0 +1,169 @@
+{
+    "namespace": "custom_form",
+    "main_panel": {
+        "type": "panel",
+        "size": [ "100%c", "100%cm" ],
+        "offset": [ 0, -10.8 ],
+        "controls": [
+            {
+                "panel": {
+                    "type": "panel",
+                    "size": [ 225, "100%c" ],
+                    "controls": [
+                        {
+                            "panel": {
+                                "type": "stack_panel",
+                                "orientation": "vertical",
+                                "controls": [
+                                    {
+                                        "panel": {
+                                            "type": "panel",
+                                            "size": [ "100%", 14 ],
+                                            "controls": [
+                                                {
+                                                    "@global_buttons.close_button": { }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "@global.title_background": {
+                                            "$size": [ "100%", 24 ],
+                                            "controls": [
+                                                {
+                                                    "@global.title": { }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "@global.background": {
+                                            "$background_size": [ "100%", 175 ],
+                                            "controls": [
+                                                {
+                                                    "@custom_form.custom_form_panel": { }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+
+    "custom_form_panel@common.scrolling_panel": {
+        "$show_background": false,
+        "$scrolling_content": "custom_form.custom_form_scrolling_content",
+        "offset": [ 0, -1.5 ],
+        "$scroll_bar_left_padding_size": [
+            0,
+            0
+        ],
+        "$scroll_bar_right_padding_size": [
+            0,
+            0
+        ],
+        "$scroll_size": [
+            "6px",
+            "100% - 4px"
+        ],
+        "$scrolling_pane_size": [
+            "100%",
+            "100%"
+        ],
+        "size": [
+            "100% - 12px",
+            "100% - 14px"
+        ],
+        "$scrolling_pane_offset": [
+            0,
+            2
+        ]
+    },
+    "generated_contents": {
+        "use_child_anchors": true,
+        "type": "stack_panel",
+        "size": [
+            "100%",
+            "100%c"
+        ],
+        "orientation": "vertical",
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "factory": {
+            "name": "buttons",
+            "control_ids": {
+                "toggle": "@server_form.custom_toggle",
+                "slider": "@global_sliders.custom_slider",
+                "step_slider": "@server_form.custom_step_slider",
+                "dropdown": "@server_form.custom_dropdown",
+                "input": "@server_form.custom_input"
+            }
+        },
+        "collection_name": "custom_form",
+        "bindings": [
+            {
+                "binding_name": "#custom_form_length",
+                "binding_name_override": "#collection_length"
+            }
+        ]
+    },
+    "custom_form_scrolling_content": {
+        "use_child_anchors": true,
+        "type": "stack_panel",
+        "size": [
+            "100% - 4px",
+            "100%c"
+        ],
+        "orientation": "vertical",
+        "anchor_from": "center",
+        "anchor_to": "center",
+        "controls": [
+            {
+                "generated_form@custom_form.generated_contents": { }
+            },
+            {
+                "submit_button": {
+                    "type": "panel",
+                    //------------- Variables -------------\\
+                    "$size|default": [ "100% + 2px", 32 ],
+                    //------------- Variables -------------\\
+                    "size": "$size",
+                    "controls": [
+                        {
+                            "@global_buttons.buttons": {
+                                "$offset": [ 2, 0 ],
+                                "$pressed_button": "button.submit_custom_form",
+                                "$controls": [
+                                    {
+                                        "@global_buttons.button_text": {
+                                            "text": "#submit_text",
+                                            "color": "white",
+                                            "bindings": [
+                                                {
+                                                    "binding_type": "global",
+                                                    "binding_name": "#submit_text",
+                                                    "binding_condition": "once"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "bindings": [
+                        {
+                            "binding_name": "#submit_button_visible",
+                            "binding_name_override": "#visible"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

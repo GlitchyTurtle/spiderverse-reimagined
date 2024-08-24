@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Павутина
+
+## Move Names
+spiderman.move.none=Порожній
+spiderman.move.swing=Свінг
+spiderman.move.grapple=Займатися боротьбою
+spiderman.move.web_shot=Знімок веб-сторінки
+spiderman.move.enable_suit=Активувати костюм
+spiderman.move.disable_suit=Вимкнути костюм
+spiderman.move.customize_suit=Індивідуальне виготовлення костюма
+
+## Tutorial
+tutorial.main.continue=Continue
+tutorial.main.1=Ласкаво просимо до павучого всесвіту!
+tutorial.main.2=Кожен з ваших слотів швидкого доступу представляє хід.
+tutorial.main.3=Щоб активувати (зробити) рух, стрибніть у повітрі з вибраним слотом.
+tutorial.main.4=На боці вашої панелі швидкого доступу буде вкладка з назвою, яка вказуватиме, що робить цей слот.
+tutorial.main.5=Для кожного слота ви також можете присісти, щоб використати його заряджену активацію.
+tutorial.main.6=Утримуючи кнопку присідання в дев’ятому слоті, ви можете активувати свій костюм!
+tutorial.main.7=Коли ваш костюм активний, ви можете переключатися на інші слоти, щоб побачити, що вони роблять.
+tutorial.main.8=Наприклад, 8-й слот — це меню налаштування костюма!
+tutorial.main.9=Підстрибнувши поруч зі стіною, ви можете зробити стрибок від стіни.
+tutorial.main.10=Ви отримуєте 3 з них на кожну стіну, але можете оновити це, стрибаючи туди-сюди.
+tutorial.main.11=Бой у цьому аддоні є дуже динамічним.
+tutorial.main.12=Існує понад 25 унікальних спеціальних комбінацій, а також безліч додаткових можливих комбінацій.
+tutorial.main.13=Ви можете дізнатися більше про це на MCPEDL/Discord або просто експериментуючи.
+tutorial.main.14=Коли ви розгойдуєтеся, націлюйтеся в бік, протилежний напрямку стіни, вздовж якої ви рухаєтеся.
+tutorial.main.15=Це убереже вас від удару об стіну й зробить розмах набагато легшим.
+tutorial.main.16=Це, безумовно, вимагає часу на навчання, але як тільки ви освоїте це, стає дуже весело!
+tutorial.main.17=Удачі там!
+
+## Status Messages
+spiderman.warning.no_armor=Не можна носити броню, коли костюм активований!
+spiderman.warning.no_armor_repeated=Не намагайтеся обдурити систему! Вимикається костюм...
+spiderman.warning.aim_at_block=Ви повинні націлитись на блок або сутність у межах 128 блоків!
+spiderman.warning.aim_at_block_boost=Ви повинні націлитися на блок або об'єкт в межах 256 блоків!
+spiderman.bounds.enter=Ви знову в межах!
+spiderman.bounds.exit=Ви за межами! Через обмеження, які накладає Mojang, деякі функції тут вимкнені.
+spiderman.block.perfect=Ідеальне блокування!
+spiderman.block.good=Гарний блок!
+
+## Suit Customization
+spiderman.suit.prefix=Suit: 
+spiderman.suit.back=Назад
+spiderman.suit.back.desc=Повернутися до головного меню.
+spiderman.color.custom=Користувацький колір
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Зелений
+spiderman.color.custom.blue=Blue
+spiderman.color.custom.alpha=Прозорість
+
+spiderman.suit.web_color.title=Веб-конверсія
+spiderman.suit.web_color.desc=Змініть колір ваших павутин.
+
+spiderman.suit.reset=Скидання
+spiderman.suit.customize=Налаштувати
+spiderman.suit.upgrade=Оновлення
+spiderman.suit.web_color=Веб-колір
+
+spiderman.color.black=Чорний
+spiderman.color.brown=Коричневий
+spiderman.color.red=Red
+spiderman.color.orange=Апельсин
+spiderman.color.yellow=Жовтий
+spiderman.color.lime=Lime
+spiderman.color.green=Зелений
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=Світло-блакитний
+spiderman.color.blue=Blue
+spiderman.color.purple=Фіолетовий
+spiderman.color.magenta=Маджента
+spiderman.color.pink=Pink
+spiderman.color.gray=Gray
+spiderman.color.white=Білий
+
+spiderman.color.black.desc=Колір ночі.
+spiderman.color.brown.desc=Колір землі.
+spiderman.color.red.desc=Колір вогню.
+spiderman.color.orange.desc=Колір сонця.
+spiderman.color.yellow.desc=Колір золота.
+spiderman.color.lime.desc=Колір життя.
+spiderman.color.green.desc=Колір природи.
+spiderman.color.cyan.desc=Колір моря.
+spiderman.color.light_blue.desc=Колір неба.
+spiderman.color.blue.desc=Колір океану.
+spiderman.color.purple.desc=Колір королівської влади.
+spiderman.color.magenta.desc=Колір магії.
+spiderman.color.pink.desc=Колір кохання.
+spiderman.color.gray.desc=Колір каменю.
+spiderman.color.white.desc=Колір чистоти.
+
+spiderman.shooter.title=Павутиномет
+spiderman.shooter.desc=Налаштуйте свій веб-шутер.
+spiderman.shooter.organic=Органічна павутина стрілок
+spiderman.shooter.organic.desc=Відновлює павутину з часом.
+spiderman.shooter.mechanical=Механічний веб-шутер
+spiderman.shooter.mechanical.desc=Заповнює павутинну рідину за один раз.
+
+spiderman.modifier.title=Веб-модифікатор
+spiderman.modifier.desc=Додайте ефект до своїх веб-сайтів.
+spiderman.modifier.electric=Електричний
+spiderman.modifier.electric.desc=Зачаровує ворогів.
+spiderman.modifier.poison=Отрута
+spiderman.modifier.poison.desc=Отруює ворогів.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Сповільнює ворогів.
+spiderman.modifier.fire=Fire
+spiderman.modifier.fire.desc=Підпалює ворогів.
+spiderman.modifier.sniper=Снайпер
+spiderman.modifier.sniper.desc=Майже нескінченний діапазон.
+
+spiderman.base_color.title=Базовий колір
+spiderman.base_color.desc=Змініть основний колір вашого костюма.
+spiderman.secondary_color.title=Вторинний колір
+spiderman.secondary_color.desc=Змініть вторинний колір вашого костюма.
+spiderman.pattern_color.title=Колір візерунка
+spiderman.pattern_color.desc=Змініть колір узору вашого костюма.
+spiderman.pattern_type.title=Тип шаблону
+spiderman.pattern_type.desc=Змініть тип візерунку вашого костюма.
+spiderman.eye_type.title=Тип ока
+spiderman.eye_type.desc=Змініть тип очей вашого костюма.
+
+spiderman.pattern.none=Немає шаблону
+spiderman.pattern.none.desc=Видалити шаблони.
+spiderman.pattern.iron_spider=Технологічний
+spiderman.pattern.iron_spider.desc=Для технічно обізнаного героя.
+spiderman.pattern.classic=Класика
+spiderman.pattern.classic.desc=З великою владою...
+spiderman.pattern.tapered=Звужений
+spiderman.pattern.tapered.desc=Для більш сучасного вигляду.
+spiderman.pattern.minimal=Мінімальний
+spiderman.pattern.minimal.desc=Просто і чисто.
+
+spiderman.eye.none=Зняти маску
+spiderman.eye.none.desc=Покажи своє обличчя.
+spiderman.eye.classic=Класика
+spiderman.eye.classic.desc=Класичні білі очі.
+spiderman.eye.teardrop=Сльозинка
+spiderman.eye.teardrop.desc=Очі-сльозинки.
+spiderman.eye.sharp=Гострий
+spiderman.eye.sharp.desc=Гострі очі.
+spiderman.eye.true_spider=Справжній Павук
+spiderman.eye.true_spider.desc=Справжні очі павука.
+
+spiderman.suit.upgrade.title=Удосконалення стрільця павутини
+spiderman.suit.upgrade.desc=Оберіть одне з наступних оновлень.
+spiderman.suit.speed.title=Швидкість
+spiderman.suit.speed.desc=Швидкість вебу 1.5x.
+spiderman.suit.strength.title=Сила
+spiderman.suit.strength.desc=Пошкодження вебу у 1.5 рази більше.
+spiderman.suit.range.title=Діапазон
+spiderman.suit.range.desc=2x веб-діапазон.
+spiderman.suit.capacity.title=Місткість
+spiderman.suit.capacity.desc=1,5-кратна місткість веб-рідини.
+spiderman.suit.refill.title=Поповнити
+spiderman.suit.refill.desc=1,75-кратна швидкість поповнення.

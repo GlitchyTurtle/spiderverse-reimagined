@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Pókháló
+
+## Move Names
+spiderman.move.none=Üres
+spiderman.move.swing=Hinta
+spiderman.move.grapple=Birkózni
+spiderman.move.web_shot=Webfotó
+spiderman.move.enable_suit=Üzembe helyezi a ruházati rendszert
+spiderman.move.disable_suit=Öltöny letiltása
+spiderman.move.customize_suit=Testreszabott öltöny
+
+## Tutorial
+tutorial.main.continue=Continue
+tutorial.main.1=Üdvözlünk a pókverzumban!
+tutorial.main.2=A gyorselérési sáv minden egyes különböző helye egy-egy mozdulatot képvisel.
+tutorial.main.3=A mozdulat aktiválásához (végrehajtásához) ugorj a levegőbe a kiválasztott helyeddel.
+tutorial.main.4=A forróbár oldalán lesz egy névtábla, amely megmutatja, hogy az adott hely mit csinál.
+tutorial.main.5=Minden egyes helyzethez guggolhatsz is a feltöltött aktiválás használatához.
+tutorial.main.6=Ha a "lopakodás" gombot lenyomva tartod a 9. helyen, aktiválhatod a ruhádat!
+tutorial.main.7=Amikor az öltözeted aktív, átválthatsz másik slotokra, hogy megnézd, mit csinálnak.
+tutorial.main.8=Például a 8. hely egy öltöny testreszabási menü!
+tutorial.main.9=Ha a fal mellett ugrálva próbálkozol, akkor falugrást tudsz végrehajtani.
+tutorial.main.10=Minden falnál 3 ilyen lehetőséget kapsz, de ezt vissza tudod állítani, ha ide-oda ugrálsz.
+tutorial.main.11=A harc ebben a kiegészítőben nagyon dinamikus.
+tutorial.main.12=Több mint 25 egyedi speciális kombináció létezik, számos további lehetséges kombinációval együtt.
+tutorial.main.13=Ezekről többet is megtudhatsz az MCPEDL-en, a Discordon, vagy egyszerűen csak kísérletezéssel.
+tutorial.main.14=Amikor lendülsz, célozz a fal irányával ellentétes irányba, amely mentén lendülsz.
+tutorial.main.15=Ez megakadályozza, hogy nekiütközz a falnak, és sokkal könnyebbé teszi a lendítést.
+tutorial.main.16=Van egy tanulási görbe, de miután megérted, nagyon szórakoztató!
+tutorial.main.17=Sok szerencsét odakint!
+
+## Status Messages
+spiderman.warning.no_armor=Nem viselhetsz páncélt, amikor az öltözet be van kapcsolva!
+spiderman.warning.no_armor_repeated=Ne próbálj meg csalni a rendszert! Kikapcsolása folyamatban...
+spiderman.warning.aim_at_block=Célozz meg egy blokkot vagy entitást 128 blokkon belül!
+spiderman.warning.aim_at_block_boost=A célpontnak vagy entitásnak 256 blokkon belül kell lennie!
+spiderman.bounds.enter=Visszajöttél a pályára!
+spiderman.bounds.exit=Túllépted a határokat! A Mojang által bevezetett korlátozások miatt néhány funkció itt nem érhető el.
+spiderman.block.perfect=Tökéletes blokk!
+spiderman.block.good=Jó blokk!
+
+## Suit Customization
+spiderman.suit.prefix=Öltöny:
+spiderman.suit.back=Back
+spiderman.suit.back.desc=Térjen vissza a főmenübe.
+spiderman.color.custom=Egyedi szín
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Zöld
+spiderman.color.custom.blue=Kék
+spiderman.color.custom.alpha=Átláthatóság
+
+spiderman.suit.web_color.title=Webszín
+spiderman.suit.web_color.desc=Változtasd meg a hálóid színét.
+
+spiderman.suit.reset=Reset
+spiderman.suit.customize=Testre szabás
+spiderman.suit.upgrade=Frissítés
+spiderman.suit.web_color=Webszín
+
+spiderman.color.black=Fekete
+spiderman.color.brown=Barna
+spiderman.color.red=Red
+spiderman.color.orange=Narancs
+spiderman.color.yellow=Sárga
+spiderman.color.lime=Mész
+spiderman.color.green=Zöld
+spiderman.color.cyan=Cián
+spiderman.color.light_blue=Világoskék
+spiderman.color.blue=Kék
+spiderman.color.purple=Lila
+spiderman.color.magenta=Magentavörös
+spiderman.color.pink=Pink
+spiderman.color.gray=Gray
+spiderman.color.white=Fehér
+
+spiderman.color.black.desc=Az éjszaka színe.
+spiderman.color.brown.desc=A föld színe.
+spiderman.color.red.desc=A tűz színe.
+spiderman.color.orange.desc=A nap színe.
+spiderman.color.yellow.desc=Az arany színe.
+spiderman.color.lime.desc=Az élet színe.
+spiderman.color.green.desc=A természet színe.
+spiderman.color.cyan.desc=A tenger színe.
+spiderman.color.light_blue.desc=Az ég színe.
+spiderman.color.blue.desc=Az óceán színe.
+spiderman.color.purple.desc=A királyság színe.
+spiderman.color.magenta.desc=A mágia színe.
+spiderman.color.pink.desc=A szerelem színe.
+spiderman.color.gray.desc=A kő színe.
+spiderman.color.white.desc=A tisztaság színe.
+
+spiderman.shooter.title=Hálóvető
+spiderman.shooter.desc=Állítsd be a hálóvetődet.
+spiderman.shooter.organic=Organikus hálóvető
+spiderman.shooter.organic.desc=Idővel újratermeli a hálófonalat.
+spiderman.shooter.mechanical=Mechanikus hálóvető
+spiderman.shooter.mechanical.desc=Egyszerre utántölti a hálófolyadékot.
+
+spiderman.modifier.title=Web módosító
+spiderman.modifier.desc=Adj hozzá egy hatást a hálóidhoz.
+spiderman.modifier.electric=Elektromos
+spiderman.modifier.electric.desc=Megdermeszti az ellenségeket.
+spiderman.modifier.poison=Méreg
+spiderman.modifier.poison.desc=Megmérgezi az ellenséget.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Lassítja az ellenségeket.
+spiderman.modifier.fire=Fire
+spiderman.modifier.fire.desc=Ellenségeket gyújt fel.
+spiderman.modifier.sniper=Mesterlövész
+spiderman.modifier.sniper.desc=Közel végtelen hatótáv.
+
+spiderman.base_color.title=Alapszín
+spiderman.base_color.desc=Változtassa meg az öltönyének alapszínét.
+spiderman.secondary_color.title=Másodlagos szín
+spiderman.secondary_color.desc=Változtasd meg az öltönyöd másodlagos színét.
+spiderman.pattern_color.title=Mintázat Színe
+spiderman.pattern_color.desc=Változtasd meg az öltönyöd mintájának színét.
+spiderman.pattern_type.title=Minta típusa
+spiderman.pattern_type.desc=Változtassa meg az öltönye mintáját.
+spiderman.eye_type.title=Szem típus
+spiderman.eye_type.desc=Változtassa meg az öltönye szem típusát.
+
+spiderman.pattern.none=Nincs minta
+spiderman.pattern.none.desc=Távolítsa el a mintákat.
+spiderman.pattern.iron_spider=Technológiai
+spiderman.pattern.iron_spider.desc=A technikában jártas hős számára.
+spiderman.pattern.classic=Klasszikus
+spiderman.pattern.classic.desc=A nagy hatalommal...
+spiderman.pattern.tapered=Kúpos
+spiderman.pattern.tapered.desc=Egy modernebb megjelenésért.
+spiderman.pattern.minimal=Minimális
+spiderman.pattern.minimal.desc=Egyszerű és tiszta.
+
+spiderman.eye.none=Maszk Le
+spiderman.eye.none.desc=Mutasd az arcod.
+spiderman.eye.classic=Klasszikus
+spiderman.eye.classic.desc=A klasszikus fehér szemek.
+spiderman.eye.teardrop=Könnycsepp
+spiderman.eye.teardrop.desc=A könnycsepp alakú szemek.
+spiderman.eye.sharp=Éles
+spiderman.eye.sharp.desc=A éles szemek.
+spiderman.eye.true_spider=Valódi pók
+spiderman.eye.true_spider.desc=Az igazi pók szemek.
+
+spiderman.suit.upgrade.title=Webkilövő frissítés
+spiderman.suit.upgrade.desc=Válasszon az alábbi fejlesztések közül.
+spiderman.suit.speed.title=Sebesség
+spiderman.suit.speed.desc=1,5-szeres websebesség.
+spiderman.suit.strength.title=Erő
+spiderman.suit.strength.desc=1.5 times increased damage to websites.
+spiderman.suit.range.title=Tartomány
+spiderman.suit.range.desc=2x web tartomány.
+spiderman.suit.capacity.title=Kapacitás
+spiderman.suit.capacity.desc=1,5-szeres webfolyadék-kapacitás.
+spiderman.suit.refill.title=Újratöltés
+spiderman.suit.refill.desc=1,75-szörös utántöltési sebesség.

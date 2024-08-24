@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Edderkoppespind
+
+## Move Names
+spiderman.move.none=Tom
+spiderman.move.swing=Sving
+spiderman.move.grapple=Kæmpe med
+spiderman.move.web_shot=Web Skud
+spiderman.move.enable_suit=Aktiver dragt
+spiderman.move.disable_suit=Deaktiver jakkesæt
+spiderman.move.customize_suit=Tilpas Jakkesæt
+
+## Tutorial
+tutorial.main.continue=Continue
+tutorial.main.1=Velkommen til edderkoppeuniverset!
+tutorial.main.2=Hver af dine forskellige hotbarslots repræsenterer et træk.
+tutorial.main.3=For at aktivere (udføre) bevægelsen, skal du springe, mens du er i luften med din valgte slot.
+tutorial.main.4=Der vil være en navneetiket på siden af din hotbar, der fortæller dig, hvad den slot gør.
+tutorial.main.5=For hver slot kan du også dukke dig for at bruge dens opladede aktivering.
+tutorial.main.6=Ved at holde snige-knappen nede i din 9. slot, kan du aktivere din dragt!
+tutorial.main.7=Når dit jakkesæt er aktivt, kan du skifte til andre slots for at se, hvad de gør.
+tutorial.main.8=For eksempel er den 8. plads en menu til tilpasning af jakkesæt!
+tutorial.main.9=Ved at hoppe ved siden af en væg kan du væghoppe.
+tutorial.main.10=Du får 3 af disse for hver væg, men kan nulstille dette ved at hoppe frem og tilbage.
+tutorial.main.11=Kampene i denne tilføjelse er meget dynamiske.
+tutorial.main.12=Der er over 25 unikke specialkombinationer, med masser af yderligere mulige kombinationer.
+tutorial.main.13=Du kan lære mere om disse på MCPEDL/discord, eller ved blot at eksperimentere.
+tutorial.main.14=Når du svinger rundt, skal du sigte modsat den retning, som væggen, du svinger langs med, peger i.
+tutorial.main.15=Dette vil forhindre, at du rammer væggen, og gør det meget lettere at svinge.
+tutorial.main.16=Der er helt sikkert en læringskurve, men når du først får det, er det så sjovt!
+tutorial.main.17=Held og lykke derude!
+
+## Status Messages
+spiderman.warning.no_armor=Du kan ikke bære rustning, når dragten er aktiveret!
+spiderman.warning.no_armor_repeated=Prøv ikke at snyde systemet! Deaktiverer dragt...
+spiderman.warning.aim_at_block=Du skal sigte mod en blok eller enhed inden for 128 blokke!
+spiderman.warning.aim_at_block_boost=Du skal sigte mod en blok eller enhed inden for 256 blokke!
+spiderman.bounds.enter=Du er tilbage inden for grænserne!
+spiderman.bounds.exit=Du er uden for grænserne! På grund af begrænsninger pålagt af Mojang, er nogle funktioner deaktiveret her.
+spiderman.block.perfect=Perfekt blokering!
+spiderman.block.good=God blokering!
+
+## Suit Customization
+spiderman.suit.prefix=Jakkesæt:
+spiderman.suit.back=Tilbage
+spiderman.suit.back.desc=Vend tilbage til hovedmenuen.
+spiderman.color.custom=Brugerdefineret farve
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Grøn
+spiderman.color.custom.blue=Blå
+spiderman.color.custom.alpha=Gennemsigtighed
+
+spiderman.suit.web_color.title=Webfarve
+spiderman.suit.web_color.desc=Ændr farven på dine webs.
+
+spiderman.suit.reset=Nulstil
+spiderman.suit.customize=Tilpas
+spiderman.suit.upgrade=Opgradere
+spiderman.suit.web_color=Webfarve
+
+spiderman.color.black=Sort
+spiderman.color.brown=Brun
+spiderman.color.red=Red
+spiderman.color.orange=Orange
+spiderman.color.yellow=Gul
+spiderman.color.lime=Lime
+spiderman.color.green=Grøn
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=Lyseblå
+spiderman.color.blue=Blå
+spiderman.color.purple=Lilla
+spiderman.color.magenta=Magenta
+spiderman.color.pink=Pink
+spiderman.color.gray=Grå
+spiderman.color.white=Hvid
+
+spiderman.color.black.desc=Nattens farve.
+spiderman.color.brown.desc=Jordens farve.
+spiderman.color.red.desc=Ildens farve.
+spiderman.color.orange.desc=Solens farve.
+spiderman.color.yellow.desc=Farven af guld.
+spiderman.color.lime.desc=Livets farve.
+spiderman.color.green.desc=Naturen farve.
+spiderman.color.cyan.desc=Havets farve.
+spiderman.color.light_blue.desc=Himlens farve.
+spiderman.color.blue.desc=Havets farve.
+spiderman.color.purple.desc=Farven af kongelighed.
+spiderman.color.magenta.desc=Farven på magi.
+spiderman.color.pink.desc=Kærlighedens farve.
+spiderman.color.gray.desc=Farven på sten.
+spiderman.color.white.desc=Farven af renhed.
+
+spiderman.shooter.title=Webskyder
+spiderman.shooter.desc=Konfigurer din webskyder.
+spiderman.shooter.organic=Organisk Netskydere
+spiderman.shooter.organic.desc=Regenererer spindvæske over tid.
+spiderman.shooter.mechanical=Mekanisk netskyder
+spiderman.shooter.mechanical.desc=Fylder væske til nettet på én gang.
+
+spiderman.modifier.title=Web Modifikator
+spiderman.modifier.desc=Tilføj en effekt til dine webs.
+spiderman.modifier.electric=Elektrisk
+spiderman.modifier.electric.desc=Bedøver fjender.
+spiderman.modifier.poison=Gift
+spiderman.modifier.poison.desc=Forgifter fjender.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Sænker fjender.
+spiderman.modifier.fire=Fire
+spiderman.modifier.fire.desc=Sætter fjender i brand.
+spiderman.modifier.sniper=Snigskytte
+spiderman.modifier.sniper.desc=Næsten uendelig rækkevidde.
+
+spiderman.base_color.title=Basisfarve
+spiderman.base_color.desc=Skift grundfarven på din dragt.
+spiderman.secondary_color.title=Sekundær farve
+spiderman.secondary_color.desc=Skift sekundærfarven på din dragt.
+spiderman.pattern_color.title=Mønsterfarve
+spiderman.pattern_color.desc=Ændr mønsterfarven på din dragt.
+spiderman.pattern_type.title=Mønstertype
+spiderman.pattern_type.desc=Ændr mønstertypen på din dragt.
+spiderman.eye_type.title=Øjetype
+spiderman.eye_type.desc=Skift dragtens øjentype.
+
+spiderman.pattern.none=Intet mønster
+spiderman.pattern.none.desc=Fjern mønstrene.
+spiderman.pattern.iron_spider=Teknologisk
+spiderman.pattern.iron_spider.desc=Til den teknologikyndige helt.
+spiderman.pattern.classic=Klassisk
+spiderman.pattern.classic.desc=Med stor magt...
+spiderman.pattern.tapered=Tapered
+spiderman.pattern.tapered.desc=For et mere moderne look.
+spiderman.pattern.minimal=Minimal
+spiderman.pattern.minimal.desc=Simpelt og rent.
+
+spiderman.eye.none=Tag masken af
+spiderman.eye.none.desc=Vis dit ansigt.
+spiderman.eye.classic=Klassisk
+spiderman.eye.classic.desc=De klassiske hvide øjne.
+spiderman.eye.teardrop=Tåre
+spiderman.eye.teardrop.desc=Tåreøjne.
+spiderman.eye.sharp=Skarp
+spiderman.eye.sharp.desc=De skarpe øjne.
+spiderman.eye.true_spider=Ægte edderkop
+spiderman.eye.true_spider.desc=De ægte edderkoppeøjne.
+
+spiderman.suit.upgrade.title=Web Shooter-opgradering
+spiderman.suit.upgrade.desc=Vælg en af de følgende opgraderinger.
+spiderman.suit.speed.title=Hastighed
+spiderman.suit.speed.desc=1,5x webhastighed.
+spiderman.suit.strength.title=Styrke
+spiderman.suit.strength.desc=1,5x webskade.
+spiderman.suit.range.title=Rækkevidde
+spiderman.suit.range.desc=2x web-område.
+spiderman.suit.capacity.title=Kapacitet
+spiderman.suit.capacity.desc=1,5x webvæskekapacitet.
+spiderman.suit.refill.title=Genopfyldning
+spiderman.suit.refill.desc=1,75x påfyldningsrate.

@@ -1,0 +1,92 @@
+{
+  "namespace": "cos",
+  "panel": {
+    "layer": 2,
+    "type": "image",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": [
+      "1500%",
+      "1500%"
+    ],
+    "texture": "textures/ui/black",
+    "alpha": 0.7,
+    "controls": [
+      {
+        "title_text": {
+          "layer": 5,
+          "type": "label",
+          "text": "#title_text",
+          "text_alignment": "center",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "offset": [
+            0,
+            0
+          ],
+          "shadow": false,
+          "bindings": [
+            {
+              "binding_name": "#title_text",
+              "binding_type": "global"
+            }
+          ]
+        }
+      },
+      {
+        "long_form_dynamic_buttons_panel@cos.long_form_dynamic_buttons_panel": {}
+      }
+    ]
+  },
+
+
+  "long_form_dynamic_buttons_panel": {
+    "type": "stack_panel",
+    "size": [100, 100],
+    "offset": [
+      16,
+      75
+    ],
+    "orientation": "horizontal",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "factory": {
+      "name": "buttons",
+      "control_name": "cos.dynamic_button"
+    },
+    "collection_name": "form_buttons",
+    "bindings": [
+      {
+        "binding_name": "#form_button_length",
+        "binding_name_override": "#collection_length"
+      }
+    ]
+  },
+
+  "dynamic_button": {
+    "type": "stack_panel",
+    "size": [67, 22],
+    "orientation": "horizontal",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls":[
+      {
+        "form_button@global_buttons.buttons": {
+          "$pressed_button_name": "button.form_button_click",
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "$button_text": "#form_button_text",
+          "$button_text_binding_type": "collection",
+          "$button_text_grid_collection_name": "form_buttons",
+          "$button_text_max_size": [ "100%", 20 ],
+          "bindings": [
+            {
+              "binding_type": "collection_details",
+              "binding_collection_name": "form_buttons"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

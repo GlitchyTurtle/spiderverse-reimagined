@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Jaring laba-laba
+
+## Move Names
+spiderman.move.none=Kosong
+spiderman.move.swing=Ayunan
+spiderman.move.grapple=Bergulat
+spiderman.move.web_shot=Tangkapan Web
+spiderman.move.enable_suit=Aktifkan Setelan
+spiderman.move.disable_suit=Menonaktifkan Setelan
+spiderman.move.customize_suit=Sesuaikan Jas
+
+## Tutorial
+tutorial.main.continue=Continue
+tutorial.main.1=Selamat datang di spiderverse!
+tutorial.main.2=Setiap slot hotbar Anda yang berbeda mewakili sebuah gerakan.
+tutorial.main.3=Untuk mengaktifkan gerakan, lompat di udara dengan slot yang telah Anda pilih.
+tutorial.main.4=Akan ada tab nama di samping hotbar Anda yang memberi tahu apa fungsi slot tersebut.
+tutorial.main.5=Untuk setiap slot, Anda juga dapat berjongkok untuk menggunakan aktivasi yang terisi.
+tutorial.main.6=Dengan menahan tombol menyelinap di slot ke-9, Anda dapat mengaktifkan pakaian Anda!
+tutorial.main.7=Saat setelan Anda aktif, Anda dapat beralih ke slot lain untuk melihat apa fungsinya.
+tutorial.main.8=Misalnya, slot ke-8 adalah menu kustomisasi setelan!
+tutorial.main.9=Dengan melompat sambil berada di dekat dinding, kamu bisa melakukan wall jump.
+tutorial.main.10=Anda mendapatkan 3 dari ini untuk setiap dinding, tetapi bisa mengatur ulang ini dengan melompat bolak-balik.
+tutorial.main.11=Pertempuran dalam addon ini sangat dinamis.
+tutorial.main.12=Ada lebih dari 25 kombinasi spesial unik, dengan banyak kombinasi tambahan yang mungkin.
+tutorial.main.13=Anda dapat mempelajari lebih lanjut tentang ini di MCPEDL/discord, atau hanya dengan bereksperimen.
+tutorial.main.14=Ketika kamu berayun, arahkan ke arah yang berlawanan dari dinding yang kamu ayuninya.
+tutorial.main.15=Ini akan mengarahkan Anda agar tidak menabrak dinding, dan membuat berayun menjadi jauh lebih mudah.
+tutorial.main.16=Pasti ada kurva pembelajaran, tapi begitu Anda memahaminya, itu sangat menyenangkan!
+tutorial.main.17=Semoga sukses di luar sana!
+
+## Status Messages
+spiderman.warning.no_armor=Kamu tidak bisa memakai armor dengan setelan yang aktif!
+spiderman.warning.no_armor_repeated=Jangan mencoba untuk mengecoh sistem! Menonaktifkan setelan...
+spiderman.warning.aim_at_block=Anda harus mengarahkan pada blok atau entitas dalam jarak 128 blok!
+spiderman.warning.aim_at_block_boost=Anda harus menargetkan blok atau entitas dalam jangkauan 256 blok!
+spiderman.bounds.enter=Kamu kembali ke dalam batas!
+spiderman.bounds.exit=Anda berada di luar batas! Karena batasan yang diberlakukan oleh Mojang, beberapa fitur dinonaktifkan di area ini.
+spiderman.block.perfect=Blok sempurna!
+spiderman.block.good=Blok yang bagus!
+
+## Suit Customization
+spiderman.suit.prefix=Jas:
+spiderman.suit.back=Kembali
+spiderman.suit.back.desc=Kembali ke menu utama.
+spiderman.color.custom=Warna Kustom
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Hijau
+spiderman.color.custom.blue=Biru
+spiderman.color.custom.alpha=Transparansi
+
+spiderman.suit.web_color.title=Warna Web
+spiderman.suit.web_color.desc=Ubah warna jaring Anda.
+
+spiderman.suit.reset=Atur Ulang
+spiderman.suit.customize=Sesuaikan
+spiderman.suit.upgrade=Peningkatan
+spiderman.suit.web_color=Warna Web
+
+spiderman.color.black=Hitam
+spiderman.color.brown=Cokelat
+spiderman.color.red=Red
+spiderman.color.orange=Oranye
+spiderman.color.yellow=Kuning
+spiderman.color.lime=Lime
+spiderman.color.green=Hijau
+spiderman.color.cyan=Sian
+spiderman.color.light_blue=Biru Muda
+spiderman.color.blue=Biru
+spiderman.color.purple=Ungu
+spiderman.color.magenta=Magenta
+spiderman.color.pink=Pink
+spiderman.color.gray=Gray
+spiderman.color.white=Putih
+
+spiderman.color.black.desc=Warna malam.
+spiderman.color.brown.desc=Warna bumi.
+spiderman.color.red.desc=Warna api.
+spiderman.color.orange.desc=Warna matahari.
+spiderman.color.yellow.desc=Warna emas.
+spiderman.color.lime.desc=Warna kehidupan.
+spiderman.color.green.desc=Warna alam.
+spiderman.color.cyan.desc=Warna laut.
+spiderman.color.light_blue.desc=Warna langit.
+spiderman.color.blue.desc=Warna lautan.
+spiderman.color.purple.desc=Warna kebangsawanan.
+spiderman.color.magenta.desc=Warna sihir.
+spiderman.color.pink.desc=Warna cinta.
+spiderman.color.gray.desc=Warna batu.
+spiderman.color.white.desc=Warna kesucian.
+
+spiderman.shooter.title=Penembak Jaring
+spiderman.shooter.desc=Konfigurasi penembak jaring Anda.
+spiderman.shooter.organic=Penembak Jaring Organik
+spiderman.shooter.organic.desc=Menghasilkan ulang cairan web seiring waktu.
+spiderman.shooter.mechanical=Penembak Jaring Mekanis
+spiderman.shooter.mechanical.desc=Mengisi ulang cairan jaring sekaligus.
+
+spiderman.modifier.title=Pengubah Web
+spiderman.modifier.desc=Tambahkan efek pada jaring Anda.
+spiderman.modifier.electric=Listrik
+spiderman.modifier.electric.desc=Memperdaya musuh-musuh.
+spiderman.modifier.poison=Racun
+spiderman.modifier.poison.desc=Meracuni musuh.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Memperlambat musuh.
+spiderman.modifier.fire=Api
+spiderman.modifier.fire.desc=Membakar musuh.
+spiderman.modifier.sniper=Penembak jitu
+spiderman.modifier.sniper.desc=Jarak yang hampir tak terbatas.
+
+spiderman.base_color.title=Warna Dasar
+spiderman.base_color.desc=Ubah warna dasar setelan Anda.
+spiderman.secondary_color.title=Warna Sekunder
+spiderman.secondary_color.desc=Ganti warna sekunder dari jas Anda.
+spiderman.pattern_color.title=Pola Warna
+spiderman.pattern_color.desc=Ubah warna pola pada jas Anda.
+spiderman.pattern_type.title=Tipe Pola
+spiderman.pattern_type.desc=Ubah jenis pola dari jas Anda.
+spiderman.eye_type.title=Tipe Mata
+spiderman.eye_type.desc=Ubah jenis mata dari jas Anda.
+
+spiderman.pattern.none=Tidak ada pola
+spiderman.pattern.none.desc=Hapus pola-pola tersebut.
+spiderman.pattern.iron_spider=Teknologis
+spiderman.pattern.iron_spider.desc=Untuk pahlawan yang mahir teknologi.
+spiderman.pattern.classic=Klasik
+spiderman.pattern.classic.desc=Dengan kekuatan besar...
+spiderman.pattern.tapered=Meruncing
+spiderman.pattern.tapered.desc=Untuk tampilan yang lebih modern.
+spiderman.pattern.minimal=Minimal
+spiderman.pattern.minimal.desc=Sederhana dan bersih.
+
+spiderman.eye.none=Lepaskan Topeng
+spiderman.eye.none.desc=Tunjukkan wajahmu.
+spiderman.eye.classic=Klasik
+spiderman.eye.classic.desc=Mata putih klasik.
+spiderman.eye.teardrop=Tetesan Air Mata
+spiderman.eye.teardrop.desc=Mata berbentuk tetesan air mata.
+spiderman.eye.sharp=Tajam
+spiderman.eye.sharp.desc=Mata yang tajam.
+spiderman.eye.true_spider=Laba-laba Sejati
+spiderman.eye.true_spider.desc=Mata laba-laba sejati.
+
+spiderman.suit.upgrade.title=Peningkatan Penembak Jaring
+spiderman.suit.upgrade.desc=Pilih salah satu peningkatan berikut.
+spiderman.suit.speed.title=Kecepatan
+spiderman.suit.speed.desc=Kecepatan web 1,5x.
+spiderman.suit.strength.title=Kekuatan
+spiderman.suit.strength.desc=1,5x kerusakan web.
+spiderman.suit.range.title=Rentang
+spiderman.suit.range.desc=2x jangkauan web.
+spiderman.suit.capacity.title=Kapasitas
+spiderman.suit.capacity.desc=Kapasitas cairan web 1,5 kali.
+spiderman.suit.refill.title=Isi ulang
+spiderman.suit.refill.desc=1,75x tingkat pengisian ulang.

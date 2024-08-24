@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Spiderweb
+
+## Move Names
+spiderman.move.none=Empty
+spiderman.move.swing=Swing
+spiderman.move.grapple=Grapple
+spiderman.move.web_shot=Web Shot
+spiderman.move.enable_suit=Enable Suit
+spiderman.move.disable_suit=Disable Suit
+spiderman.move.customize_suit=Customize Suit
+
+## Tutorial
+tutorial.main.continue=Continue
+tutorial.main.1=Welcome to the spiderverse!
+tutorial.main.2=Each of your different hotbar slots represents a move.
+tutorial.main.3=To activate (do) the move, jump while in the air with your selected slot.
+tutorial.main.4=There will be a name tab on the side of your hotbar that tells you what that slot does.
+tutorial.main.5=For each slot, you can also crouch to use its charged activation.
+tutorial.main.6=By holding sneak in your 9th slot, you can activate your suit!
+tutorial.main.7=When your suit is active, you can switch to other slots to see what they do.
+tutorial.main.8=For instance, the 8th slot is a suit customization menu!
+tutorial.main.9=By jumping while next a wall you can wall jump.
+tutorial.main.10=You get 3 of these for every wall, but can reset this by jumping back and forth.
+tutorial.main.11=The combat in this addon is very dynamic.
+tutorial.main.12=There are over 25 unique special combos, with tons of additional possible combos.
+tutorial.main.13=You can learn more about these on MCPEDL/discord, or just by experimenting.
+tutorial.main.14=When you're swinging around, aim opposite the direction of the wall you're swinging along.
+tutorial.main.15=This will steer you away from hitting the wall, and makes swinging a lot easier.
+tutorial.main.16=There's definitely a learning curve, but once you get it, it's so much fun!
+tutorial.main.17=Good luck out there!
+
+## Status Messages
+spiderman.warning.no_armor=You can't wear armor with the suit enabled!
+spiderman.warning.no_armor_repeated=Don't try to cheat the system! Disabling suit...
+spiderman.warning.aim_at_block=You must aim at a block or entity within 128 blocks!
+spiderman.warning.aim_at_block_boost=You must aim at a block or entity within 256 blocks!
+spiderman.bounds.enter=You are back in bounds!
+spiderman.bounds.exit=You are out of bounds! Due to limitations imposed by mojang, some features are disabled up/down here.
+spiderman.block.perfect=Perfect block!
+spiderman.block.good=Good block!
+
+## Suit Customization
+spiderman.suit.prefix=Suit: 
+spiderman.suit.back=Back
+spiderman.suit.back.desc=Return to main menu.
+spiderman.color.custom=Custom Color
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Green
+spiderman.color.custom.blue=Blue
+spiderman.color.custom.alpha=Transparency
+
+spiderman.suit.web_color.title=Web Color
+spiderman.suit.web_color.desc=Change the color of your webs.
+
+spiderman.suit.reset=Reset
+spiderman.suit.customize=Customize
+spiderman.suit.upgrade=Upgrade
+spiderman.suit.web_color=Web Color
+
+spiderman.color.black=Black
+spiderman.color.brown=Brown
+spiderman.color.red=Red
+spiderman.color.orange=Orange
+spiderman.color.yellow=Yellow
+spiderman.color.lime=Lime
+spiderman.color.green=Green
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=Light Blue
+spiderman.color.blue=Blue
+spiderman.color.purple=Purple
+spiderman.color.magenta=Magenta
+spiderman.color.pink=Pink
+spiderman.color.gray=Gray
+spiderman.color.white=White
+
+spiderman.color.black.desc=The color of night.
+spiderman.color.brown.desc=The color of the earth.
+spiderman.color.red.desc=The color of fire.
+spiderman.color.orange.desc=The color of the sun.
+spiderman.color.yellow.desc=The color of gold.
+spiderman.color.lime.desc=The color of life.
+spiderman.color.green.desc=The color of nature.
+spiderman.color.cyan.desc=The color of the sea.
+spiderman.color.light_blue.desc=The color of the sky.
+spiderman.color.blue.desc=The color of the ocean.
+spiderman.color.purple.desc=The color of royalty.
+spiderman.color.magenta.desc=The color of magic.
+spiderman.color.pink.desc=The color of love.
+spiderman.color.gray.desc=The color of stone.
+spiderman.color.white.desc=The color of purity.
+
+spiderman.shooter.title=Web Shooter
+spiderman.shooter.desc=Configure your web shooter.
+spiderman.shooter.organic=Organic Web Shooter
+spiderman.shooter.organic.desc=Regenerates web fluid over time.
+spiderman.shooter.mechanical=Mechanical Web Shooter
+spiderman.shooter.mechanical.desc=Refills web fluid all at once.
+
+spiderman.modifier.title=Web Modifier
+spiderman.modifier.desc=Add an effect to your webs.
+spiderman.modifier.electric=Electric
+spiderman.modifier.electric.desc=Stuns enemies.
+spiderman.modifier.poison=Poison
+spiderman.modifier.poison.desc=Poisons enemies.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Slows enemies.
+spiderman.modifier.fire=Fire
+spiderman.modifier.fire.desc=Sets enemies on fire.
+spiderman.modifier.sniper=Sniper
+spiderman.modifier.sniper.desc=Near infinite range.
+
+spiderman.base_color.title=Base Color
+spiderman.base_color.desc=Change the base color of your suit.
+spiderman.secondary_color.title=Secondary Color
+spiderman.secondary_color.desc=Change the secondary color of your suit.
+spiderman.pattern_color.title=Pattern Color
+spiderman.pattern_color.desc=Change the pattern color of your suit.
+spiderman.pattern_type.title=Pattern Type
+spiderman.pattern_type.desc=Change the pattern type of your suit.
+spiderman.eye_type.title=Eye Type
+spiderman.eye_type.desc=Change the eye type of your suit.
+
+spiderman.pattern.none=No Pattern
+spiderman.pattern.none.desc=Remove the patterns.
+spiderman.pattern.iron_spider=Technological
+spiderman.pattern.iron_spider.desc=For the tech-savvy hero.
+spiderman.pattern.classic=Classic
+spiderman.pattern.classic.desc=With great power...
+spiderman.pattern.tapered=Tapered
+spiderman.pattern.tapered.desc=For a more modern look.
+spiderman.pattern.minimal=Minimal
+spiderman.pattern.minimal.desc=Simple and clean.
+
+spiderman.eye.none=Mask Off
+spiderman.eye.none.desc=Show your face.
+spiderman.eye.classic=Classic
+spiderman.eye.classic.desc=The classic white eyes.
+spiderman.eye.teardrop=Teardrop
+spiderman.eye.teardrop.desc=The teardrop eyes.
+spiderman.eye.sharp=Sharp
+spiderman.eye.sharp.desc=The sharp eyes.
+spiderman.eye.true_spider=True Spider
+spiderman.eye.true_spider.desc=The true spider eyes.
+
+spiderman.suit.upgrade.title=Web Shooter Upgrade
+spiderman.suit.upgrade.desc=Pick one of the following upgrades.
+spiderman.suit.speed.title=Speed
+spiderman.suit.speed.desc=1.5x web speed.
+spiderman.suit.strength.title=Strength
+spiderman.suit.strength.desc=1.5x web damage.
+spiderman.suit.range.title=Range
+spiderman.suit.range.desc=2x web range.
+spiderman.suit.capacity.title=Capacity
+spiderman.suit.capacity.desc=1.5x web fluid capacity.
+spiderman.suit.refill.title=Refill
+spiderman.suit.refill.desc=1.75x refill rate.

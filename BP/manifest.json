@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§cSpiderverse Reimagined §8[1.21] [Beta V1.1.0] [BP]§r",
+		"description": "Hop into any world with a couple of friends and swing around the city, or combo them into oblivion with the intuitive combo system. Made by: GlitchyTurtle",
+		"uuid": "12ae42c1-c8eb-48b4-b6aa-7f2418f9b40b",
+		"version": [
+			1,
+			1,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			20
+		]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "b7055393-4154-4aa8-813f-afa6291f1056",
+			"entry": "scripts/index.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"capabilities": [
+		"script_eval"
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.14.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0"
+		},
+		{
+            "uuid": "07613000-413d-45d2-87af-8048e66d0a65",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+	]
+}

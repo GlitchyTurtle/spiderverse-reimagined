@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "[§cSpiderverse Reimagined§r] §8[1.21] [Beta V1.1.0] [RP]",
+		"description": "Hop into any world with a couple of friends and swing around the city, or combo them into oblivion with the intuitive combo system. Made by: GlitchyTurtle",
+		"uuid": "07613000-413d-45d2-87af-8048e66d0a65",
+		"version": [
+			1,
+			1,
+			0
+		],
+		"min_engine_version": [
+			1,
+			21,
+			20
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "61e024a6-a9bc-4cad-a39a-7eaa48f7964c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+            "uuid": "12ae42c1-c8eb-48b4-b6aa-7f2418f9b40b",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+	]
+}

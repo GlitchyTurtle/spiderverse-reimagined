@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=거미줄
+
+## Move Names
+spiderman.move.none=빈
+spiderman.move.swing=스윙
+spiderman.move.grapple=붙잡다
+spiderman.move.web_shot=웹 샷
+spiderman.move.enable_suit=정장을 입다
+spiderman.move.disable_suit=방호복 비활성화
+spiderman.move.customize_suit=맞춤 정장
+
+## Tutorial
+tutorial.main.continue=Continue
+tutorial.main.1=스파이더버스에 오신 것을 환영합니다!
+tutorial.main.2=각각의 핫바 슬롯은 하나의 동작을 나타냅니다.
+tutorial.main.3=동작을 활성화하려면 선택한 슬롯으로 공중에서 점프하십시오.
+tutorial.main.4=핫바 옆에는 해당 슬롯의 기능을 알려주는 이름 탭이 표시될 것입니다.
+tutorial.main.5=각 슬롯에 대해, 충전된 활성화를 사용하기 위해 앉을 수도 있습니다.
+tutorial.main.6=9번 슬롯에 몰래 버튼을 눌러서 슈트를 활성화할 수 있습니다!
+tutorial.main.7=슈트가 활성화되면 다른 슬롯으로 전환하여 그들이 무엇을 하는지 확인할 수 있습니다.
+tutorial.main.8=예를 들어, 8번째 슬롯은 슈트 커스터마이징 메뉴입니다!
+tutorial.main.9=벽 옆에서 점프하면 벽 점프를 할 수 있습니다.
+tutorial.main.10=벽마다 3개를 얻을 수 있으며, 앞뒤로 점프함으로써 이를 초기화할 수 있습니다.
+tutorial.main.11=이 애드온의 전투는 매우 역동적입니다.
+tutorial.main.12=25개 이상의 고유한 특수 콤보가 있으며, 추가적인 가능한 콤보도 매우 많습니다.
+tutorial.main.13=이것에 대해 더 알고 싶다면 MCPEDL/디스코드에서 찾아보거나, 직접 실험을 통해 알아볼 수 있습니다.
+tutorial.main.14=당신이 그네 타고 있을 때, 그네를 타고 가는 벽의 반대 방향을 향해 목표를 잡으세요.
+tutorial.main.15=이것은 당신이 벽에 부딪히는 것을 피하게 하고, 스윙을 훨씬 더 쉽게 만듭니다.
+tutorial.main.16=확실히 배워야 할 부분이 있지만, 일단 익히고 나면 정말 재미있어요!
+tutorial.main.17=거기서 잘 해보세요!
+
+## Status Messages
+spiderman.warning.no_armor=슈트가 활성화된 상태에서는 갑옷을 착용할 수 없습니다!
+spiderman.warning.no_armor_repeated=시스템을 속이려 하지 마세요! 수트를 비활성화합니다...
+spiderman.warning.aim_at_block=128 블록 이내의 블록이나 엔티티를 목표로 해야 합니다!
+spiderman.warning.aim_at_block_boost=256블록 이내의 블록이나 개체를 목표로 해야 합니다!
+spiderman.bounds.enter=다시 경계선 안으로 들어왔습니다!
+spiderman.bounds.exit=범위를 벗어났습니다! 모장의 제한으로 인해 이곳에서는 일부 기능이 비활성화되었습니다.
+spiderman.block.perfect=완벽한 블록!
+spiderman.block.good=좋은 블록이야!
+
+## Suit Customization
+spiderman.suit.prefix=Suit: 
+spiderman.suit.back=뒤로
+spiderman.suit.back.desc=메인 메뉴로 돌아가기.
+spiderman.color.custom=사용자 지정 색상
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=초록
+spiderman.color.custom.blue=Blue
+spiderman.color.custom.alpha=투명성
+
+spiderman.suit.web_color.title=웹 색상
+spiderman.suit.web_color.desc=웹의 색상을 변경하세요.
+
+spiderman.suit.reset=재설정
+spiderman.suit.customize=맞춤 설정
+spiderman.suit.upgrade=업그레이드
+spiderman.suit.web_color=웹 색상
+
+spiderman.color.black=검정
+spiderman.color.brown=브라운
+spiderman.color.red=Red
+spiderman.color.orange=오렌지
+spiderman.color.yellow=노랑
+spiderman.color.lime=라임
+spiderman.color.green=녹색
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=연한 파란색
+spiderman.color.blue=Blue
+spiderman.color.purple=보라색
+spiderman.color.magenta=마젠타
+spiderman.color.pink=핑크
+spiderman.color.gray=회색
+spiderman.color.white=흰색
+
+spiderman.color.black.desc=밤의 색.
+spiderman.color.brown.desc=지구의 색.
+spiderman.color.red.desc=불의 색.
+spiderman.color.orange.desc=태양의 색상.
+spiderman.color.yellow.desc=금의 색깔.
+spiderman.color.lime.desc=삶의 색깔.
+spiderman.color.green.desc=자연의 색깔.
+spiderman.color.cyan.desc=바다의 색깔.
+spiderman.color.light_blue.desc=하늘의 색.
+spiderman.color.blue.desc=바다의 색깔.
+spiderman.color.purple.desc=왕실의 색.
+spiderman.color.magenta.desc=마법의 색깔.
+spiderman.color.pink.desc=사랑의 색깔.
+spiderman.color.gray.desc=돌의 색깔.
+spiderman.color.white.desc=순수의 색.
+
+spiderman.shooter.title=웹 슈터
+spiderman.shooter.desc=웹 슈터를 설정하세요.
+spiderman.shooter.organic=유기 웹 슈터
+spiderman.shooter.organic.desc=시간이 지남에 따라 거미줄 유체를 재생합니다.
+spiderman.shooter.mechanical=기계식 웹 슈터
+spiderman.shooter.mechanical.desc=웹 유체를 한 번에 다시 채웁니다.
+
+spiderman.modifier.title=웹 수정기
+spiderman.modifier.desc=당신의 웹에 효과를 추가하세요.
+spiderman.modifier.electric=전기
+spiderman.modifier.electric.desc=적을 기절시킵니다.
+spiderman.modifier.poison=독
+spiderman.modifier.poison.desc=적에게 독을 입힙니다.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=적들의 속도를 늦춥니다.
+spiderman.modifier.fire=불
+spiderman.modifier.fire.desc=Causes adversaries to ignite.
+spiderman.modifier.sniper=저격수
+spiderman.modifier.sniper.desc=거의 무한한 범위.
+
+spiderman.base_color.title=기본 색상
+spiderman.base_color.desc=정장의 기본 색상을 변경하세요.
+spiderman.secondary_color.title=보조 색상
+spiderman.secondary_color.desc=양복의 보조 색상을 변경하세요.
+spiderman.pattern_color.title=패턴 색상
+spiderman.pattern_color.desc=양복의 패턴 색상을 변경하세요.
+spiderman.pattern_type.title=패턴 유형
+spiderman.pattern_type.desc=정장의 패턴 유형을 변경하세요.
+spiderman.eye_type.title=눈 유형
+spiderman.eye_type.desc=당신의 슈트 눈 유형을 변경하세요.
+
+spiderman.pattern.none=패턴 없음
+spiderman.pattern.none.desc=패턴을 제거하십시오.
+spiderman.pattern.iron_spider=기술적인
+spiderman.pattern.iron_spider.desc=기술에 능숙한 영웅을 위하여.
+spiderman.pattern.classic=고전
+spiderman.pattern.classic.desc=큰 힘에는...
+spiderman.pattern.tapered=테이퍼드
+spiderman.pattern.tapered.desc=더 현대적인 느낌을 위해.
+spiderman.pattern.minimal=최소한의
+spiderman.pattern.minimal.desc=심플하고 깔끔하게.
+
+spiderman.eye.none=마스크를 벗어
+spiderman.eye.none.desc=얼굴을 보여줘.
+spiderman.eye.classic=고전적인
+spiderman.eye.classic.desc=클래식한 흰 눈.
+spiderman.eye.teardrop=Teardrop
+spiderman.eye.teardrop.desc=눈물방울 눈.
+spiderman.eye.sharp=샤프
+spiderman.eye.sharp.desc=날카로운 눈.
+spiderman.eye.true_spider=진정한 거미
+spiderman.eye.true_spider.desc=거미의 진짜 눈.
+
+spiderman.suit.upgrade.title=웹 슈터 업그레이드
+spiderman.suit.upgrade.desc=다음 업그레이드 중 하나를 선택하세요.
+spiderman.suit.speed.title=속도
+spiderman.suit.speed.desc=1.5배 웹 속도
+spiderman.suit.strength.title=힘
+spiderman.suit.strength.desc=1.5배 웹 손상.
+spiderman.suit.range.title=범위
+spiderman.suit.range.desc=2배 웹 범위.
+spiderman.suit.capacity.title=용량
+spiderman.suit.capacity.desc=1.5배 웹 유체 용량.
+spiderman.suit.refill.title=리필
+spiderman.suit.refill.desc=1.75배 보충 속도.

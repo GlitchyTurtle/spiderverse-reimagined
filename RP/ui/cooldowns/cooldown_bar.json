@@ -1,0 +1,222 @@
+{
+  "namespace": "avatar_cooldown_bar",
+  
+  "image_uv": {
+    "anim_type": "uv",
+    "$set_image_uv|default": [ 0, 0 ],
+    "duration": "$set_fps",
+    "from": "$set_image_uv",
+    "to": "$set_image_uv",
+    "easing": "linear",
+    "next": "$set_image_uv_next"
+  },
+
+  "enter_by_alpha": {
+    "anim_type": "alpha",
+    "easing": "linear",
+    "duration": 0.1,
+    "from": 0.0,
+    "to": 1.0
+  },
+  "stay_by_alpha": {
+    "anim_type": "alpha",
+    "easing": "linear",
+    "duration": 0.1,
+    "from": 1.0,
+    "to": 1.0
+  },
+  "destroy_by_alpha": {
+    "anim_type": "alpha",
+    "easing": "linear",
+    "duration": 0.2,
+    "from": 1.0,
+    "to": 0.0,
+    "destroy_at_end": "cooldown_bar_image"
+  },
+
+  "cooldown_bar_image": {
+    "$set_alpha|default": 0.0,
+    "$cooldown_uv|default": "base_full",
+    "$cooldown_texture|default": "textures/ui/avatar/empty",
+
+    "type": "image",
+    "size": [ 84.30, 12 ],
+    "uv_size": [ 82, 8 ],
+    "uv": "('@avatar_cooldown_bar_uv.image_uv_' + $cooldown_uv)",
+    "texture": "('textures/cooldown/' + $cooldown_texture)",
+    "alpha": "$set_alpha",
+    "layer": 0
+  },
+
+  
+  "cooldown_bar_stack_panel": {
+    "type": "stack_panel",
+    "size": [ 84.30, "100%c" ],
+    "controls": [
+      {
+        "avatar_cooldown@avatar_cooldown_bar.cooldown_bar_image": {
+          "variables": [
+
+            { "requires": "(not (($title_text - 'web_bar0') = $title_text))", "$cooldown_uv": "base_full0", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar2') = $title_text))", "$cooldown_uv": "base_full2", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar4') = $title_text))", "$cooldown_uv": "base_full4", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar6') = $title_text))", "$cooldown_uv": "base_full6", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar8') = $title_text))", "$cooldown_uv": "base_full8", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar10') = $title_text))", "$cooldown_uv": "base_full10", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar12') = $title_text))", "$cooldown_uv": "base_full12", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar14') = $title_text))", "$cooldown_uv": "base_full14", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar16') = $title_text))", "$cooldown_uv": "base_full16", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar18') = $title_text))", "$cooldown_uv": "base_full18", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar20') = $title_text))", "$cooldown_uv": "base_full20", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar22') = $title_text))", "$cooldown_uv": "base_full22", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar24') = $title_text))", "$cooldown_uv": "base_full24", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar26') = $title_text))", "$cooldown_uv": "base_full26", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar28') = $title_text))", "$cooldown_uv": "base_full28", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar30') = $title_text))", "$cooldown_uv": "base_full30", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar32') = $title_text))", "$cooldown_uv": "base_full32", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar34') = $title_text))", "$cooldown_uv": "base_full34", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar36') = $title_text))", "$cooldown_uv": "base_full36", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar38') = $title_text))", "$cooldown_uv": "base_full38", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar40') = $title_text))", "$cooldown_uv": "base_full40", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar42') = $title_text))", "$cooldown_uv": "base_full42", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar44') = $title_text))", "$cooldown_uv": "base_full44", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar46') = $title_text))", "$cooldown_uv": "base_full46", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar48') = $title_text))", "$cooldown_uv": "base_full48", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar50') = $title_text))", "$cooldown_uv": "base_full50", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar52') = $title_text))", "$cooldown_uv": "base_full52", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar54') = $title_text))", "$cooldown_uv": "base_full54", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar56') = $title_text))", "$cooldown_uv": "base_full56", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar58') = $title_text))", "$cooldown_uv": "base_full58", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar60') = $title_text))", "$cooldown_uv": "base_full60", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar62') = $title_text))", "$cooldown_uv": "base_full62", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar64') = $title_text))", "$cooldown_uv": "base_full64", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar66') = $title_text))", "$cooldown_uv": "base_full66", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar68') = $title_text))", "$cooldown_uv": "base_full68", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'web_bar70') = $title_text))", "$cooldown_uv": "base_full70", "$cooldown_texture": "standard", "$set_alpha": 1.0 },
+
+            { "requires": "(not (($title_text - 'mech_bar0') = $title_text))", "$cooldown_uv": "base_full0", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar1') = $title_text))", "$cooldown_uv": "base_full1", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar2') = $title_text))", "$cooldown_uv": "base_full2", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar3') = $title_text))", "$cooldown_uv": "base_full3", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar4') = $title_text))", "$cooldown_uv": "base_full4", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+
+            { "requires": "(not (($title_text - 'mech_bar_plus0') = $title_text))", "$cooldown_uv": "base_full5", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar_plus1') = $title_text))", "$cooldown_uv": "base_full6", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar_plus2') = $title_text))", "$cooldown_uv": "base_full7", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar_plus3') = $title_text))", "$cooldown_uv": "base_full8", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar_plus4') = $title_text))", "$cooldown_uv": "base_full9", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar_plus5') = $title_text))", "$cooldown_uv": "base_full10", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+
+            { "requires": "(not (($title_text - 'mech_bar_plus_plus0') = $title_text))", "$cooldown_uv": "base_full11", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar_plus_plus1') = $title_text))", "$cooldown_uv": "base_full12", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar_plus_plus2') = $title_text))", "$cooldown_uv": "base_full13", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar_plus_plus3') = $title_text))", "$cooldown_uv": "base_full14", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar_plus_plus4') = $title_text))", "$cooldown_uv": "base_full15", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar_plus_plus5') = $title_text))", "$cooldown_uv": "base_full16", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar_plus_plus6') = $title_text))", "$cooldown_uv": "base_full17", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+            { "requires": "(not (($title_text - 'mech_bar_plus_plus7') = $title_text))", "$cooldown_uv": "base_full18", "$cooldown_texture": "mechanical", "$set_alpha": 1.0 },
+
+            { "requires": "(not (($title_text - 'reset') = $title_text))", "$cooldown_uv": "base_full0", "$cooldown_texture": "empty", "$set_alpha": 0.0 }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_name": "#is_creative_mode",
+        "binding_type": "global"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(not #is_creative_mode)",
+        "target_property_name": "#is_not_creative_mode"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "$visible_binding",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  
+  "cooldown_bar_offset_control_default": {
+    "type": "panel",
+    "controls": [
+      {
+        "survival_default@avatar_cooldown_bar.cooldown_bar_stack_panel": {
+          "offset": [ 49.75, -40 ],
+          "$visible_binding": "(#is_not_creative_mode)"
+        }
+      },
+      {
+        "creative_default@avatar_cooldown_bar.cooldown_bar_stack_panel": {
+          "offset": [ 0, -25 ],
+          "$visible_binding": "(#is_creative_mode)"
+        }
+      }
+    ]
+  },
+
+  "cooldown_bar_offset_control_perf": {
+    "type": "panel",
+    "controls": [
+      {
+        "survival_default@avatar_cooldown_bar.cooldown_bar_stack_panel": {
+          "offset": [ 49.75, -40 ],
+          "$visible_binding": "(#is_not_creative_mode)",
+          "ignored": "(not (($title_text - 'moveup') = $title_text)) or not(($title_text - 'center') = $title_text)"
+        }
+      },
+      {
+        "survival_riding@avatar_cooldown_bar.cooldown_bar_stack_panel": {
+          "offset": [ 49.75, -50 ],
+          "$visible_binding": "(#is_not_creative_mode)",
+          "ignored": "(($title_text - 'moveup') = $title_text) or not(($title_text - 'center') = $title_text)"
+        }
+      },
+      {
+        "survival_riding@avatar_cooldown_bar.cooldown_bar_stack_panel": {
+          "anchor_from": "top_middle",
+          "anchor_to": "center",
+          "offset": [ 0, 25 ],
+          "$visible_binding": "(#is_not_creative_mode)",
+          "ignored": "(($title_text - 'center') = $title_text)"
+        }
+      },
+      {
+        "creative_default@avatar_cooldown_bar.cooldown_bar_stack_panel": {
+          "offset": [ 0, -35 ],
+          "$visible_binding": "(#is_creative_mode)",
+          "ignored": "(not(($title_text - 'center') = $title_text))"
+        }
+      },
+      {
+        "creative_default@avatar_cooldown_bar.cooldown_bar_stack_panel": {
+          "anchor_from": "top_middle",
+          "anchor_to": "center",
+          "offset": [ 0, 25 ],
+          "$visible_binding": "(#is_creative_mode)",
+          "ignored": "(($title_text - 'center') = $title_text)"
+        }
+      }
+    ]
+  },
+
+  "cooldown_bar_offset_control@common.empty_panel": {
+    "anchor_from": "center",
+    "anchor_to": "top_middle",
+    "offset": [ 0, -6 ],
+    "controls": [
+      {
+        "default@avatar_cooldown_bar.cooldown_bar_offset_control_perf": {
+          "ignored": "$console_edition"
+        }
+      },
+      {
+        "default@avatar_cooldown_bar.cooldown_bar_offset_control_perf": {
+          "ignored": "(not $console_edition)"
+        }
+      }
+    ]
+  }
+}

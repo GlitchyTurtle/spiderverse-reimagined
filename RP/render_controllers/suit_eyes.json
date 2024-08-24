@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.eyes": {
+			"arrays": {
+				"textures": {
+                    "Array.eyes": [
+						"Texture.eyes_1",
+						"Texture.eyes_1",
+						"Texture.eyes_2",
+						"Texture.eyes_3",
+						"Texture.eyes_4",
+						"Texture.eyes_5"
+                    ]
+				}
+			},
+			"geometry": "Geometry.secondary",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+                "Array.eyes[query.property('suit:eyes')]"
+			],
+            "part_visibility": [
+                {
+                    "*": "query.property('suit:eyes') > 0"
+                }
+            ]
+		}
+	}
+}

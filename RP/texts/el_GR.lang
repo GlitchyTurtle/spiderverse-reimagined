@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Ιστός αράχνης
+
+## Move Names
+spiderman.move.none=Κενό
+spiderman.move.swing=Κούνια
+spiderman.move.grapple=Πάλη
+spiderman.move.web_shot=Web Shot
+spiderman.move.enable_suit=Ενεργοποίηση Κοστουμιού
+spiderman.move.disable_suit=Απενεργοποίηση Κοστουμιού
+spiderman.move.customize_suit=Προσαρμογή Κοστουμιού
+
+## Tutorial
+tutorial.main.continue=Continue
+tutorial.main.1=Καλώς ήρθατε στο σύμπαν των αραχνών!
+tutorial.main.2=Κάθε μία από τις διαφορετικές θέσεις της μπάρας σας αντιπροσωπεύει μια κίνηση.
+tutorial.main.3=Για να ενεργοποιήσετε (εκτελέσετε) την κίνηση, πηδήξτε ενώ είστε στον αέρα με την επιλεγμένη υποδοχή σας.
+tutorial.main.4=Θα υπάρχει μια καρτέλα ονόματος στην πλευρά της γραμμής εργαλείων σας που σας λέει τι κάνει αυτή η υποδοχή.
+tutorial.main.5=Για κάθε υποδοχή, μπορείτε επίσης να σκύψετε για να χρησιμοποιήσετε την ενεργοποίηση φόρτισής του.
+tutorial.main.6=Κρατώντας πατημένο το πλήκτρο περπατήματος στη 9η σας θήκη, μπορείτε να ενεργοποιήσετε τη στολή σας!
+tutorial.main.7=Όταν η στολή σας είναι ενεργή, μπορείτε να αλλάξετε σε άλλες θέσεις για να δείτε τι κάνουν.
+tutorial.main.8=Για παράδειγμα, η 8η θέση είναι ένα μενού προσαρμογής κοστουμιού!
+tutorial.main.9=Όταν πηδάτε δίπλα σε έναν τοίχο, μπορείτε να κάνετε άλμα στον τοίχο.
+tutorial.main.10=Παίρνεις 3 από αυτά για κάθε τοίχο, αλλά μπορείς να το επαναφέρεις πηδώντας μπρος και πίσω.
+tutorial.main.11=Η μάχη σε αυτό το πρόσθετο είναι πολύ δυναμική.
+tutorial.main.12=Υπάρχουν πάνω από 25 μοναδικά ειδικά συνδυασμοί, με πολλές επιπλέον δυνατές επιλογές συνδυασμών.
+tutorial.main.13=Μπορείτε να μάθετε περισσότερα γι' αυτά στο MCPEDL/discord, ή απλά πειραματιζόμενοι.
+tutorial.main.14=Όταν κουνιέστε γύρω, στοχεύστε προς την αντίθετη κατεύθυνση από τον τοίχο κατά μήκος του οποίου κουνιέστε.
+tutorial.main.15=Αυτό θα σας απομακρύνει από την πρόσκρουση στον τοίχο και θα κάνει το λίκνισμα πολύ ευκολότερο.
+tutorial.main.16=Υπάρχει σίγουρα μία καμπύλη εκμάθησης, αλλά μόλις το καταλάβεις, είναι τόσο διασκεδαστικό!
+tutorial.main.17=Καλή τύχη εκεί έξω!
+
+## Status Messages
+spiderman.warning.no_armor=Δεν μπορείς να φορέσεις πανοπλία ενώ είναι ενεργοποιημένη η στολή!
+spiderman.warning.no_armor_repeated=Μην προσπαθείς να κοροϊδέψεις το σύστημα! Απενεργοποίηση κοστουμιού...
+spiderman.warning.aim_at_block=Πρέπει να στοχεύεις ένα μπλοκ ή οντότητα εντός 128 μπλοκ!
+spiderman.warning.aim_at_block_boost=Πρέπει να στοχεύετε σε ένα μπλοκ ή οντότητα εντός 256 μπλοκ!
+spiderman.bounds.enter=Είστε ξανά εντός ορίων!
+spiderman.bounds.exit=Έχετε ξεφύγει από τα όρια! Λόγω περιορισμών που έχουν επιβληθεί από την Mojang, ορισμένα χαρακτηριστικά είναι απενεργοποιημένα εδώ πάνω/κάτω.
+spiderman.block.perfect=Τέλειο μπλοκ!
+spiderman.block.good=Καλή άμυνα!
+
+## Suit Customization
+spiderman.suit.prefix=Suit: 
+spiderman.suit.back=Back
+spiderman.suit.back.desc=Επιστροφή στο κύριο μενού.
+spiderman.color.custom=Προσαρμοσμένο Χρώμα
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Πράσινο
+spiderman.color.custom.blue=Blue
+spiderman.color.custom.alpha=Διαφάνεια
+
+spiderman.suit.web_color.title=Χρώμα Ιστού
+spiderman.suit.web_color.desc=Αλλάξτε το χρώμα των ιστών σας.
+
+spiderman.suit.reset=Επαναφορά
+spiderman.suit.customize=Προσαρμόστε
+spiderman.suit.upgrade=Αναβάθμιση
+spiderman.suit.web_color=Χρώμα Ιστού
+
+spiderman.color.black=Μαύρο
+spiderman.color.brown=Καφέ
+spiderman.color.red=Red
+spiderman.color.orange=Πορτοκάλι
+spiderman.color.yellow=Κίτρινο
+spiderman.color.lime=Lime
+spiderman.color.green=Πράσινο
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=Ανοιχτό Μπλε
+spiderman.color.blue=Blue
+spiderman.color.purple=Μωβ
+spiderman.color.magenta=Ματζέντα
+spiderman.color.pink=Pink
+spiderman.color.gray=Γκρι
+spiderman.color.white=Λευκό
+
+spiderman.color.black.desc=Το χρώμα της νύχτας.
+spiderman.color.brown.desc=Το χρώμα της γης.
+spiderman.color.red.desc=Το χρώμα της φωτιάς.
+spiderman.color.orange.desc=Το χρώμα του ήλιου.
+spiderman.color.yellow.desc=Το χρώμα του χρυσού.
+spiderman.color.lime.desc=Το χρώμα της ζωής.
+spiderman.color.green.desc=Το χρώμα της φύσης.
+spiderman.color.cyan.desc=Το χρώμα της θάλασσας.
+spiderman.color.light_blue.desc=Το χρώμα του ουρανού.
+spiderman.color.blue.desc=Το χρώμα του ωκεανού.
+spiderman.color.purple.desc=Το χρώμα της βασιλείας.
+spiderman.color.magenta.desc=Το χρώμα της μαγείας.
+spiderman.color.pink.desc=Το χρώμα της αγάπης.
+spiderman.color.gray.desc=Το χρώμα της πέτρας.
+spiderman.color.white.desc=Το χρώμα της καθαρότητας.
+
+spiderman.shooter.title=Ιστοτοπήτη
+spiderman.shooter.desc=Ρύθμισε τον ιστό εκτόξευσης σου.
+spiderman.shooter.organic=Οργανικός εκτοξευτής ιστού
+spiderman.shooter.organic.desc=Αναγεννά υγρό ιστού με την πάροδο του χρόνου.
+spiderman.shooter.mechanical=Μηχανικός Εκτοξευτής Ιστού
+spiderman.shooter.mechanical.desc=Γεμίζει το ιστόρρευστο όλων μαζί.
+
+spiderman.modifier.title=Τροποποιητής Διαδικτύου
+spiderman.modifier.desc=Προσθέστε ένα εφέ στους ιστούς σας.
+spiderman.modifier.electric=Ηλεκτρικός
+spiderman.modifier.electric.desc=Εκπλήσσει τους εχθρούς.
+spiderman.modifier.poison=Δηλητήριο
+spiderman.modifier.poison.desc=Δηλητηριάζει τους εχθρούς.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Επιβραδύνει τους εχθρούς.
+spiderman.modifier.fire=Fire
+spiderman.modifier.fire.desc=Βάζει τους εχθρούς σε φωτιά.
+spiderman.modifier.sniper=Sniper
+spiderman.modifier.sniper.desc=Σχεδόν άπειρη εμβέλεια.
+
+spiderman.base_color.title=Βασικό Χρώμα
+spiderman.base_color.desc=Αλλάξτε το βασικό χρώμα του κοστουμιού σας.
+spiderman.secondary_color.title=Δευτερεύον χρώμα
+spiderman.secondary_color.desc=Αλλάξτε το δευτερεύον χρώμα του κοστουμιού σας.
+spiderman.pattern_color.title=Μοτίβο Χρώμα
+spiderman.pattern_color.desc=Αλλάξτε το χρώμα του σχεδίου του κοστουμιού σας.
+spiderman.pattern_type.title=Τύπος Σχεδίου
+spiderman.pattern_type.desc=Αλλάξτε τον τύπο σχεδίου του κοστουμιού σας.
+spiderman.eye_type.title=Τύπος Ματιού
+spiderman.eye_type.desc=Αλλάξτε τον τύπο ματιού της στολής σας.
+
+spiderman.pattern.none=Χωρίς μοτίβο
+spiderman.pattern.none.desc=Καταργήστε τα μοτίβα.
+spiderman.pattern.iron_spider=Τεχνολογικός
+spiderman.pattern.iron_spider.desc=Για τον ήρωα που είναι εξοικειωμένος με την τεχνολογία.
+spiderman.pattern.classic=Κλασικό
+spiderman.pattern.classic.desc=Με μεγάλη δύναμη...
+spiderman.pattern.tapered=Κωνικός
+spiderman.pattern.tapered.desc=Για μια πιο σύγχρονη εμφάνιση.
+spiderman.pattern.minimal=Ελάχιστος
+spiderman.pattern.minimal.desc=Απλό και καθαρό.
+
+spiderman.eye.none=Αφαίρεση μάσκας
+spiderman.eye.none.desc=Δείξε το πρόσωπό σου.
+spiderman.eye.classic=Κλασσικό
+spiderman.eye.classic.desc=Τα κλασικά λευκά μάτια.
+spiderman.eye.teardrop=Δάκρυ
+spiderman.eye.teardrop.desc=Τα μάτια σαν δάκρυ.
+spiderman.eye.sharp=Sharp
+spiderman.eye.sharp.desc=Τα κοφτερά μάτια.
+spiderman.eye.true_spider=Αληθινή Αράχνη
+spiderman.eye.true_spider.desc=Τα αληθινά μάτια της αράχνης.
+
+spiderman.suit.upgrade.title=Αναβάθμιση Εκτοξευτή Ιστού
+spiderman.suit.upgrade.desc=Επιλέξτε μία από τις παρακάτω αναβαθμίσεις.
+spiderman.suit.speed.title=Ταχύτητα
+spiderman.suit.speed.desc=Ταχύτητα δικτύου 1,5 φορές.
+spiderman.suit.strength.title=Δύναμη
+spiderman.suit.strength.desc=1,5 φορές ζημιά στο web.
+spiderman.suit.range.title=Σειρά
+spiderman.suit.range.desc=2x εύρος ιστού.
+spiderman.suit.capacity.title=Χωρητικότητα
+spiderman.suit.capacity.desc=1,5x χωρητικότητα web υγρού.
+spiderman.suit.refill.title=Αναπλήρωση
+spiderman.suit.refill.desc=Ρυθμός αναπλήρωσης 1,75x.

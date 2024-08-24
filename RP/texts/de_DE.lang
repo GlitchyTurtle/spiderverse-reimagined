@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Spinnennetz
+
+## Move Names
+spiderman.move.none=Leer
+spiderman.move.swing=Schaukel
+spiderman.move.grapple=Ringen
+spiderman.move.web_shot=Webaufnahme
+spiderman.move.enable_suit=Anzug aktivieren
+spiderman.move.disable_suit=Anzug deaktivieren
+spiderman.move.customize_suit=Anzug anpassen
+
+## Tutorial
+tutorial.main.continue=Fortsetzen
+tutorial.main.1=Willkommen im Spider-Verse!
+tutorial.main.2=Jeder deiner verschiedenen Hotbar-Slots repräsentiert einen Zug.
+tutorial.main.3=Um die Bewegung zu aktivieren (auszuführen), springe in der Luft mit deinem ausgewählten Slot.
+tutorial.main.4=Es wird ein Namensetikett an der Seite Ihrer Hotbar geben, das Ihnen anzeigt, was dieser Slot macht.
+tutorial.main.5=Für jeden Slot kannst du dich auch ducken, um seine geladene Aktivierung zu nutzen.
+tutorial.main.6=Indem Sie in Ihrem 9. Slot schleichen, können Sie Ihren Anzug aktivieren!
+tutorial.main.7=Wenn dein Anzug aktiv ist, kannst du zu anderen Slots wechseln, um zu sehen, was sie tun.
+tutorial.main.8=Zum Beispiel ist der 8. Slot ein Anzug-Anpassungsmenü!
+tutorial.main.9=Indem du neben einer Wand springst, kannst du einen Wandsprung machen.
+tutorial.main.10=Du bekommst 3 davon für jede Wand, aber kannst dies zurücksetzen, indem du hin und her springst.
+tutorial.main.11=Der Kampf in diesem Addon ist sehr dynamisch.
+tutorial.main.12=Es gibt über 25 einzigartige Spezialkombinationen und zahlreiche weitere mögliche Kombos.
+tutorial.main.13=Du kannst mehr darüber auf MCPEDL/Discord erfahren oder einfach experimentieren.
+tutorial.main.14=Wenn du schwingst, ziele in die entgegengesetzte Richtung der Wand, an der du entlangschwingst.
+tutorial.main.15=Dies wird Sie davon abhalten, gegen die Wand zu stoßen, und macht das Schwingen viel einfacher.
+tutorial.main.16=Es gibt definitiv eine Lernkurve, aber sobald man es verstanden hat, macht es so viel Spaß!
+tutorial.main.17=Viel Glück da draußen!
+
+## Status Messages
+spiderman.warning.no_armor=Du kannst keine Rüstung tragen, wenn der Anzug aktiviert ist!
+spiderman.warning.no_armor_repeated=Versuche nicht, das System zu betrügen! Anzug wird deaktiviert...
+spiderman.warning.aim_at_block=Du musst auf einen Block oder ein Objekt innerhalb von 128 Blöcken zielen!
+spiderman.warning.aim_at_block_boost=Du musst auf einen Block oder ein Objekt innerhalb von 256 Blöcken zielen!
+spiderman.bounds.enter=Du bist wieder im Spielfeld!
+spiderman.bounds.exit=Du bist außerhalb der Grenzen! Aufgrund von Begrenzungen durch Mojang sind einige Funktionen hier oben/unten deaktiviert.
+spiderman.block.perfect=Perfekter Block!
+spiderman.block.good=Guter Block!
+
+## Suit Customization
+spiderman.suit.prefix=Anzug:
+spiderman.suit.back=Zurück
+spiderman.suit.back.desc=Zurück zum Hauptmenü.
+spiderman.color.custom=Benutzerdefinierte Farbe
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Grün
+spiderman.color.custom.blue=Blau
+spiderman.color.custom.alpha=Transparenz
+
+spiderman.suit.web_color.title=Webfarbe
+spiderman.suit.web_color.desc=Ändere die Farbe deiner Netze.
+
+spiderman.suit.reset=Zurücksetzen
+spiderman.suit.customize=Anpassen
+spiderman.suit.upgrade=Upgrade
+spiderman.suit.web_color=Webfarbe
+
+spiderman.color.black=Schwarz
+spiderman.color.brown=Braun
+spiderman.color.red=Red
+spiderman.color.orange=Orange
+spiderman.color.yellow=Gelb
+spiderman.color.lime=Limette
+spiderman.color.green=Grün
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=Hellblau
+spiderman.color.blue=Blue
+spiderman.color.purple=Lila
+spiderman.color.magenta=Magenta
+spiderman.color.pink=Rosa
+spiderman.color.gray=Grau
+spiderman.color.white=Weiß
+
+spiderman.color.black.desc=Die Farbe der Nacht.
+spiderman.color.brown.desc=Die Farbe der Erde.
+spiderman.color.red.desc=Die Farbe des Feuers.
+spiderman.color.orange.desc=Die Farbe der Sonne.
+spiderman.color.yellow.desc=Die Farbe von Gold.
+spiderman.color.lime.desc=Die Farbe des Lebens.
+spiderman.color.green.desc=Die Farbe der Natur.
+spiderman.color.cyan.desc=Die Farbe des Meeres.
+spiderman.color.light_blue.desc=Die Farbe des Himmels.
+spiderman.color.blue.desc=Die Farbe des Ozeans.
+spiderman.color.purple.desc=Die Farbe des Königshauses.
+spiderman.color.magenta.desc=Die Farbe der Magie.
+spiderman.color.pink.desc=Die Farbe der Liebe.
+spiderman.color.gray.desc=Die Farbe des Steins.
+spiderman.color.white.desc=Die Farbe der Reinheit.
+
+spiderman.shooter.title=Netzschießer
+spiderman.shooter.desc=Konfigurieren Sie Ihren Web-Shooter.
+spiderman.shooter.organic=Organischer Netzwerfer
+spiderman.shooter.organic.desc=Regeneriert den Netzwirbel im Laufe der Zeit.
+spiderman.shooter.mechanical=Mechanischer Netzwerschießer
+spiderman.shooter.mechanical.desc=Füllt Netzflüssigkeit auf einmal nach.
+
+spiderman.modifier.title=Web-Modifier
+spiderman.modifier.desc=Fügen Sie Ihren Netzen einen Effekt hinzu.
+spiderman.modifier.electric=Elektrisch
+spiderman.modifier.electric.desc=Betäubt Feinde.
+spiderman.modifier.poison=Gift
+spiderman.modifier.poison.desc=Vergiftet Feinde.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Verlangsamt Gegner.
+spiderman.modifier.fire=Feuer
+spiderman.modifier.fire.desc=Setzt Feinde in Brand.
+spiderman.modifier.sniper=Scharfschütze
+spiderman.modifier.sniper.desc=Nahezu unendliche Reichweite.
+
+spiderman.base_color.title=Grundfarbe
+spiderman.base_color.desc=Ändern Sie die Grundfarbe Ihres Anzugs.
+spiderman.secondary_color.title=Sekundärfarbe
+spiderman.secondary_color.desc=Ändere die Sekundärfarbe deines Anzugs.
+spiderman.pattern_color.title=Musterfarbe
+spiderman.pattern_color.desc=Ändern Sie die Musterfarbe Ihres Anzugs.
+spiderman.pattern_type.title=Musterart
+spiderman.pattern_type.desc=Ändern Sie das Muster Ihres Anzugs.
+spiderman.eye_type.title=Augentyp
+spiderman.eye_type.desc=Ändern Sie den Augentyp Ihres Anzugs.
+
+spiderman.pattern.none=Kein Muster
+spiderman.pattern.none.desc=Entferne die Muster.
+spiderman.pattern.iron_spider=Technologisch
+spiderman.pattern.iron_spider.desc=Für den technikbegeisterten Helden.
+spiderman.pattern.classic=Klassiker
+spiderman.pattern.classic.desc=Mit großer Macht...
+spiderman.pattern.tapered=Zugespitzt
+spiderman.pattern.tapered.desc=Für einen moderneren Look.
+spiderman.pattern.minimal=Minimal
+spiderman.pattern.minimal.desc=Einfach und sauber.
+
+spiderman.eye.none=Maske ab
+spiderman.eye.none.desc=Zeig dein Gesicht.
+spiderman.eye.classic=Klassiker
+spiderman.eye.classic.desc=Die klassischen weißen Augen.
+spiderman.eye.teardrop=Träne
+spiderman.eye.teardrop.desc=Die Tränenaugen.
+spiderman.eye.sharp=Scharf
+spiderman.eye.sharp.desc=Die scharfen Augen.
+spiderman.eye.true_spider=Echte Spinne
+spiderman.eye.true_spider.desc=Die wahren Spinnenaugen.
+
+spiderman.suit.upgrade.title=Web Shooter Aufrüstung
+spiderman.suit.upgrade.desc=Wählen Sie eine der folgenden Upgrades aus.
+spiderman.suit.speed.title=Geschwindigkeit
+spiderman.suit.speed.desc=1,5-fache Webgeschwindigkeit.
+spiderman.suit.strength.title=Stärke
+spiderman.suit.strength.desc=1,5x Web-Schaden.
+spiderman.suit.range.title=Reichweite
+spiderman.suit.range.desc=2x Web-Reichweite.
+spiderman.suit.capacity.title=Kapazität
+spiderman.suit.capacity.desc=1,5-fache Webflüssigkeitskapazität.
+spiderman.suit.refill.title=Nachfüllen
+spiderman.suit.refill.desc=Nachfüllrate von 1,75x.

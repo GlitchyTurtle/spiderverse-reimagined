@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Spinnenweb
+
+## Move Names
+spiderman.move.none=Leeg
+spiderman.move.swing=Schommelen
+spiderman.move.grapple=Verstikken
+spiderman.move.web_shot=Webopname
+spiderman.move.enable_suit=Pak inschakelen
+spiderman.move.disable_suit=Pak uitschakelen
+spiderman.move.customize_suit=Maatpak op maat
+
+## Tutorial
+tutorial.main.continue=Continue
+tutorial.main.1=Welkom in het spinnenversum!
+tutorial.main.2=Elke van je verschillende hotbar-slots vertegenwoordigt een zet.
+tutorial.main.3=Om de beweging te activeren (uitvoeren), spring terwijl je in de lucht bent met je geselecteerde slot.
+tutorial.main.4=Er zal een naamlabel aan de zijkant van je hotbar zijn dat je vertelt wat die sleuf doet.
+tutorial.main.5=Voor elke sleuf kun je ook hurken om zijn geladen activatie te gebruiken.
+tutorial.main.6=Door je sneak in je 9e sleuf vast te houden, kun je je pak activeren!
+tutorial.main.7=Wanneer je pak actief is, kun je naar andere slots overschakelen om te zien wat ze doen.
+tutorial.main.8=Bijvoorbeeld, de 8e plek is een menu voor het aanpassen van pakken!
+tutorial.main.9=Door te springen terwijl je naast een muur bent, kun je een muurvlak maken.
+tutorial.main.10=Je krijgt er 3 van voor elke muur, maar je kunt dit resetten door heen en weer te springen.
+tutorial.main.11=De gevechten in deze uitbreiding zijn zeer dynamisch.
+tutorial.main.12=Er zijn meer dan 25 unieke speciale combinaties, met nog tal van extra mogelijke combinaties.
+tutorial.main.13=Je kunt hier meer over te weten komen op MCPEDL/Discord, of gewoon door te experimenteren.
+tutorial.main.14=Wanneer je rondzwaait, richt de andere kant op dan de muur waar je langs zwaait.
+tutorial.main.15=Dit zal je wegleiden van het tegen de muur botsen en maakt zwaaien veel gemakkelijker.
+tutorial.main.16=Er is zeker een leercurve, maar zodra je het te pakken hebt, is het erg leuk!
+tutorial.main.17=Veel succes daarbuiten!
+
+## Status Messages
+spiderman.warning.no_armor=Je kunt geen harnas dragen met het pak ingeschakeld!
+spiderman.warning.no_armor_repeated=Probeer het systeem niet te misleiden! Het uitschakelen van het pak...
+spiderman.warning.aim_at_block=Je moet richten op een blok of entiteit binnen 128 blokken!
+spiderman.warning.aim_at_block_boost=Je moet richten op een blok of entiteit binnen 256 blokken!
+spiderman.bounds.enter=Je bent weer binnen de lijnen!
+spiderman.bounds.exit=Je bevindt je buiten de grenzen! Door beperkingen opgelegd door Mojang zijn sommige functies hier uitgeschakeld.
+spiderman.block.perfect=Perfecte blokkering!
+spiderman.block.good=Goed geblokkeerd!
+
+## Suit Customization
+spiderman.suit.prefix=Pak:
+spiderman.suit.back=Terug
+spiderman.suit.back.desc=Terug naar hoofdmenu.
+spiderman.color.custom=Aangepaste kleur
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Groen
+spiderman.color.custom.blue=Blauw
+spiderman.color.custom.alpha=Transparantie
+
+spiderman.suit.web_color.title=Webkleuren
+spiderman.suit.web_color.desc=Verander de kleur van je webben.
+
+spiderman.suit.reset=Reset
+spiderman.suit.customize=Aanpassen
+spiderman.suit.upgrade=Upgraden
+spiderman.suit.web_color=Webkleuren
+
+spiderman.color.black=Zwart
+spiderman.color.brown=Bruin
+spiderman.color.red=Red
+spiderman.color.orange=Oranje
+spiderman.color.yellow=Geel
+spiderman.color.lime=Lime
+spiderman.color.green=Groen
+spiderman.color.cyan=Cyaan
+spiderman.color.light_blue=Lichtblauw
+spiderman.color.blue=Blauw
+spiderman.color.purple=Paars
+spiderman.color.magenta=Magenta
+spiderman.color.pink=Roze
+spiderman.color.gray=Grijs
+spiderman.color.white=Wit
+
+spiderman.color.black.desc=De kleur van de nacht.
+spiderman.color.brown.desc=De kleur van de aarde.
+spiderman.color.red.desc=De kleur van vuur.
+spiderman.color.orange.desc=De kleur van de zon.
+spiderman.color.yellow.desc=De kleur van goud.
+spiderman.color.lime.desc=De kleur van het leven.
+spiderman.color.green.desc=De kleur van de natuur.
+spiderman.color.cyan.desc=De kleur van de zee.
+spiderman.color.light_blue.desc=De kleur van de lucht.
+spiderman.color.blue.desc=De kleur van de oceaan.
+spiderman.color.purple.desc=De kleur van koningschap.
+spiderman.color.magenta.desc=De kleur van de magie.
+spiderman.color.pink.desc=De kleur van liefde.
+spiderman.color.gray.desc=De kleur van steen.
+spiderman.color.white.desc=De kleur van zuiverheid.
+
+spiderman.shooter.title=Webschieter
+spiderman.shooter.desc=Configureer je webshooter.
+spiderman.shooter.organic=Organische webschieter
+spiderman.shooter.organic.desc=Regenereren webvloeistof na verloop van tijd.
+spiderman.shooter.mechanical=Mechanische webbenschieter
+spiderman.shooter.mechanical.desc=Vult het webvloeistof in één keer bij.
+
+spiderman.modifier.title=Web Bewerker
+spiderman.modifier.desc=Voeg een effect toe aan je webpagina's.
+spiderman.modifier.electric=Elektrisch
+spiderman.modifier.electric.desc=Verdooft vijanden.
+spiderman.modifier.poison=Vergif
+spiderman.modifier.poison.desc=Vergiftigt vijanden.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Vertraagt vijanden.
+spiderman.modifier.fire=Vuur
+spiderman.modifier.fire.desc=Steekt vijanden in brand.
+spiderman.modifier.sniper=Sluipschutter
+spiderman.modifier.sniper.desc=Bijna oneindig bereik.
+
+spiderman.base_color.title=Basiskleur
+spiderman.base_color.desc=Verander de basiskleur van je pak.
+spiderman.secondary_color.title=Secundaire kleur
+spiderman.secondary_color.desc=Verander de secundaire kleur van je pak.
+spiderman.pattern_color.title=Patroonkleur
+spiderman.pattern_color.desc=Verander de patroon kleur van uw pak.
+spiderman.pattern_type.title=Patroontype
+spiderman.pattern_type.desc=Verander het patroon van je pak.
+spiderman.eye_type.title=Oogtype
+spiderman.eye_type.desc=Verander het type ogen van je pak.
+
+spiderman.pattern.none=Geen patroon
+spiderman.pattern.none.desc=Verwijder de patronen.
+spiderman.pattern.iron_spider=Technologisch
+spiderman.pattern.iron_spider.desc=Voor de technisch onderlegde held.
+spiderman.pattern.classic=Klassiek
+spiderman.pattern.classic.desc=Met grote macht...
+spiderman.pattern.tapered=Afgeplat
+spiderman.pattern.tapered.desc=Voor een modernere uitstraling.
+spiderman.pattern.minimal=Minimaal
+spiderman.pattern.minimal.desc=Eenvoudig en schoon.
+
+spiderman.eye.none=Masker Af
+spiderman.eye.none.desc=Laat je gezicht zien.
+spiderman.eye.classic=Klassiek
+spiderman.eye.classic.desc=De klassieke witte ogen.
+spiderman.eye.teardrop=Tranen
+spiderman.eye.teardrop.desc=De tranenogen.
+spiderman.eye.sharp=Scherp
+spiderman.eye.sharp.desc=De scherpe ogen.
+spiderman.eye.true_spider=Echte spin
+spiderman.eye.true_spider.desc=De echte spinnenogen.
+
+spiderman.suit.upgrade.title=Web Shooter Upgrade
+spiderman.suit.upgrade.desc=Kies een van de volgende upgrades.
+spiderman.suit.speed.title=Snelheid
+spiderman.suit.speed.desc=1,5x websnelheid.
+spiderman.suit.strength.title=Kracht
+spiderman.suit.strength.desc=1,5x webschade.
+spiderman.suit.range.title=Bereik
+spiderman.suit.range.desc=2x webreeks.
+spiderman.suit.capacity.title=Capaciteit
+spiderman.suit.capacity.desc=1,5x web fluïde capaciteit.
+spiderman.suit.refill.title=Navullen
+spiderman.suit.refill.desc=1,75x navulsnelheid.

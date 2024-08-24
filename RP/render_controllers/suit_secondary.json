@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.secondary": {
+			"arrays": {
+				"textures": {
+                    "Array.secondary": [
+						"Texture.secondary_1",
+						"Texture.secondary_1",
+						"Texture.secondary_2",
+						"Texture.secondary_3"
+                    ]
+				}
+			},
+			"geometry": "Geometry.secondary",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+                "Array.secondary[query.property('suit:secondary_layer')]"
+			],
+            "part_visibility": [
+                {
+                    "*": "query.property('suit:secondary_layer') > 0"
+                }
+            ],
+			"overlay_color" : {
+				"r": "query.property('suit:secondary_layer_red')",
+				"g": "query.property('suit:secondary_layer_green')",
+				"b": "query.property('suit:secondary_layer_blue')",
+				"a": "query.property('suit:secondary_layer_alpha')"
+			}
+		}
+	}
+}

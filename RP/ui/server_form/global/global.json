@@ -1,0 +1,145 @@
+{
+   "namespace": "global",
+
+   "title_background": {
+      "type": "image",
+      //------------- Variables -------------\\
+      "$texture|default": "textures/forms/ore/title",
+      "$size|default": [ "100%", "100%c + 7px" ],
+      "$offset|default": [ 0, 0 ],
+      //------------- Variables -------------\\
+      "texture": "$texture",
+      "size": "$size",
+      "offset": "$offset"
+   },
+
+   "title": {
+      "type": "label",
+      //------------- Variables -------------\\
+      "$text|default": "#text",
+      "$font_scale_factor|default": 1.5,
+      "$color|default": "white",
+      "$shadow|default": true,
+      "$offset|default": [ 0, 1.5 ],
+      "$size|default": [ "100%", "default" ],
+      "$font_type|default": "MinecraftTen",
+      "$anchor_from|default": "center",
+      "$anchor_to|default": "center",
+      "$text_alignment|default": "center",
+      //------------- Variables -------------\\
+      "text": "$text",
+      "font_scale_factor": "$font_scale_factor",
+      "color": "$color",
+      "shadow": "$shadow",
+      "offset": "$offset",
+      "size": "$size",
+      "font_type": "$font_type",
+      "anchor_from": "$anchor_from",
+      "anchor_to": "$anchor_to",
+      "text_alignment": "$text_alignment",
+      "bindings": [
+         {
+            "binding_type": "global",
+            "binding_condition": "none",
+            "binding_name": "#title_text",
+            "binding_name_override": "#text"
+         }
+      ]
+   },
+
+   "background": {
+      "type": "image",
+      //------------- Variables -------------\\
+      "$texture|default": "textures/forms/ore/background",
+      "$background_size|default": [ "100%", "100%c + 10px" ],
+      "$offset|default": [ 0, 0 ],
+      //------------- Variables -------------\\
+      "texture": "$texture",
+      "size": "$background_size",
+      "offset": "$offset"
+   },
+
+   "body_panel": {
+      "type": "stack_panel",
+      //------------- Variables -------------\\
+      "$size|default": [ "100%", "100%c" ],
+      "$use_child_anchors|default": false,
+      "$padding_size|default": [ 0, 0 ],
+      //------------- Variables -------------\\
+
+      //-------- Background Variables --------\\
+      "$body_texture|default": "textures/forms/ore/body",
+      "$texture_size|default": [ "100%", "100%c + 4px" ],
+      "$offset|default": [ 0, 0 ],
+      "$alpha|default": 1,
+      //-------- Background Variables --------\\
+
+      //---------- Label Variables ----------\\
+      "$text|default": "#form_text",
+      "$shadow|default": false,
+      "$text_alignment|default": "center",
+      "$text_offset|default": [ 0, 0.5 ],
+      "$font_scale_factor|default": 1,
+      "$font_type|default": "MinecraftSeven",
+      "$label_size|default": [ "100% - 5px", "default" ],
+      "$text_color|default": "white",
+      //---------- Label Variables ----------\\
+      "size": "$size",
+      "use_child_anchors": "$use_child_anchors",
+      "controls": [
+         {
+            "image_1": {
+               "type": "image",
+               "texture": "$body_texture",
+               "size": "$texture_size",
+               "offset": "$offset",
+               "alpha": "$alpha",
+               "controls": [
+                  {
+                     "@global.form_body_text": { }
+                  }
+               ]
+            }
+         },
+         {
+            "@global.padding": {
+               "$size": "$padding_size"
+            }
+         }
+      ],
+      "bindings": [
+         {
+            "binding_type": "view",
+            "source_property_name": "(not (#form_text = ''))",
+            "target_property_name": "#visible"
+         }
+      ]
+   },
+
+   "form_body_text": {
+      "type": "label",
+      "layer": 11,
+      "text": "$text",
+      "shadow": "$shadow",
+      "offset": "$text_offset",
+      "text_alignment": "$text_alignment",
+      "font_scale_factor": "$font_scale_factor",
+      "font_type": "$font_type",
+      "size": "$label_size",
+      "color": "$text_color"
+   },
+
+   "padding": {
+      "type": "panel",
+      "size": "$size"
+   },
+
+   "player_doll": {
+      "type": "custom",
+      "renderer": "live_player_renderer",
+      "property_bag": {
+         "#look_at_cursor": true
+      },
+      "layer": 8
+   }
+}

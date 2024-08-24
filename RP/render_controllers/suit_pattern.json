@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.pattern": {
+			"arrays": {
+				"textures": {
+                    "Array.pattern": [
+						"Texture.pattern_1",
+						"Texture.pattern_1",
+						"Texture.pattern_2",
+						"Texture.pattern_3",
+						"Texture.pattern_4"
+                    ]
+				}
+			},
+			"geometry": "Geometry.pattern",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+                "Array.pattern[query.property('suit:pattern_layer')]"
+			],
+            "part_visibility": [
+                {
+                    "*": "query.property('suit:pattern_layer') > 0"
+                }
+            ],
+			"overlay_color" : {
+				"r": "query.property('suit:pattern_layer_red')",
+				"g": "query.property('suit:pattern_layer_green')",
+				"b": "query.property('suit:pattern_layer_blue')",
+				"a": "query.property('suit:pattern_layer_alpha')"
+			}
+		}
+	}
+}

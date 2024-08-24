@@ -1,0 +1,157 @@
+## Entities
+action.hint.exit.g:swing=Spindelväv
+
+## Move Names
+spiderman.move.none=Tom
+spiderman.move.swing=Gunga
+spiderman.move.grapple=Brottas eller gräla
+spiderman.move.web_shot=Webskott
+spiderman.move.enable_suit=Aktivera dräkt
+spiderman.move.disable_suit=Inaktivera kostym
+spiderman.move.customize_suit=Skräddarsy Kostym
+
+## Tutorial
+tutorial.main.continue=fortsätt
+tutorial.main.1=Välkommen till spindelversen!
+tutorial.main.2=Varje plats i din verktygsrad representerar en rörelse.
+tutorial.main.3=För att aktivera (göra) draget, hoppa medan du är i luften med ditt valda kort.
+tutorial.main.4=Det kommer att finnas en namnetikett på sidan av din snabbvalsfält som talar om vad den platsen gör.
+tutorial.main.5=För varje plats kan du också ducka för att använda dess laddade aktivering.
+tutorial.main.6=Genom att hålla smyg i din 9:e plats kan du aktivera din dräkt!
+tutorial.main.7=När din dräkt är aktiv kan du byta till andra platser för att se vad de gör.
+tutorial.main.8=Till exempel, den åttonde platsen är en kostymanpassningsmeny!
+tutorial.main.9=Genom att hoppa när du är bredvid en vägg kan du göra ett väggsprång.
+tutorial.main.10=Du får 3 av dessa för varje vägg, men kan återställa detta genom att hoppa fram och tillbaka.
+tutorial.main.11=Striderna i denna addon är mycket dynamiska.
+tutorial.main.12=Det finns över 25 unika specialkombinationer, med mängder av ytterligare möjliga kombinationer.
+tutorial.main.13=Du kan lära dig mer om dessa på MCPEDL/discord, eller bara genom att experimentera.
+tutorial.main.14=När du svingar omkring, sikta motsatt riktning mot väggen du svingar längs med.
+tutorial.main.15=Detta kommer att styra dig bort från att slå i väggen och gör att svinga blir mycket lättare.
+tutorial.main.16=Det finns absolut en inlärningskurva, men när du väl får kläm på det är det så roligt!
+tutorial.main.17=Lycka till där ute!
+
+## Status Messages
+spiderman.warning.no_armor=Du kan inte bära rustning med dräkten aktiverad!
+spiderman.warning.no_armor_repeated=Försök inte lura systemet! Deaktiverar dräkten...
+spiderman.warning.aim_at_block=Du måste sikta på ett block eller en enhet inom 128 block!
+spiderman.warning.aim_at_block_boost=Du måste sikta på ett block eller en enhet inom 256 block!
+spiderman.bounds.enter=Du är tillbaka inom linjerna!
+spiderman.bounds.exit=Du är utanför gränserna! På grund av begränsningar som införts av Mojang är vissa funktioner inaktiverade här nere/här uppe.
+spiderman.block.perfect=Perfekt blockering!
+spiderman.block.good=Bra blockering!
+
+## Suit Customization
+spiderman.suit.prefix=Kostym:
+spiderman.suit.back=Tillbaka
+spiderman.suit.back.desc=Återgå till huvudmenyn.
+spiderman.color.custom=Anpassad färg
+spiderman.color.custom.red=Red
+spiderman.color.custom.green=Grön
+spiderman.color.custom.blue=Blå
+spiderman.color.custom.alpha=Transparens
+
+spiderman.suit.web_color.title=Webbfärg
+spiderman.suit.web_color.desc=Byt färg på dina nät.
+
+spiderman.suit.reset=Återställ
+spiderman.suit.customize=Anpassa
+spiderman.suit.upgrade=Uppgradera
+spiderman.suit.web_color=Webbfärg
+
+spiderman.color.black=Svart
+spiderman.color.brown=Brun
+spiderman.color.red=Red
+spiderman.color.orange=Apelsin
+spiderman.color.yellow=Gul
+spiderman.color.lime=Lime
+spiderman.color.green=Grön
+spiderman.color.cyan=Cyan
+spiderman.color.light_blue=Ljusblå
+spiderman.color.blue=Blå
+spiderman.color.purple=Lila
+spiderman.color.magenta=Magenta
+spiderman.color.pink=Rosa
+spiderman.color.gray=Grå
+spiderman.color.white=Vit
+
+spiderman.color.black.desc=Nattens färg.
+spiderman.color.brown.desc=Jordens färg.
+spiderman.color.red.desc=Eldens färg.
+spiderman.color.orange.desc=Solen färg.
+spiderman.color.yellow.desc=Guldfärgen.
+spiderman.color.lime.desc=Livets färg.
+spiderman.color.green.desc=Naturens färg.
+spiderman.color.cyan.desc=Havets färg.
+spiderman.color.light_blue.desc=Färgen på himlen.
+spiderman.color.blue.desc=Havets färg.
+spiderman.color.purple.desc=Kungligt blå.
+spiderman.color.magenta.desc=Magins färg.
+spiderman.color.pink.desc=Kärlekens färg.
+spiderman.color.gray.desc=Stenens färg.
+spiderman.color.white.desc=Färgen av renhet.
+
+spiderman.shooter.title=Nätkastare
+spiderman.shooter.desc=Konfigurera din webslingare.
+spiderman.shooter.organic=Organisk nätskjutare
+spiderman.shooter.organic.desc=Återskapar vätska över tid.
+spiderman.shooter.mechanical=Mekanisk nätskjutare
+spiderman.shooter.mechanical.desc=Fyller på webbvätska på en gång.
+
+spiderman.modifier.title=Webbmodifierare
+spiderman.modifier.desc=Lägg till en effekt till dina webbsidor.
+spiderman.modifier.electric=Elektrisk
+spiderman.modifier.electric.desc=Bedövar fiender.
+spiderman.modifier.poison=Gift
+spiderman.modifier.poison.desc=Förgiftar fiender.
+spiderman.modifier.ice=Ice
+spiderman.modifier.ice.desc=Saktar ner fiender.
+spiderman.modifier.fire=Eld
+spiderman.modifier.fire.desc=Sätter fiender i brand.
+spiderman.modifier.sniper=Krypskytt
+spiderman.modifier.sniper.desc=Nästan oändlig räckvidd.
+
+spiderman.base_color.title=Basfärg
+spiderman.base_color.desc=Ändra basfärgen på din kostym.
+spiderman.secondary_color.title=Sekundärfärg
+spiderman.secondary_color.desc=Ändra kostymens sekundära färg.
+spiderman.pattern_color.title=Färgmönster
+spiderman.pattern_color.desc=Ändra färgmönstret på din kostym.
+spiderman.pattern_type.title=Mönstertyp
+spiderman.pattern_type.desc=Ändra mönstertypen på din kostym.
+spiderman.eye_type.title=Ögontyp
+spiderman.eye_type.desc=Ändra ögontypen på din dräkt.
+
+spiderman.pattern.none=Inget mönster
+spiderman.pattern.none.desc=Ta bort mönstren.
+spiderman.pattern.iron_spider=Teknologisk
+spiderman.pattern.iron_spider.desc=För den teknikintresserade hjälten.
+spiderman.pattern.classic=Klassisk
+spiderman.pattern.classic.desc=Med stor makt...
+spiderman.pattern.tapered=Avsmalnande
+spiderman.pattern.tapered.desc=För en mer modern look.
+spiderman.pattern.minimal=Minimal
+spiderman.pattern.minimal.desc=Enkelt och rent.
+
+spiderman.eye.none=Ta av masken
+spiderman.eye.none.desc=Visa ditt ansikte.
+spiderman.eye.classic=Klassisk
+spiderman.eye.classic.desc=De klassiska vita ögonen.
+spiderman.eye.teardrop=Tårdroppe
+spiderman.eye.teardrop.desc=Tårformade ögon.
+spiderman.eye.sharp=Skarp
+spiderman.eye.sharp.desc=De skarpa ögonen.
+spiderman.eye.true_spider=Äkta spindel
+spiderman.eye.true_spider.desc=De sanna spindelögonen.
+
+spiderman.suit.upgrade.title=Webbsvingaruppgradering
+spiderman.suit.upgrade.desc=Välj en av följande uppgraderingar.
+spiderman.suit.speed.title=Hastighet
+spiderman.suit.speed.desc=1,5x webbhastighet.
+spiderman.suit.strength.title=Styrka
+spiderman.suit.strength.desc=1,5 gånger skada mot webben.
+spiderman.suit.range.title=Räckvidd
+spiderman.suit.range.desc=2x webbintervall.
+spiderman.suit.capacity.title=Kapacitet
+spiderman.suit.capacity.desc=1,5x webvätskekapacitet.
+spiderman.suit.refill.title=Påfyllning
+spiderman.suit.refill.desc=1,75x påfyllningshastighet.
