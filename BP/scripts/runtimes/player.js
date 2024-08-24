@@ -180,7 +180,7 @@ export const playerRuntime = (player, PLAYER_DATA) => {
     }
 
     // Since we can't access blocks in out of bounds areas, we can't run the addon there
-    const isInBounds = player.location.y < 250 && player.location.y > -60;
+    const isInBounds = player.location.y < 250 && player.location.y > -64;
 
     if (!isInBounds && PLAYER_DATA.wasInBounds) player.sendMessage([{ text: "§c"}, { translate: "spiderman.bounds.exit" }]);
     if (isInBounds && !PLAYER_DATA.wasInBounds && PLAYER_DATA.wasInBounds != undefined) player.sendMessage([{ text: "§a"}, { translate: "spiderman.bounds.enter" }]);
