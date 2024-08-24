@@ -217,21 +217,44 @@ export function magnitude(vector) {
  * @returns {Vector3[]} An array of Vector3 positions for the particles.
  */
 export const traceLine = (player, pStart, pEnd, numOfPoints, particle) => {
-    let customMap = map;
+    try {
+        let customMap = map;
+        if (player instanceof Player) {
+            customMap = PLAYER_DATA_MAP[player.id].particleMap;
+        }
+    
+        const point1 = pStart;
+        const point2 = pEnd;
+        const distance = calculateDistance(point1, point2);
+        const vectorDir = { x: point1.x - point2.x, y: point1.y - point2.y, z: point1.z - point2.z };
+    
+        const midPoint = { x: (point1.x + point2.x) / 2, y: (point1.y + point2.y) / 2, z: (point1.z + point2.z) / 2 };
+    
+        customMap.setVector3("variable.direction", vectorDir);
+        customMap.setFloat("variable.length", distance/2);
+        player.dimension.spawnParticle("a:web_line", midPoint, customMap);
+    } catch (error) {};
+}
+
+
+export const oldTraceLine = (player, pStart, pEnd, numOfPoints, particle) => {
+    let map2 = map;
     if (player instanceof Player) {
-        customMap = PLAYER_DATA_MAP[player.id].particleMap;
+        map2 = PLAYER_DATA_MAP[player.id].particleMap;
     }
 
-    const point1 = pStart;
-    const point2 = pEnd;
-    const distance = calculateDistance(point1, point2);
-    const vectorDir = { x: point1.x - point2.x, y: point1.y - point2.y, z: point1.z - point2.z };
+    for (let i = 1; i <= numOfPoints; i++) {
+        const position = {x: ((pStart.x - pEnd.x) / numOfPoints) * i + pEnd.x, y: ((pStart.y - pEnd.y) / numOfPoints) * i + pEnd.y, z: ((pStart.z - pEnd.z) / numOfPoints) * i + pEnd.z};
+        if (particle === false) {
+            points.push(position);
+        } else {
+            try { player.dimension.spawnParticle(particle, position, map2) } catch (error) {};
+        }
+    }
 
-    const midPoint = { x: (point1.x + point2.x) / 2, y: (point1.y + point2.y) / 2, z: (point1.z + point2.z) / 2 };
+    if (particle) return;
 
-    customMap.setVector3("variable.direction", vectorDir);
-    customMap.setFloat("variable.length", distance/2);
-    player.dimension.spawnParticle("a:web_line", midPoint, customMap);
+    return points;
 }
 
 
@@ -371,8 +394,8 @@ export const spawnTrail = (entity, time) => {
         if (!entity.isValid()) return system.clearRun(sched_ID);
 
         const playerPos = entity.location;
-        traceLine(entity, lastEntityPos, playerPos, 5, "a:air_flutter")
-        traceLine(entity, lastEntityPos, playerPos, 25, "a:air_blast_tiny")
+        oldTraceLine(entity, lastEntityPos, playerPos, 5, "a:air_flutter")
+        oldTraceLine(entity, lastEntityPos, playerPos, 25, "a:air_blast_tiny")
         lastEntityPos = playerPos;
     }, 1);
 }

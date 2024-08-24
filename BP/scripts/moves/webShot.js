@@ -1,28 +1,7 @@
 import { system, MolangVariableMap, Player } from "@minecraft/server";
-import { calculateDistance, calcVectorOffset, spawnWebs, createShockwave, playSound, spawnEffect, delayedFunc, isShockImmune } from "../utils.js";
-import { PLAYER_DATA_MAP } from "../index.js";
+import { calculateDistance, calcVectorOffset, spawnWebs, createShockwave, playSound, spawnEffect, delayedFunc, isShockImmune, oldTraceLine } from "../utils.js";
 
 import { config } from "../config.js";
-
-function traceLine(player, pStart, pEnd, numOfPoints, particle) {
-    let map2 = map;
-    if (player instanceof Player) {
-        map2 = PLAYER_DATA_MAP[player.id].particleMap;
-    }
-
-	for (let i = 1; i <= numOfPoints; i++) {
-        const position = {x: ((pStart.x - pEnd.x) / numOfPoints) * i + pEnd.x, y: ((pStart.y - pEnd.y) / numOfPoints) * i + pEnd.y, z: ((pStart.z - pEnd.z) / numOfPoints) * i + pEnd.z};
-        if (particle === false) {
-            points.push(position);
-        } else {
-            try { player.dimension.spawnParticle(particle, position, map2) } catch (error) {};
-        }
-	}
-
-    if (particle) return;
-
-    return points;
-}
 
 const map = new MolangVariableMap();
 
@@ -196,7 +175,7 @@ const shootWeb = (player, PLAYER_DATA, travelDir, isMini = false, chargeMultipli
 
         // Spawn the particle
         try {
-            traceLine(player, lastPos, currentPos, 16, "a:web_shot");
+            oldTraceLine(player, lastPos, currentPos, 16, "a:web_shot");
             if (PLAYER_DATA.webModifier) player.dimension.spawnParticle(`a:${PLAYER_DATA.webModifier}_web`, currentPos, map);
         } catch (error) {
             return system.clearRun(sched_ID);
@@ -253,7 +232,7 @@ const shootWeb = (player, PLAYER_DATA, travelDir, isMini = false, chargeMultipli
                             const reducedDmg = isShockImmune(entity);
                             if (reducedDmg == 0) continue;
 
-                            traceLine(player, blockPos, entity.location, 16, "a:lightning");
+                            oldTraceLine(player, blockPos, entity.location, 16, "a:lightning");
                             entity.addEffect("slowness", 100, { amplifier: 7, showParticles: true });
                             spawnEffect(entity, 0, "a:lightning", 3);
                             entity.applyDamage(8*reducedDmg, { cause: "entityAttack", damagingEntity: player });
